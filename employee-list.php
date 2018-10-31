@@ -45,11 +45,11 @@
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
                                     <li class="breadcrumb-item"><a href="javascript: void(0);">Goytia</a></li>
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Driver</a></li>
-                                    <li class="breadcrumb-item active">Add</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Employees</a></li>
+                                    <li class="breadcrumb-item active">List</li>
                                 </ol>
                             </div>
-                            <h4 class="page-title">Add driver</h4>
+                            <h4 class="page-title">Employees list</h4>
                         </div>
                     </div>
                 </div>

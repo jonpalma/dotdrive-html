@@ -29,15 +29,15 @@
             <li class="side-nav-item">
                 <a href="javascript: void(0);" class="side-nav-link">
                     <i class="mdi mdi-account"></i>
-                    <span> Drivers </span>
+                    <span> Employees </span>
                     <span class="menu-arrow"></span>
                 </a>
                 <ul class="side-nav-second-level" aria-expanded="false">
                     <li>
-                        <a href="driver-add.php">Add</a>
+                        <a href="employee-add.php">Add</a>
                     </li>
                     <li>
-                        <a href="driver-list.php">List</a>
+                        <a href="employee-list.php">List</a>
                     </li>
                 </ul>
             </li>
