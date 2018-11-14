@@ -66,25 +66,49 @@
                                        data-single-date-picker="true" required>
                             </div>
 
-                            <div class="form-group col-md-6">
-                                <label for="example-select">Insurance Carrier</label>
-                                <select class="form-control" id="insurancecarrier">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                </select>
-                            </div>
-
                         </div>
 
-                        <div class="row">
+                        <div id="claim-accordion-opt" class="custom-accordion mb-4">
 
-                            <div class="form-group mt-3 col-md-6">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="activeclaim">
-                                    <label class="custom-control-label" for="activeclaim">Active Claim</label>
+                            <div class="card mb-0">
+                                <div class="card-header" id="headingOneClaim">
+                                    <h5 class="m-0">
+                                        <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
+                                           href="#collapseOneClaim" aria-expanded="false"
+                                           aria-controls="collapseOneClaim">
+                                            Add more data <span class="float-right"><i
+                                                        class="mdi mdi-chevron-down accordion-arrow"></i></span>
+                                        </a>
+                                    </h5>
                                 </div>
-                            </div>
+                                <div id="collapseOneClaim" class="collapse" aria-labelledby="headingOneClaim"
+                                     data-parent="#claim-accordion-opt" style="">
+                                    <div class="card-body">
+
+                                        <div class="row">
+
+                                            <div class="form-group col-md-6">
+                                                <label for="example-select">Insurance Carrier</label>
+                                                <select class="form-control" id="insurancecarrier">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group mt-3 col-md-6">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="activeclaim">
+                                                    <label class="custom-control-label" for="activeclaim">Active Claim</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div> <!-- end card-->
 
                         </div>
 

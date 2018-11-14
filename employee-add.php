@@ -35,6 +35,54 @@
                                 <input type="text" id="employeeid" class="form-control" required>
                             </div>
 
+                            <div class="form-group col-md-6">
+                                <label for="example-select">Employee type</label>
+                                <select class="form-control" id="employeetype" required>
+                                    <option>Administrative</option>
+                                    <option>CDL</option>
+                                    <option>CDL Driver</option>
+                                    <option>Driver</option>
+                                    <option>Mechanic</option>
+                                    <option>Non-CDL</option>
+                                    <option>Operations</option>
+                                    <option>Regular Employee</option>
+                                    <option>SAles</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="form-group col-md-6">
+                                <label for="example-select">Employment Status</label>
+                                <select class="form-control" id="employmentstatus" required>
+                                    <option>Full-time</option>
+                                    <option>Part-time</option>
+                                    <option>Seasonal</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="example-select">Driver Type</label>
+                                <select class="form-control" id="drivertype" required>
+                                    <option>CDL</option>
+                                    <option>Non-CDL</option>
+                                    <option>None</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="form-group col-md-6">
+                                <label>Hire Date</label>
+                                <input type="text" class="form-control date" id="hiredate"
+                                       data-toggle="date-picker" data-single-date-picker="true"
+                                       required>
+                            </div>
+
                         </div>
 
                         <div id="employment-accordion-opt" class="custom-accordion mb-4">
@@ -53,25 +101,6 @@
                                 <div id="collapseOneEmployment" class="collapse" aria-labelledby="headingOneEmployment"
                                      data-parent="#employment-accordion-opt" style="">
                                     <div class="card-body">
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Employee type</label>
-                                                <select class="form-control" id="employeetype" required>
-                                                    <option>Administrative</option>
-                                                    <option>CDL</option>
-                                                    <option>CDL Driver</option>
-                                                    <option>Driver</option>
-                                                    <option>Mechanic</option>
-                                                    <option>Non-CDL</option>
-                                                    <option>Operations</option>
-                                                    <option>Regular Employee</option>
-                                                    <option>SAles</option>
-                                                </select>
-                                            </div>
-
-                                        </div>
 
                                         <div class="row">
 
@@ -97,28 +126,6 @@
 
                                         <div class="row">
 
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Employment Status</label>
-                                                <select class="form-control" id="employmentstatus" required>
-                                                    <option>Full-time</option>
-                                                    <option>Part-time</option>
-                                                    <option>Seasonal</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Driver Type</label>
-                                                <select class="form-control" id="drivertype" required>
-                                                    <option>CDL</option>
-                                                    <option>Non-CDL</option>
-                                                    <option>None</option>
-                                                </select>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
                                             <div class="form-group mt-3 col-md-6">
                                                 <div class="custom-control custom-checkbox">
                                                     <input type="checkbox" class="custom-control-input"
@@ -126,13 +133,6 @@
                                                     <label class="custom-control-label" for="isapprentice">Is
                                                         Apprentice</label>
                                                 </div>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label>Hire Date</label>
-                                                <input type="text" class="form-control date" id="hiredate"
-                                                       data-toggle="date-picker" data-single-date-picker="true"
-                                                       required>
                                             </div>
 
                                         </div>
@@ -255,6 +255,17 @@
 
                         </div>
 
+                        <div class="row">
+
+                            <div class="form-group col-md-6">
+                                <label>Date of Birth</label>
+                                <input type="text" class="form-control date" id="dateofbirth"
+                                       data-toggle="date-picker" data-single-date-picker="true"
+                                       required>
+                            </div>
+
+                        </div>
+
                         <div id="employee-accordion-opt" class="custom-accordion mb-4">
 
                             <div class="card mb-0">
@@ -357,20 +368,9 @@
                                         <div class="row">
 
                                             <div class="form-group col-md-6">
-                                                <label>Date of Birth</label>
-                                                <input type="text" class="form-control date" id="dateofbirth"
-                                                       data-toggle="date-picker" data-single-date-picker="true"
-                                                       required>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
                                                 <label>Emergency Contact</label>
                                                 <input type="text" id="emergencycontact" class="form-control">
                                             </div>
-
-                                        </div>
-
-                                        <div class="row">
 
                                             <div class="form-group col-md-6">
                                                 <label>Emergency Daytime Phone</label>
@@ -380,6 +380,10 @@
                                                 <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
                                             </div>
 
+                                        </div>
+
+                                        <div class="row">
+
                                             <div class="form-group col-md-6">
                                                 <label>Emergency Nighttime Phone</label>
                                                 <input type="text" id="emergencynighttimephone" class="form-control"
@@ -388,10 +392,6 @@
                                                 <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
                                             </div>
 
-                                        </div>
-
-                                        <div class="row">
-
                                             <div class="form-group col-md-6">
                                                 <label for="example-select">Gender</label>
                                                 <select class="form-control" id="gender">
@@ -399,6 +399,10 @@
                                                     <option>Female</option>
                                                 </select>
                                             </div>
+
+                                        </div>
+
+                                        <div class="row">
 
                                             <div class="form-group col-md-6">
                                                 <label for="example-select">Marital Status</label>
@@ -421,8 +425,6 @@
 
                         <hr class="mb-4">
 
-                        <h4 class="header-title mb-3">Location Information</h4>
-
                         <div id="location-accordion-opt" class="custom-accordion mb-4">
 
                             <div class="card mb-0">
@@ -431,7 +433,7 @@
                                         <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
                                            href="#collapseOneLocation" aria-expanded="false"
                                            aria-controls="collapseOneLocation">
-                                            Add more data <span class="float-right"><i
+                                            Location Information <span class="float-right"><i
                                                         class="mdi mdi-chevron-down accordion-arrow"></i></span>
                                         </a>
                                     </h5>
