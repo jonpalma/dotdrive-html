@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
     <!-- start page title -->
     <div class="row">
-        <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1">
+        <div class="col-lg-12">
             <div class="page-title-box">
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
@@ -17,159 +17,65 @@
     <!-- end page title -->
 
     <div class="row">
-        <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1">
+        <div class="col-lg-12">
 
-            <form action="#" class="needs-validation" novalidate>
+            <div class="card">
+                <div class="card-body">
 
-                <div class="card">
-                    <div class="card-body">
+                    <div class="row">
 
-                        <!-- start body content -->
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>Claim Date</label>
-                                <input type="text" class="form-control date" id="claimdate" data-toggle="date-picker"
-                                       data-single-date-picker="true" required>
+                        <div class="col-lg-2 col-sm-3 mb-2 mb-sm-0">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                 aria-orientation="vertical">
+                                <a class="nav-link active show" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
+                                   role="tab" aria-controls="v-pills-1" aria-selected="true">
+                                    <span class="d-lg-block">Claim Details</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
+                                   aria-controls="v-pills-2" aria-selected="false">
+                                    <span class="d-lg-block">Accident Details</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
+                                   aria-controls="v-pills-3" aria-selected="false">
+                                    <span class="d-lg-block">Injury/Illness Details</span>
+                                </a>
                             </div>
-
-                            <div class="form-group col-md-6">
-                                <label>Case Name</label>
-                                <input type="text" id="casename" class="form-control" required>
-                            </div>
-
                         </div>
 
-                        <div class="row">
+                        <div class="col-lg-10 col-sm-9">
 
-                            <div class="form-group col-md-6">
-                                <label>Case Number</label>
-                                <input type="text" id="casenumber" class="form-control" required>
-                            </div>
+                            <div class="tab-content" id="v-pills-tabContent">
 
-                            <div class="form-group col-md-6">
-                                <label for="example-select">Privacy Case</label>
-                                <select class="form-control" id="privacycase" required>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>Date of Injury / Onset of Illness</label>
-                                <input type="text" class="form-control date" id="dateofinjury" data-toggle="date-picker"
-                                       data-single-date-picker="true" required>
-                            </div>
-
-                        </div>
-
-                        <div id="claim-accordion-opt" class="custom-accordion mb-4">
-
-                            <div class="card mb-0">
-                                <div class="card-header" id="headingOneClaim">
-                                    <h5 class="m-0">
-                                        <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
-                                           href="#collapseOneClaim" aria-expanded="false"
-                                           aria-controls="collapseOneClaim">
-                                            Add more information <span class="float-right"><i
-                                                        class="mdi mdi-chevron-down accordion-arrow"></i></span>
-                                        </a>
-                                    </h5>
+                                <!-- FIRST TAB -->
+                                <div class="tab-pane fade active show" id="v-pills-1" role="tabpanel"
+                                     aria-labelledby="v-pills-1-tab">
+                                    <?php include('accident-add-1.php'); ?>
                                 </div>
-                                <div id="collapseOneClaim" class="collapse" aria-labelledby="headingOneClaim"
-                                     data-parent="#claim-accordion-opt" style="">
-                                    <div class="card-body">
 
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Insurance Carrier</label>
-                                                <select class="form-control" id="insurancecarrier">
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group mt-3 col-md-6">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="activeclaim">
-                                                    <label class="custom-control-label" for="activeclaim">Active Claim</label>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-
-                                    </div>
+                                <!-- SECOND TAB -->
+                                <div class="tab-pane fade" id="v-pills-2" role="tabpanel"
+                                     aria-labelledby="v-pills-2-tab">
+                                    <?php include('accident-add-2.php'); ?>
                                 </div>
-                            </div> <!-- end card-->
 
-                        </div>
+                                <!-- THIRD TAB -->
+                                <div class="tab-pane fade" id="v-pills-3" role="tabpanel"
+                                     aria-labelledby="v-pills-3-tab">
+                                    <?php include('accident-add-3.php'); ?>
+                                </div>
 
-                        <hr class="mb-4">
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label for="example-select">Claimant</label>
-                                <select class="form-control" id="claimant">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                </select>
                             </div>
 
                         </div>
 
-                        <hr class="mb-4">
+                    </div>
 
-                        <h4 class="header-title mb-3">Originator Information</h4>
+                    <!-- start body content -->
 
-                        <div class="row">
+                    <!-- end body content -->
 
-                            <div class="form-group col-md-6">
-                                <label>Completed By:</label>
-                                <input type="text" id="completedby" class="form-control" required>
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                <label>Title</label>
-                                <input type="text" id="title" class="form-control" required>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>US Telephone</label>
-                                <input type="text" class="form-control" data-toggle="input-mask"
-                                       data-mask-format="(000) 000-0000" maxlength="14" required>
-                                <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="form-group col-12">
-                                <a class="btn btn-block btn-primary" href="accident-add-2.php">Save & Next</a>
-                            </div>
-
-                        </div>
-
-                        <!-- end body content -->
-
-                    </div> <!-- end card body-->
-                </div> <!-- end card -->
-
-            </form>
+                </div> <!-- end card body-->
+            </div> <!-- end card -->
 
         </div>
         <!-- end col-12 -->
