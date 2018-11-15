@@ -36,7 +36,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>10</td>
+                                                <td><a href="#">#10</a></td>
                                                 <td>01/11/2018</td>
                                                 <td>Accident 1</td>
                                                 <td>800HOO332</td>
@@ -47,10 +47,20 @@
                                                 </td>
                                                 <td><i class="mdi mdi-circle text-success"></i> Complete</td>
                                                 <td>LLD</td>
-                                                <td></td>
+                                                <td>
+                                                    <div class="dropdown">
+                                                      <a href="#" class="" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <i class="mdi mdi-dots-vertical-circle"></i>
+                                                      </a>
+                                                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                        <button class="dropdown-item" type="button"><i class="mdi mdi-square-edit-outline"></i> Edit</button>
+                                                        <button class="dropdown-item" type="button"><i class="mdi mdi-delete"></i> Delete</button>
+                                                      </div>
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <tr>
-                                                <td>9</td>
+                                                <td><a href="#">#9</a></td>
                                                 <td>20/10/2018</td>
                                                 <td>Accident 250</td>
                                                 <td>700OI300</td>
@@ -59,9 +69,19 @@
                                                         <div class="progress-bar progress-lg bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </td>
-                                                <td><i class="mdi mdi-circle text-warning"></i> Shipped</td>
+                                                <td><i class="mdi mdi-circle text-warning"></i> In progress</td>
                                                 <td>LLD</td>
-                                                <td></td>
+                                                <td>
+                                                    <div class="dropdown">
+                                                      <a href="#" class="" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <i class="mdi mdi-dots-vertical-circle"></i>
+                                                      </a>
+                                                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                        <button class="dropdown-item" type="button"><i class="mdi mdi-square-edit-outline"></i> Edit</button>
+                                                        <button class="dropdown-item" type="button"><i class="mdi mdi-delete"></i> Delete</button>
+                                                      </div>
+                                                    </div>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>

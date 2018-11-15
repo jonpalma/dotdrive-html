@@ -7335,7 +7335,7 @@ body {
 .left-side-menu {
   width: 250px;
   z-index: 10;
-  background: linear-gradient(135deg, #75dab0 0%, #7294f5 60%);
+  background: linear-gradient(135deg, #9775da 0%, #727cf5 60%);
   bottom: 0;
   position: fixed;
   -webkit-transition: all .2s ease-out;
