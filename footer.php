@@ -40,5 +40,11 @@
 <script src="assets/js/vendor/jquery-ui.min.js"></script>
 <!-- third party js ends -->
 
+<script>
+    $(document).ready(function () {
+        $('[data-single-date-picker="true"]').val('')
+    });
+</script>
+
 </body>
 </html>

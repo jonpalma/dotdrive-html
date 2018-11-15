@@ -73,7 +73,7 @@
                                         <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
                                            href="#collapseOneGeneral" aria-expanded="false"
                                            aria-controls="collapseOneGeneral">
-                                            Add more data <span class="float-right"><i
+                                            Add more information <span class="float-right"><i
                                                         class="mdi mdi-chevron-down accordion-arrow"></i></span>
                                         </a>
                                     </h5>

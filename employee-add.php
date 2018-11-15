@@ -93,7 +93,7 @@
                                         <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
                                            href="#collapseOneEmployment" aria-expanded="false"
                                            aria-controls="collapseOneEmployment">
-                                            Add more data <span class="float-right"><i
+                                            Add more information <span class="float-right"><i
                                                         class="mdi mdi-chevron-down accordion-arrow"></i></span>
                                         </a>
                                     </h5>
@@ -274,7 +274,7 @@
                                         <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
                                            href="#collapseOneEmployee" aria-expanded="false"
                                            aria-controls="collapseOneEmployee">
-                                            Add more data <span class="float-right"><i
+                                            Add more information <span class="float-right"><i
                                                         class="mdi mdi-chevron-down accordion-arrow"></i></span>
                                         </a>
                                     </h5>
