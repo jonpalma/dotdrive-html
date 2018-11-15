@@ -76,7 +76,7 @@
                                         <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
                                            href="#collapseOneClaim" aria-expanded="false"
                                            aria-controls="collapseOneClaim">
-                                            Add more data <span class="float-right"><i
+                                            Add more information <span class="float-right"><i
                                                         class="mdi mdi-chevron-down accordion-arrow"></i></span>
                                         </a>
                                     </h5>
@@ -159,7 +159,7 @@
                         <div class="row">
 
                             <div class="form-group col-12">
-                                <button type="submit" class="btn btn-block btn-primary">Save & Next</button>
+                                <a class="btn btn-block btn-primary" href="accident-add-2.php">Save & Next</a>
                             </div>
 
                         </div>
