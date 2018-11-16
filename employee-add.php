@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
     <!-- start page title -->
     <div class="row">
-        <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1">
+        <div class="col-12">
             <div class="page-title-box">
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
@@ -17,510 +17,75 @@
     <!-- end page title -->
 
     <div class="row">
-        <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1">
+        <div class="col-12">
 
-            <form action="#" class="needs-validation" novalidate>
+            <div class="card">
+                <div class="card-body">
 
-                <div class="card">
-                    <div class="card-body">
+                    <!-- start body content -->
 
-                        <!-- start body content -->
+                    <div class="row">
 
-                        <h4 class="header-title mb-3">Employment Information</h4>
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>Employee ID</label>
-                                <input type="text" id="employeeid" class="form-control" required>
+                        <div class="col-lg-2 col-sm-3 mb-2 mb-sm-0">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                 aria-orientation="vertical">
+                                <a class="nav-link active show" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
+                                   role="tab" aria-controls="v-pills-1" aria-selected="true">
+                                    <span class="d-lg-block">Information</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
+                                   aria-controls="v-pills-2" aria-selected="false">
+                                    <span class="d-lg-block">Employment History</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
+                                   aria-controls="v-pills-3" aria-selected="false">
+                                    <span class="d-lg-block">Employee Training</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
+                                   aria-controls="v-pills-4" aria-selected="false">
+                                    <span class="d-lg-block">Usage Logs</span>
+                                </a>
                             </div>
-
-                            <div class="form-group col-md-6">
-                                <label for="example-select">Employee type</label>
-                                <select class="form-control" id="employeetype" required>
-                                    <option>Administrative</option>
-                                    <option>CDL</option>
-                                    <option>CDL Driver</option>
-                                    <option>Driver</option>
-                                    <option>Mechanic</option>
-                                    <option>Non-CDL</option>
-                                    <option>Operations</option>
-                                    <option>Regular Employee</option>
-                                    <option>SAles</option>
-                                </select>
-                            </div>
-
                         </div>
 
-                        <div class="row">
+                        <div class="col-lg-10 col-sm-9">
 
-                            <div class="form-group col-md-6">
-                                <label for="example-select">Employment Status</label>
-                                <select class="form-control" id="employmentstatus" required>
-                                    <option>Full-time</option>
-                                    <option>Part-time</option>
-                                    <option>Seasonal</option>
-                                </select>
-                            </div>
+                            <div class="tab-content" id="v-pills-tabContent">
 
-                            <div class="form-group col-md-6">
-                                <label for="example-select">Driver Type</label>
-                                <select class="form-control" id="drivertype" required>
-                                    <option>CDL</option>
-                                    <option>Non-CDL</option>
-                                    <option>None</option>
-                                </select>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>Hire Date</label>
-                                <input type="text" class="form-control date" id="hiredate"
-                                       data-toggle="date-picker" data-single-date-picker="true"
-                                       required>
-                            </div>
-
-                        </div>
-
-                        <div id="employment-accordion-opt" class="custom-accordion mb-4">
-
-                            <div class="card mb-0">
-                                <div class="card-header" id="headingOneEmployment">
-                                    <h5 class="m-0">
-                                        <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
-                                           href="#collapseOneEmployment" aria-expanded="false"
-                                           aria-controls="collapseOneEmployment">
-                                            Add more information <span class="float-right"><i
-                                                        class="mdi mdi-chevron-down accordion-arrow"></i></span>
-                                        </a>
-                                    </h5>
+                                <!-- FIRST TAB -->
+                                <div class="tab-pane fade active show" id="v-pills-1" role="tabpanel"
+                                     aria-labelledby="v-pills-1-tab">
+                                    <?php include('employee-add-1.php'); ?>
                                 </div>
-                                <div id="collapseOneEmployment" class="collapse" aria-labelledby="headingOneEmployment"
-                                     data-parent="#employment-accordion-opt" style="">
-                                    <div class="card-body">
 
-                                        <div class="row">
-
-                                            <div class="form-group mt-3 col-md-6">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                           id="activeemployee">
-                                                    <label class="custom-control-label" for="activeemployee">Active
-                                                        Employee</label>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group mt-3 col-md-6">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                           id="issupervisor">
-                                                    <label class="custom-control-label" for="issupervisor">Is
-                                                        Supervisor</label>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="form-group mt-3 col-md-6">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                           id="isapprentice">
-                                                    <label class="custom-control-label" for="isapprentice">Is
-                                                        Apprentice</label>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
+                                <!-- SECOND TAB -->
+                                <div class="tab-pane fade" id="v-pills-2" role="tabpanel"
+                                     aria-labelledby="v-pills-2-tab">
+                                    <?php include('employee-add-2.php'); ?>
                                 </div>
-                            </div> <!-- end card-->
 
-                        </div>
-
-                        <hr class="mb-4">
-
-                        <h4 class="header-title mb-3">Employee Information</h4>
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>First Name</label>
-                                <input type="text" id="firstname" class="form-control" required>
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                <label>Middle</label>
-                                <input type="text" id="middlename" class="form-control" required>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>Last Name</label>
-                                <input type="text" id="lastname" class="form-control" required>
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                <label>Address Line 1</label>
-                                <input type="text" id="addressline1" class="form-control" required>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>Address Line 2</label>
-                                <input type="text" id="addressline2" class="form-control">
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                <label>City</label>
-                                <input type="text" id="city" class="form-control" required>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>State</label>
-                                <select class="form-control select2" id="state" required data-toggle="select2">
-                                    <option>Alabama</option>
-                                    <option>Alaska</option>
-                                    <option>Arizona</option>
-                                    <option>Arkansas</option>
-                                    <option>California</option>
-                                    <option>Colorado</option>
-                                    <option>Connecticut</option>
-                                    <option>Delaware</option>
-                                    <option>District of Columbia</option>
-                                    <option>Florida</option>
-                                    <option>Georgia</option>
-                                    <option>Hawaii</option>
-                                    <option>Idaho</option>
-                                    <option>Illinois</option>
-                                    <option>Indiana</option>
-                                    <option>Iowa</option>
-                                    <option>Kansas</option>
-                                    <option>Kentucky</option>
-                                    <option>Louisiana</option>
-                                    <option>Maine</option>
-                                    <option>Maryland</option>
-                                    <option>Massachusetts</option>
-                                    <option>Michigan</option>
-                                    <option>Minnesota</option>
-                                    <option>Mississippi</option>
-                                    <option>Missouri</option>
-                                    <option>Montana</option>
-                                    <option>Nebraska</option>
-                                    <option>Nevada</option>
-                                    <option>New Hampshire</option>
-                                    <option>New Jersey</option>
-                                    <option>New Mexico</option>
-                                    <option>New York</option>
-                                    <option>North Carolina</option>
-                                    <option>North Dakota</option>
-                                    <option>Ohio</option>
-                                    <option>Oklahoma</option>
-                                    <option>Oregon</option>
-                                    <option>Pennsylvania</option>
-                                    <option>Rhode Island</option>
-                                    <option>South Carolina</option>
-                                    <option>South Dakota</option>
-                                    <option>Tennessee</option>
-                                    <option>Texas</option>
-                                    <option>Utah</option>
-                                    <option>Vermont</option>
-                                    <option>Virginia</option>
-                                    <option>Washington</option>
-                                    <option>West Virginia</option>
-                                    <option>Wisconsin</option>
-                                    <option>Wyoming</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                <label>Zip Code</label>
-                                <input type="text" id="zipcode" class="form-control" required>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="form-group col-md-6">
-                                <label>Date of Birth</label>
-                                <input type="text" class="form-control date" id="dateofbirth"
-                                       data-toggle="date-picker" data-single-date-picker="true"
-                                       required>
-                            </div>
-
-                        </div>
-
-                        <div id="employee-accordion-opt" class="custom-accordion mb-4">
-
-                            <div class="card mb-0">
-                                <div class="card-header" id="headingOneEmployee">
-                                    <h5 class="m-0">
-                                        <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
-                                           href="#collapseOneEmployee" aria-expanded="false"
-                                           aria-controls="collapseOneEmployee">
-                                            Add more information <span class="float-right"><i
-                                                        class="mdi mdi-chevron-down accordion-arrow"></i></span>
-                                        </a>
-                                    </h5>
+                                <!-- THIRD TAB -->
+                                <div class="tab-pane fade" id="v-pills-3" role="tabpanel"
+                                     aria-labelledby="v-pills-3-tab">
+                                    <?php include('employee-add-3.php'); ?>
                                 </div>
-                                <div id="collapseOneEmployee" class="collapse" aria-labelledby="headingOneEmployee"
-                                     data-parent="#employee-accordion-opt" style="">
-                                    <div class="card-body">
 
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label>Social Security Number</label>
-                                                <input type="text" id="socialsecurity" class="form-control"
-                                                       data-toggle="input-mask" data-mask-format="000-00-0000"
-                                                       maxlength="9">
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label>Work Phone</label>
-                                                <input type="text" id="workphone" class="form-control"
-                                                       data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                                       maxlength="14">
-                                                <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label>Extn</label>
-                                                <input type="text" id="extn" class="form-control">
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label>Home Phone</label>
-                                                <input type="text" id="homephone" class="form-control"
-                                                       data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                                       maxlength="14">
-                                                <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label>Cellphone</label>
-                                                <input type="text" id="cellphone" class="form-control"
-                                                       data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                                       maxlength="14">
-                                                <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label>Pager</label>
-                                                <input type="text" id="pager" class="form-control"
-                                                       data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                                       maxlength="14">
-                                                <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Daytime Phone</label>
-                                                <select class="form-control" id="daytimephone">
-                                                    <option>Cell</option>
-                                                    <option>Fax</option>
-                                                    <option>Home</option>
-                                                    <option>Pager</option>
-                                                    <option>Work</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Nighttime Phone</label>
-                                                <select class="form-control" id="nighttimephone">
-                                                    <option>Cell</option>
-                                                    <option>Fax</option>
-                                                    <option>Home</option>
-                                                    <option>Pager</option>
-                                                    <option>Work</option>
-                                                </select>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label>Emergency Contact</label>
-                                                <input type="text" id="emergencycontact" class="form-control">
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label>Emergency Daytime Phone</label>
-                                                <input type="text" id="emergencydaytimephone" class="form-control"
-                                                       data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                                       maxlength="14">
-                                                <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label>Emergency Nighttime Phone</label>
-                                                <input type="text" id="emergencynighttimephone" class="form-control"
-                                                       data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                                       maxlength="14">
-                                                <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Gender</label>
-                                                <select class="form-control" id="gender">
-                                                    <option>Male</option>
-                                                    <option>Female</option>
-                                                </select>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Marital Status</label>
-                                                <select class="form-control" id="maritalstatus">
-                                                    <option>Divorced</option>
-                                                    <option>Married</option>
-                                                    <option>Separated</option>
-                                                    <option>Single</option>
-                                                    <option>Widow</option>
-                                                </select>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
+                                <!-- FOURTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-4" role="tabpanel"
+                                     aria-labelledby="v-pills-4-tab">
+                                    <?php include('employee-add-4.php'); ?>
                                 </div>
-                            </div> <!-- end card-->
 
-                        </div>
-
-                        <hr class="mb-4">
-
-                        <div id="location-accordion-opt" class="custom-accordion mb-4">
-
-                            <div class="card mb-0">
-                                <div class="card-header" id="headingOneLocation">
-                                    <h5 class="m-0">
-                                        <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
-                                           href="#collapseOneLocation" aria-expanded="false"
-                                           aria-controls="collapseOneLocation">
-                                            Location Information <span class="float-right"><i
-                                                        class="mdi mdi-chevron-down accordion-arrow"></i></span>
-                                        </a>
-                                    </h5>
-                                </div>
-                                <div id="collapseOneLocation" class="collapse" aria-labelledby="headingOneLocation"
-                                     data-parent="#location-accordion-opt" style="">
-                                    <div class="card-body">
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Office Location</label>
-                                                <select class="form-control" id="officelocation">
-                                                    <option>S and R Express Inc</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Department</label>
-                                                <select class="form-control" id="department">
-                                                    <option>Account Manager</option>
-                                                    <option>Administrative</option>
-                                                    <option>Drivers</option>
-                                                    <option>Operations</option>
-                                                    <option>Sales</option>
-                                                    <option>Warehouse</option>
-                                                </select>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Supervisor</label>
-                                                <select class="form-control" id="supervisor">
-                                                    <option>Quinonez, Carlos</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label for="example-select">Job Title</label>
-                                                <select class="form-control" id="jobtitle">
-                                                    <option>CDL Driver</option>
-                                                    <option>Clerical</option>
-                                                    <option>Dispatcher</option>
-                                                    <option>Driver</option>
-                                                    <option>Laborer</option>
-                                                    <option>Mechanic</option>
-                                                    <option>Office Manager</option>
-                                                    <option>Operations Manager</option>
-                                                    <option>Sales</option>
-                                                    <option>Shop Manager</option>
-                                                </select>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="form-group col-md-6">
-                                                <label>Labor Union</label>
-                                                <input type="text" id="laborunion" class="form-control">
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div> <!-- end card-->
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="form-group col-12">
-                                <button type="submit" class="btn btn-primary">Submit</button>
                             </div>
 
                         </div>
 
-                        <!-- end body content -->
+                    </div>
 
-                    </div> <!-- end card body-->
-                </div> <!-- end card -->
+                    <!-- end body content -->
 
-            </form>
+                </div> <!-- end card body-->
+            </div> <!-- end card -->
 
         </div>
         <!-- end col-12 -->

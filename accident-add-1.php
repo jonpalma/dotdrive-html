@@ -25,6 +25,7 @@
         <div class="form-group col-md-6">
             <label for="example-select">Privacy Case</label>
             <select class="form-control" id="privacycase" required>
+                <option selected disabled></option>
                 <option>Yes</option>
                 <option>No</option>
             </select>
@@ -64,6 +65,7 @@
                         <div class="form-group col-md-6">
                             <label for="example-select">Insurance Carrier</label>
                             <select class="form-control" id="insurancecarrier">
+                                <option selected disabled></option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -93,6 +95,7 @@
         <div class="form-group col-md-6">
             <label for="example-select">Claimant</label>
             <select class="form-control" id="claimant">
+                <option selected disabled></option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
