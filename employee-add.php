@@ -55,6 +55,19 @@
                                    aria-controls="v-pills-6" aria-selected="false">
                                     <span class="d-lg-block">DOT Paperwork</span>
                                 </a>
+                                <a class="nav-link" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab"
+                                   aria-controls="v-pills-7" aria-selected="false">
+                                    <span class="d-lg-block">MVR Reviews</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab"
+                                   aria-controls="v-pills-8" aria-selected="false">
+                                    <span class="d-lg-block">MVR Violations</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab"
+                                   aria-controls="v-pills-9" aria-selected="false">
+                                    <span class="d-lg-block">Roadside Inspection</span>
+                                </a>
+                                <span class="nav-link bg-light">Human Resources</span>
                             </div>
                         </div>
 
@@ -96,6 +109,24 @@
                                 <div class="tab-pane fade" id="v-pills-6" role="tabpanel"
                                      aria-labelledby="v-pills-6-tab">
                                     <?php include('employee-add-6.php'); ?>
+                                </div>
+
+                                <!-- SEVENTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-7" role="tabpanel"
+                                     aria-labelledby="v-pills-7-tab">
+                                    <?php include('employee-add-7.php'); ?>
+                                </div>
+
+                                <!-- EIGHTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-8" role="tabpanel"
+                                     aria-labelledby="v-pills-8-tab">
+                                    <?php include('employee-add-8.php'); ?>
+                                </div>
+
+                                <!-- NINTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-9" role="tabpanel"
+                                     aria-labelledby="v-pills-9-tab">
+                                    <?php include('employee-add-9.php'); ?>
                                 </div>
 
                             </div>
