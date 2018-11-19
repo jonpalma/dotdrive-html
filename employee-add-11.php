@@ -1,5 +1,5 @@
-<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#employee-training-modal"><i
-            class="mdi mdi-plus"></i></button>
+<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#hr-reviews-modal"><i
+        class="mdi mdi-plus"></i></button>
 <hr class="mb-4">
 <div class="table-responsive">
     <table class="table table-centered mb-0">
@@ -46,34 +46,36 @@
         </tbody>
     </table>
 </div>
-<div class="modal fade" id="employee-training-modal" tabindex="-1" role="dialog"
-     aria-labelledby="employee-training-modal-label" aria-hidden="true">
+<div class="modal fade" id="hr-reviews-modal" tabindex="-1" role="dialog"
+     aria-labelledby="hr-reviews-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="employee-training-modal-label">Large modal</h4>
+                <h4 class="modal-title" id="hr-reviews-modal-label">Large modal</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
 
                 <form action="#" class="needs-validation" novalidate>
 
-                    <h4 class="header-title mb-3">Employmee Training</h4>
+                    <h4 class="header-title mb-3">HR Review</h4>
 
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="trainingclass">Training Class</label>
-                            <select class="form-control" id="trainingclass" required>
+                            <label>Review Name</label>
+                            <select class="form-control" id="reviewname" required>
                                 <option selected disabled></option>
+                                <option>Management Review</option>
+                                <option>Salary Review</option>
+                                <option>Warning</option>
                             </select>
                         </div>
 
-                        <div class="form-group mt-3 col-md-6">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="required">
-                                <label class="custom-control-label" for="required">Required</label>
-                            </div>
+                        <div class="form-group col-md-6">
+                            <label>Review Completed</label>
+                            <input type="text" class="form-control date" id="reviewcompleted"
+                                   data-toggle="date-picker" data-single-date-picker="true" required>
                         </div>
 
                     </div>
@@ -81,10 +83,14 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="vendor">Vendor</label>
-                            <select class="form-control" id="vendor">
-                                <option selected disabled></option>
-                            </select>
+                            <label for="reviewcomments">Review Comments</label>
+                            <textarea class="form-control" id="reviewcomments" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>Next Review Due</label>
+                            <input type="text" class="form-control date" id="nextreviewdue"
+                                   data-toggle="date-picker" data-single-date-picker="true" required>
                         </div>
 
                     </div>
@@ -103,3 +109,5 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div>
+
+

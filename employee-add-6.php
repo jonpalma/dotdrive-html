@@ -63,7 +63,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Paperwork</label>
+                            <label for="paperwork">Paperwork</label>
                             <select class="form-control" id="paperwork" required>
                                 <option selected disabled></option>
                                 <option>Annual Review (391.25)/Certificate of violations (391.27)</option>
@@ -83,7 +83,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Status</label>
+                            <label for="status">Status</label>
                             <select class="form-control" id="status" required>
                                 <option selected disabled></option>
                                 <option>Grandfathered</option>

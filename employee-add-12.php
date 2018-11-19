@@ -1,5 +1,5 @@
-<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#employee-training-modal"><i
-            class="mdi mdi-plus"></i></button>
+<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#medical-reviews-modal"><i
+        class="mdi mdi-plus"></i></button>
 <hr class="mb-4">
 <div class="table-responsive">
     <table class="table table-centered mb-0">
@@ -46,45 +46,36 @@
         </tbody>
     </table>
 </div>
-<div class="modal fade" id="employee-training-modal" tabindex="-1" role="dialog"
-     aria-labelledby="employee-training-modal-label" aria-hidden="true">
+<div class="modal fade" id="medical-reviews-modal" tabindex="-1" role="dialog"
+     aria-labelledby="medical-reviews-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="employee-training-modal-label">Large modal</h4>
+                <h4 class="modal-title" id="medical-reviews-modal-label">Large modal</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
 
                 <form action="#" class="needs-validation" novalidate>
 
-                    <h4 class="header-title mb-3">Employmee Training</h4>
+                    <h4 class="header-title mb-3">HR Review</h4>
 
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="trainingclass">Training Class</label>
-                            <select class="form-control" id="trainingclass" required>
+                            <label>Medical Exam</label>
+                            <select class="form-control" id="medicalexam" required>
                                 <option selected disabled></option>
+                                <option>DOT Physical</option>
+                                <option>Medical Exams</option>
+                                <option>Self-Certification</option>
                             </select>
                         </div>
-
-                        <div class="form-group mt-3 col-md-6">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="required">
-                                <label class="custom-control-label" for="required">Required</label>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="vendor">Vendor</label>
-                            <select class="form-control" id="vendor">
-                                <option selected disabled></option>
-                            </select>
+                            <label>Expiration Date</label>
+                            <input type="text" class="form-control date" id="expirationdate"
+                                   data-toggle="date-picker" data-single-date-picker="true">
                         </div>
 
                     </div>
@@ -103,3 +94,5 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div>
+
+

@@ -1,4 +1,4 @@
-<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#employee-training-modal"><i
+<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#hr-paperwork-modal"><i
             class="mdi mdi-plus"></i></button>
 <hr class="mb-4">
 <div class="table-responsive">
@@ -46,34 +46,41 @@
         </tbody>
     </table>
 </div>
-<div class="modal fade" id="employee-training-modal" tabindex="-1" role="dialog"
-     aria-labelledby="employee-training-modal-label" aria-hidden="true">
+<div class="modal fade" id="hr-paperwork-modal" tabindex="-1" role="dialog"
+     aria-labelledby="hr-paperwork-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="employee-training-modal-label">Large modal</h4>
+                <h4 class="modal-title" id="hr-paperwork-modal-label">Large modal</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
 
                 <form action="#" class="needs-validation" novalidate>
 
-                    <h4 class="header-title mb-3">Employmee Training</h4>
+                    <h4 class="header-title mb-3">HR Paperwork</h4>
 
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="trainingclass">Training Class</label>
-                            <select class="form-control" id="trainingclass" required>
+                            <label>Type</label>
+                            <select class="form-control" id="type" required>
                                 <option selected disabled></option>
+                                <option>I-9</option>
+                                <option>Policy Agreement</option>
+                                <option>W-4</option>
                             </select>
                         </div>
 
-                        <div class="form-group mt-3 col-md-6">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="required">
-                                <label class="custom-control-label" for="required">Required</label>
-                            </div>
+                        <div class="form-group col-md-6">
+                            <label>Status</label>
+                            <select class="form-control" id="status" required>
+                                <option selected disabled></option>
+                                <option>Grandfathered</option>
+                                <option>N/A</option>
+                                <option>Not Completed</option>
+                                <option>Completed</option>
+                            </select>
                         </div>
 
                     </div>
@@ -81,10 +88,9 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="vendor">Vendor</label>
-                            <select class="form-control" id="vendor">
-                                <option selected disabled></option>
-                            </select>
+                            <label>Completed Date</label>
+                            <input type="text" class="form-control date" id="completeddate"
+                                   data-toggle="date-picker" data-single-date-picker="true" required>
                         </div>
 
                     </div>
@@ -103,3 +109,5 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div>
+
+

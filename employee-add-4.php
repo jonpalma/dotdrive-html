@@ -63,7 +63,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Asset Operated</label>
+                            <label for="assetoperated">Asset Operated</label>
                             <select class="form-control" id="assetoperated" required>
                                 <option selected="selected" value=""></option>
                                 <option>Owner 3 (3)</option>
@@ -85,7 +85,6 @@
                                 <option>Truck 1210 (1210)</option>
                                 <option>Truck 1211 (1211)</option>
                                 <option>Truck 1212 (1212)</option>
-
                             </select>
                         </div>
 

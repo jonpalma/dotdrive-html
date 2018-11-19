@@ -1,5 +1,5 @@
-<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#licenses-modal"><i
-            class="mdi mdi-plus"></i></button>
+<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#mvr-violations-modal"><i
+        class="mdi mdi-plus"></i></button>
 <hr class="mb-4">
 <div class="table-responsive">
     <table class="table table-centered mb-0">
@@ -46,44 +46,32 @@
         </tbody>
     </table>
 </div>
-<div class="modal fade" id="licenses-modal" tabindex="-1" role="dialog"
-     aria-labelledby="licenses-modal-label" aria-hidden="true">
+<div class="modal fade" id="mvr-violations-modal" tabindex="-1" role="dialog"
+     aria-labelledby="mvr-violations-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="licenses-modal-label">Large modal</h4>
+                <h4 class="modal-title" id="mvr-violations-modal-label">Large modal</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
 
                 <form action="#" class="needs-validation" novalidate>
 
-                    <h4 class="header-title mb-3">Licenses</h4>
+                    <h4 class="header-title mb-3">MVR Violations</h4>
 
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Expiration Date</label>
-                            <input type="text" class="form-control date" id="expirationdate"
+                            <label>Violation Date</label>
+                            <input type="text" class="form-control date" id="violationdate"
                                    data-toggle="date-picker" data-single-date-picker="true"
                                    required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="vendor">Vendor</label>
-                            <select class="form-control" id="vendor" required>
-                                <option selected disabled></option>
-                                <option>CDL</option>
-                                <option>Class A</option>
-                                <option>Class AM</option>
-                                <option>Class B</option>
-                                <option>Class C</option>
-                                <option>Class C Non-Commercial</option>
-                                <option>Class D</option>
-                                <option>Class E</option>
-                                <option>Class F</option>
-                                <option>ID</option>
-                            </select>
+                            <label for="violationdescription">Violation Description</label>
+                            <textarea class="form-control" id="violationdescription" rows="3" required></textarea>
                         </div>
 
                     </div>
@@ -91,8 +79,8 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>State Issued</label>
-                            <select class="form-control" id="stateissued">
+                            <label>State</label>
+                            <select class="form-control" id="state">
                                 <option selected disabled></option>
                                 <option>Alabama</option>
                                 <option>Alaska</option>
@@ -149,35 +137,25 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>License Number</label>
-                            <input type="text" id="licensenumber" class="form-control" required>
+                            <label for="violationnumber">Violation/Ticket Number</label>
+                            <textarea class="form-control" id="violationnumber" rows="3"></textarea>
                         </div>
 
                     </div>
 
                     <div class="row">
+
+                        <div class="form-group mt-3 col-md-6">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="licensesuspended">
+                                <label class="custom-control-label" for="licensesuspended">License Suspended</label>
+                            </div>
+                        </div>
 
                         <div class="form-group col-md-6">
-                            <label>Endorsement(s)</label>
-                            <input type="text" id="endorsement" class="form-control">
-                        </div>
-
-                        <div class="form-group mt-3 col-md-6">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="suspended">
-                                <label class="custom-control-label" for="suspended">Suspended</label>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group mt-3 col-md-6">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="alerton" checked>
-                                <label class="custom-control-label" for="alerton">Alert On</label>
-                            </div>
+                            <label>License Reinstate Date</label>
+                            <input type="text" class="form-control date" id="licensereinstatedate"
+                                   data-toggle="date-picker" data-single-date-picker="true">
                         </div>
 
                     </div>
@@ -196,4 +174,5 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div>
+
 
