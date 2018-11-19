@@ -68,6 +68,26 @@
                                     <span class="d-lg-block">Roadside Inspection</span>
                                 </a>
                                 <span class="nav-link bg-light">Human Resources</span>
+                                <a class="nav-link" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab"
+                                   aria-controls="v-pills-10" aria-selected="false">
+                                    <span class="d-lg-block">HR Paperwork</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-11-tab" data-toggle="pill" href="#v-pills-11" role="tab"
+                                   aria-controls="v-pills-11" aria-selected="false">
+                                    <span class="d-lg-block">HR Reviews</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-12-tab" data-toggle="pill" href="#v-pills-12" role="tab"
+                                   aria-controls="v-pills-12" aria-selected="false">
+                                    <span class="d-lg-block">Medical Reviews</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-13-tab" data-toggle="pill" href="#v-pills-13" role="tab"
+                                   aria-controls="v-pills-13" aria-selected="false">
+                                    <span class="d-lg-block">Substance Testing</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-14-tab" data-toggle="pill" href="#v-pills-14" role="tab"
+                                   aria-controls="v-pills-14" aria-selected="false">
+                                    <span class="d-lg-block">Accidents Report</span>
+                                </a>
                             </div>
                         </div>
 
@@ -127,6 +147,36 @@
                                 <div class="tab-pane fade" id="v-pills-9" role="tabpanel"
                                      aria-labelledby="v-pills-9-tab">
                                     <?php include('employee-add-9.php'); ?>
+                                </div>
+
+                                <!-- TENTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-10" role="tabpanel"
+                                     aria-labelledby="v-pills-10-tab">
+                                    <?php include('employee-add-10.php'); ?>
+                                </div>
+
+                                <!-- ELEVENTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-11" role="tabpanel"
+                                     aria-labelledby="v-pills-11-tab">
+                                    <?php include('employee-add-11.php'); ?>
+                                </div>
+
+                                <!-- TWELFTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-12" role="tabpanel"
+                                     aria-labelledby="v-pills-12-tab">
+                                    <?php include('employee-add-12.php'); ?>
+                                </div>
+
+                                <!-- THIRTEENTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-13" role="tabpanel"
+                                     aria-labelledby="v-pills-13-tab">
+                                    <?php include('employee-add-13.php'); ?>
+                                </div>
+
+                                <!-- FOURTEENTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-14" role="tabpanel"
+                                     aria-labelledby="v-pills-14-tab">
+                                    <?php include('employee-add-14.php'); ?>
                                 </div>
 
                             </div>

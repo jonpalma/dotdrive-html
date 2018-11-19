@@ -42,7 +42,7 @@
 
 <script>
     $(document).ready(function () {
-        $('[data-single-date-picker="true"]').val('')
+        $('[data-single-date-picker="true"]','[data-reset-val=true]').val('')
     });
 </script>
 

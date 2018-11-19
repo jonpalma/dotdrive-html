@@ -10,7 +10,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label for="example-select">Employee type</label>
+            <label for="employeetype">Employee type</label>
             <select class="form-control" id="employeetype" required>
                 <option selected disabled></option>
                 <option>Administrative</option>
@@ -30,7 +30,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label for="example-select">Employment Status</label>
+            <label for="employmentstatus">Employment Status</label>
             <select class="form-control" id="employmentstatus" required>
                 <option selected disabled></option>
                 <option>Full-time</option>
@@ -40,7 +40,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label for="example-select">Driver Type</label>
+            <label for="drivertype">Driver Type</label>
             <select class="form-control" id="drivertype" required>
                 <option selected disabled></option>
                 <option>CDL</option>
@@ -320,7 +320,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Daytime Phone</label>
+                            <label for="daytimephone">Daytime Phone</label>
                             <select class="form-control" id="daytimephone">
                                 <option selected disabled></option>
                                 <option>Cell</option>
@@ -332,7 +332,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Nighttime Phone</label>
+                            <label for="nighttimephone">Nighttime Phone</label>
                             <select class="form-control" id="nighttimephone">
                                 <option selected disabled></option>
                                 <option>Cell</option>
@@ -373,7 +373,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Gender</label>
+                            <label for="gender">Gender</label>
                             <select class="form-control" id="gender">
                                 <option selected disabled></option>
                                 <option>Male</option>
@@ -386,7 +386,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Marital Status</label>
+                            <label for="maritalstatus">Marital Status</label>
                             <select class="form-control" id="maritalstatus">
                                 <option selected disabled></option>
                                 <option>Divorced</option>
@@ -427,7 +427,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Office Location</label>
+                            <label for="officelocation">Office Location</label>
                             <select class="form-control" id="officelocation">
                                 <option selected disabled></option>
                                 <option>S and R Express Inc</option>
@@ -435,7 +435,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Department</label>
+                            <label for="department">Department</label>
                             <select class="form-control" id="department">
                                 <option selected disabled></option>
                                 <option>Account Manager</option>
@@ -452,7 +452,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Supervisor</label>
+                            <label for="supervisor">Supervisor</label>
                             <select class="form-control" id="supervisor">
                                 <option selected disabled></option>
                                 <option>Quinonez, Carlos</option>
@@ -460,7 +460,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Job Title</label>
+                            <label for="jobtitle">Job Title</label>
                             <select class="form-control" id="jobtitle">
                                 <option selected disabled></option>
                                 <option>CDL Driver</option>

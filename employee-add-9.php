@@ -1687,7 +1687,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Asset Involved</label>
+                            <label for="assetinvolved">Asset Involved</label>
                             <select class="form-control" id="assetinvolved" required>
                                 <option selected disabled></option>
                                 <option>Rented Vehicle</option>
@@ -1714,7 +1714,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Other Asset Involved</label>
+                            <label for="otherassetinvolved">Other Asset Involved</label>
                             <select class="form-control" id="otherassetinvolved" multiple data-toggle="select2">
                                 <option>Rented Vehicle</option>
                                 <option>Owner 3 (3)</option>
@@ -1761,7 +1761,7 @@
 
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Inspection Levels</label>
+                            <label for="inspectionlevels">Inspection Levels</label>
                             <select class="form-control" id="inspectionlevels">
                                 <option selected disabled></option>
                                 <option>LEVEL I- Driver/Vehicle</option>

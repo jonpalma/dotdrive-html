@@ -85,7 +85,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="misc1">Reason for Leaving</label>
+                            <label for="reasonforleaving">Reason for Leaving</label>
                             <textarea class="form-control" id="reasonforleaving" rows="3"></textarea>
                         </div>
 

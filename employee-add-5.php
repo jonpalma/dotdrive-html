@@ -70,7 +70,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Vendor</label>
+                            <label for="vendor">Vendor</label>
                             <select class="form-control" id="vendor" required>
                                 <option selected disabled></option>
                                 <option>CDL</option>
