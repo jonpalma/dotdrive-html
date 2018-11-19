@@ -1,12 +1,5 @@
-
-<?php include('head.php')?>
-
-<body>
-
-<!-- Begin page -->
-<div class="wrapper">
-
-    <!-- ============================================================== -->
+<?php include('header.php'); ?>
+       <!-- ============================================================== -->
     <!-- Start Page Content here -->
     <!-- ============================================================== -->
 
@@ -70,17 +63,4 @@
     <!-- ============================================================== -->
     <!-- End Page content -->
     <!-- ============================================================== -->
-
-
-</div>
-<!-- END wrapper -->
-
-<!-- App js -->
-<script src="assets/js/app.min.js"></script>
-
-<!-- third party js -->
-<script src="assets/js/vendor/jquery-ui.min.js"></script>
-<!-- third party js ends -->
-
-</body>
-</html>
+<?php include('footer.php'); ?>

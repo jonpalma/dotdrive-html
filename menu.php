@@ -4,7 +4,7 @@
     <div class="slimscroll-menu">
 
         <!-- LOGO -->
-        <a href="index.html" class="logo text-center">
+        <a href="dashboard.php" class="logo text-center">
                         <span class="logo-lg">
                             <img src="assets/images/logo.png" alt="" height="16">
                         </span>
@@ -19,7 +19,7 @@
             <li class="side-nav-title side-nav-item">Navigation</li>
 
             <li class="side-nav-item">
-                <a href="index.html" class="side-nav-link">
+                <a href="dashboard.php" class="side-nav-link">
                     <i class="dripicons-meter"></i>
                     <span class="badge badge-success float-right">7</span>
                     <span> Dashboard </span>
