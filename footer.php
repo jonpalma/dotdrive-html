@@ -1,5 +1,3 @@
-
-
 </div> <!-- container -->
 
 </div> <!-- content -->
@@ -31,20 +29,6 @@
 
 
 </div>
-<!-- bundle -->
-        <script src="assets/js/app.min.js"></script>
-
-        <!-- third party js -->
-        <script src="assets/js/vendor/Chart.bundle.min.js"></script>
-        <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
-        <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
-        <!-- third party js ends -->
-
-        <!-- demo app -->
-        <script src="assets/js/pages/demo.dashboard.js"></script>
-        <!-- end demo js-->
-
-
 <!-- END wrapper -->
 
 <!-- App js -->
@@ -54,9 +38,19 @@
 <script src="assets/js/vendor/jquery-ui.min.js"></script>
 <!-- third party js ends -->
 
+<!-- third party js -->
+<script src="assets/js/vendor/Chart.bundle.min.js"></script>
+<script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
+<!-- third party js ends -->
+
+<!-- demo app -->
+<script src="assets/js/pages/demo.dashboard.js"></script>
+<!-- end demo js-->
+
 <script>
     $(document).ready(function () {
-        $('[data-single-date-picker="true"]','[data-reset-val=true]').val('')
+        $('[data-single-date-picker="true"],[data-reset-val=true]').val('');
     });
 </script>
 

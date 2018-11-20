@@ -166,7 +166,7 @@
                                             </div>
 
                                             <div class="form-group col-md-4">
-                                                <label for="misc1">Memo 1:</label>
+                                                <label for="memo1">Memo 1:</label>
                                                 <textarea class="form-control" id="memo1" rows="3"></textarea>
                                             </div>
 
@@ -175,7 +175,7 @@
                                         <div class="row">
 
                                             <div class="form-group col-md-4">
-                                                <label for="misc1">Misc 2:</label>
+                                                <label for="misc2">Misc 2:</label>
                                                 <textarea class="form-control" id="misc2" rows="3"></textarea>
                                             </div>
 
@@ -186,7 +186,7 @@
                                             </div>
 
                                             <div class="form-group col-md-4">
-                                                <label for="misc1">Memo 2:</label>
+                                                <label for="memo2">Memo 2:</label>
                                                 <textarea class="form-control" id="memo2" rows="3"></textarea>
                                             </div>
 
@@ -195,7 +195,7 @@
                                         <div class="row">
 
                                             <div class="form-group col-md-4">
-                                                <label for="misc1">Misc 3:</label>
+                                                <label for="misc3">Misc 3:</label>
                                                 <textarea class="form-control" id="misc3" rows="3"></textarea>
                                             </div>
 
@@ -206,7 +206,7 @@
                                             </div>
 
                                             <div class="form-group col-md-4">
-                                                <label for="misc1">Memo 3:</label>
+                                                <label for="memo3">Memo 3:</label>
                                                 <textarea class="form-control" id="memo3" rows="3"></textarea>
                                             </div>
 

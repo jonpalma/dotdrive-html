@@ -41,6 +41,10 @@
                                    aria-controls="v-pills-3" aria-selected="false">
                                     <span class="d-lg-block">Injury/Illness Details</span>
                                 </a>
+                                <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
+                                   aria-controls="v-pills-4" aria-selected="false">
+                                    <span class="d-lg-block">Time Off Details</span>
+                                </a>
                             </div>
                         </div>
 
@@ -64,6 +68,12 @@
                                 <div class="tab-pane fade" id="v-pills-3" role="tabpanel"
                                      aria-labelledby="v-pills-3-tab">
                                     <?php include('accident-add-3.php'); ?>
+                                </div>
+
+                                <!-- FOURTH TAB -->
+                                <div class="tab-pane fade" id="v-pills-4" role="tabpanel"
+                                     aria-labelledby="v-pills-4-tab">
+                                    <?php include('accident-add-4.php'); ?>
                                 </div>
 
                             </div>

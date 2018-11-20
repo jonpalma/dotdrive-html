@@ -51,14 +51,12 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="substance-testing-modal-label">Large modal</h4>
+                <h4 class="modal-title" id="substance-testing-modal-label">Substance Testing</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
 
                 <form action="#" class="needs-validation" novalidate>
-
-                    <h4 class="header-title mb-3">Substance Testing</h4>
 
                     <div class="row">
 
