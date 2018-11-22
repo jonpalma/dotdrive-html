@@ -22,9 +22,9 @@
             <div class="card">
                 <div class="card-body">
 
-                    <div class="row">
+                    <!-- start body content -->
 
-                        <!-- start body content -->
+                    <div class="row">
 
                         <div class="col-lg-2 col-sm-3 mb-2 mb-sm-0">
                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
