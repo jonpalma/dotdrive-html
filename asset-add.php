@@ -60,11 +60,11 @@
                                    aria-controls="v-pills-7" aria-selected="false">
                                     <span class="d-lg-block">Driver's Vehicle Inspection</span>
                                 </a>
+                                <span class="nav-link bg-light">Asset Information</span>
                                 <a class="nav-link" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab"
                                    aria-controls="v-pills-8" aria-selected="false">
                                     <span class="d-lg-block">Warranty</span>
                                 </a>
-                                <span class="nav-link bg-light">Asset Information</span>
                                 <a class="nav-link" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab"
                                    aria-controls="v-pills-9" aria-selected="false">
                                     <span class="d-lg-block">Preventive Maintenance</span>

@@ -147,6 +147,134 @@
 
                     </div>
 
+                    <div id="general-accordion-opt" class="custom-accordion mb-4">
+
+                        <div class="card mb-0">
+                            <div class="card-header" id="headingOneGeneral">
+                                <h5 class="m-0">
+                                    <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
+                                       href="#collapseOneGeneral" aria-expanded="false"
+                                       aria-controls="collapseOneGeneral">
+                                        Brakes (Parking) <span class="float-right"><i
+                                                    class="mdi mdi-chevron-down accordion-arrow"></i></span>
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseOneGeneral" class="collapse" aria-labelledby="headingOneGeneral"
+                                 data-parent="#general-accordion-opt" style="">
+                                <div class="card-body">
+
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="slowtorelease">
+                                            <label class="custom-control-label" for="slowtorelease">Slow to release</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="form-group col-4">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="slowrel1" name="slowrel" class="custom-control-input">
+                                                <label class="custom-control-label" for="slowrel1">Critical</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-4">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="slowrel2" name="slowrel" class="custom-control-input">
+                                                <label class="custom-control-label" for="slowrel2">Warning</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-4">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="slowrel3" name="slowrel" class="custom-control-input">
+                                                <label class="custom-control-label" for="slowrel3">Informational</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="slowtorelease">
+                                            <label class="custom-control-label" for="slowtorelease">Weak or Ineffective</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="form-group col-4">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="weakorineffective1" name="weakorineffective" class="custom-control-input">
+                                                <label class="custom-control-label" for="weakorineffective1">Critical</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-4">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="weakorineffective2" name="weakorineffective" class="custom-control-input">
+                                                <label class="custom-control-label" for="weakorineffective2">Warning</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-4">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="weakorineffective3" name="weakorineffective" class="custom-control-input">
+                                                <label class="custom-control-label" for="weakorineffective3">Informational</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="slowtorelease">
+                                            <label class="custom-control-label" for="slowtorelease">Will not release</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="form-group col-4">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="willnotrelease1" name="willnotrelease" class="custom-control-input">
+                                                <label class="custom-control-label" for="willnotrelease1">Critical</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-4">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="willnotrelease2" name="willnotrelease" class="custom-control-input">
+                                                <label class="custom-control-label" for="willnotrelease2">Warning</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-4">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="willnotrelease3" name="willnotrelease" class="custom-control-input">
+                                                <label class="custom-control-label" for="willnotrelease3">Informational</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div> <!-- end card-->
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-12">
+                            <label for="remarks">Remarks</label>
+                            <textarea class="form-control" id="remarks" rows="3"></textarea>
+                        </div>
+
+                    </div>
+
                     <div class="row">
 
                         <div class="form-group col-12">
