@@ -68,8 +68,8 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="vendor">Vendor</label>
-                            <select class="form-control" id="vendor" required>
+                            <label for="type">Type</label>
+                            <select class="form-control" id="type" required>
                                 <option selected disabled></option>
                                 <option>CDL</option>
                                 <option>Class A</option>
@@ -157,8 +157,93 @@
 
                         <div class="form-group col-md-6">
                             <label>Endorsement(s)</label>
-                            <input type="text" id="endorsement" class="form-control">
+                            <select class="form-control" id="endorsement" multiple data-toggle="select2">
+                                <option value="">None</option>
+                                <option value="H">Authorizes the transportation of hazardous material (CDL only)</option>
+                                <option value="N">Authorizes the operation of a tank vehicle (CDL or CLP only)</option>
+                                <option value="P">Authorizes the operation of a vehicle transporting passengers (CDL or CLP only)</option>
+                                <option value="S">Authorizes the operation of a school bus (CDL or CLP only)</option>
+                                <option value="T">Authorizes towing two (double) or three (triple) trailers over a specified weight</option>
+                                <option value="X">Authorizes the operation of a combination of hazardous material and tank vehicle (CDL only)</option>
+                            </select>
                         </div>
+
+                        <div class="form-group col-md-6">
+                            <label>Endorsement(s) Restriction</label>
+                            <select class="form-control" id="endorsementrestriction" multiple data-toggle="select2">
+                                <option value="">None</option>
+                                <option value="A">With corrective lenses</option>
+                                <option value="B">A licensed driver 21 years of age or older must be in the front seat</option>
+                                <option value="C">Daytime driving only</option>
+                                <option value="D">Speed not to exceed 45 mph</option>
+                                <option value="E">No manual transmission equipped CMV</option>
+                                <option value="F">Must hold valid learner license to MM/DD/YY</option>
+                                <option value="G">TRC 545.424 applies until MM/DD/YY</option>
+                                <option value="H">Vehicle not to exceed 26,000 lbs. GVWR</option>
+                                <option value="I">Motorcycle not to exceed 250cc</option>
+                                <option value="J">Licensed motorcycle operator 21 or over in sight</option>
+                                <option value="K">Intrastate only</option>
+                                <option value="L">No air brake equipped CMV</option>
+                                <option value="M">No Class A passenger vehicle</option>
+                                <option value="N">No Class A and B passenger vehicle</option>
+                                <option value="O">No tractor-trailer CMV</option>
+                                <option value="P">Stated on license</option>
+                                <option value="Q">A licensed driver 21 years of age or older (LOFS) must be in the front seat (vehicle above a Class B)</option>
+                                <option value="R">A licensed driver 21 years of age or older (LOFS) must be in the front seat (vehicle above a Class C)</option>
+                                <option value="S">Outside rearview mirror or hearing aid</option>
+                                <option value="T">Automatic transmission</option>
+                                <option value="U">Applicable prosthetic devices</option>
+                                <option value="V">Medical variance documents required</option>
+                                <option value="W">Power steering</option>
+                                <option value="X">No cargo in CMV tank vehicle</option>
+                                <option value="Y">Valid Texas vision or limb waiver required</option>
+                                <option value="Z">No full air brake equipped CMV</option>
+                                <option value="P1">For Class M TRC 545.424 until MM/DD/YY</option>
+                                <option value="P2">To/from work/school</option>
+                                <option value="P3">To/from work</option>
+                                <option value="P4">To/from school</option>
+                                <option value="P5">To/from work/school or a licensed driver 21 years of age or older (LOFS) must be in the front seat</option>
+                                <option value="P6">To/from work or a licensed driver 21 years of age or older (LOFS) must be in the front seat</option>
+                                <option value="P7">To/from school or a licensed driver 21 years of age or older (LOFS) must be in the front seat</option>
+                                <option value="P8">With telescopic lens</option>
+                                <option value="P9">LOFS 21 or over, bus only</option>
+                                <option value="P10">LOFS 21 or over, school bus only</option>
+                                <option value="P11">Bus not to exceed 26,000 GVWR</option>
+                                <option value="P12">Passenger CMVs restricted to Class C only</option>
+                                <option value="P13">LOFS 21 or over in vehicle equip with air brake</option>
+                                <option value="P14">Operation Class B exempt vehicle authorized</option>
+                                <option value="P15">Operation Class A exempt vehicle authorized</option>
+                                <option value="P16">If CMV, school buses (interstate)</option>
+                                <option value="P17">If CMV, government vehicles (interstate)</option>
+                                <option value="P18">If CMV, only transporting personal property (interstate)</option>
+                                <option value="P19">If CMV, transporting corpse/sick/injure (interstate)</option>
+                                <option value="P20">If CMV, privately transporting passengers (interstate)</option>
+                                <option value="P21">If CMV, fire/rescue (interstate)</option>
+                                <option value="P22">If CMV, intra-city zone drivers (interstate)</option>
+                                <option value="P23">If CMV, custom harvesting (interstate)</option>
+                                <option value="P24">If CMV, transporting bees/hives (interstate)</option>
+                                <option value="P25">If CMV, use in oil/water well service/drill</option>
+                                <option value="P26">If CMV, for operation of mobile crane</option>
+                                <option value="P27">HME Expiration Date MM/DD/YY</option>
+                                <option value="P28">FRSI CDL valid MM/DD/YY to MM/DD/YY</option>
+                                <option value="P29">FRSI CDL MM/DD/YY–MM/DD/YY or exempt B vehicles</option>
+                                <option value="P30">FRSI CDL MM/DD/YY–MM/DD/YY or exempt A vehicles</option>
+                                <option value="P31">Class C only; no taxi/bus/emergency vehicle</option>
+                                <option value="P32">Other</option>
+                                <option value="P33">No passengers in CMV bus</option>
+                                <option value="P34">No express or highway driving</option>
+                                <option value="P35">Restricted to operation of three–wheeled MC</option>
+                                <option value="P36">Moped</option>
+                                <option value="P37">Occ/Essent need DL-no CMV–see court order</option>
+                                <option value="P38">Applicable vehicle devices</option>
+                                <option value="P39">Ignition Interlock required</option>
+                                <option value="P40">Vehicle not to exceed Class C</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
 
                         <div class="form-group mt-3 col-md-6">
                             <div class="custom-control custom-checkbox">
@@ -166,10 +251,6 @@
                                 <label class="custom-control-label" for="suspended">Suspended</label>
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="row">
 
                         <div class="form-group mt-3 col-md-6">
                             <div class="custom-control custom-checkbox">

@@ -42,10 +42,10 @@
                                    aria-controls="v-pills-3" aria-selected="false">
                                     <span class="d-lg-block">Employee Training</span>
                                 </a>
-                                <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
+                                <!--<a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
                                    aria-controls="v-pills-4" aria-selected="false">
                                     <span class="d-lg-block">Usage Logs</span>
-                                </a>
+                                </a>-->
                                 <span class="nav-link bg-light">Department of Transportation</span>
                                 <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab"
                                    aria-controls="v-pills-5" aria-selected="false">
@@ -74,12 +74,12 @@
                                 </a>
                                 <a class="nav-link" id="v-pills-11-tab" data-toggle="pill" href="#v-pills-11" role="tab"
                                    aria-controls="v-pills-11" aria-selected="false">
-                                    <span class="d-lg-block">HR Reviews</span>
+                                    <span class="d-lg-block">Employee Warning</span>
                                 </a>
-                                <a class="nav-link" id="v-pills-12-tab" data-toggle="pill" href="#v-pills-12" role="tab"
+                                <!--<a class="nav-link" id="v-pills-12-tab" data-toggle="pill" href="#v-pills-12" role="tab"
                                    aria-controls="v-pills-12" aria-selected="false">
                                     <span class="d-lg-block">Medical Reviews</span>
-                                </a>
+                                </a>-->
                                 <a class="nav-link" id="v-pills-13-tab" data-toggle="pill" href="#v-pills-13" role="tab"
                                    aria-controls="v-pills-13" aria-selected="false">
                                     <span class="d-lg-block">Substance Testing</span>
@@ -114,10 +114,10 @@
                                 </div>
 
                                 <!-- FOURTH TAB -->
-                                <div class="tab-pane fade" id="v-pills-4" role="tabpanel"
+                                <!--<div class="tab-pane fade" id="v-pills-4" role="tabpanel"
                                      aria-labelledby="v-pills-4-tab">
-                                    <?php include('employee-add-4.php'); ?>
-                                </div>
+                                    <?php //include('employee-add-4.php'); ?>
+                                </div>-->
 
                                 <!-- FIFTH TAB -->
                                 <div class="tab-pane fade" id="v-pills-5" role="tabpanel"
@@ -162,10 +162,10 @@
                                 </div>
 
                                 <!-- TWELFTH TAB -->
-                                <div class="tab-pane fade" id="v-pills-12" role="tabpanel"
+                                <!--<div class="tab-pane fade" id="v-pills-12" role="tabpanel"
                                      aria-labelledby="v-pills-12-tab">
-                                    <?php include('employee-add-12.php'); ?>
-                                </div>
+                                    <?php //include('employee-add-12.php'); ?>
+                                </div>-->
 
                                 <!-- THIRTEENTH TAB -->
                                 <div class="tab-pane fade" id="v-pills-13" role="tabpanel"

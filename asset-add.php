@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
     <!-- start page title -->
     <div class="row">
-        <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1">
+        <div class="col-12">
             <div class="page-title-box">
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
@@ -17,7 +17,7 @@
     <!-- end page title -->
 
     <div class="row">
-        <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1">
+        <div class="col-12">
 
             <div class="card">
                 <div class="card-body">

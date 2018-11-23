@@ -1,4 +1,4 @@
-<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#hr-reviews-modal"><i
+<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#employee-warning-modal"><i
         class="mdi mdi-plus"></i></button>
 <hr class="mb-4">
 <div class="table-responsive">
@@ -46,12 +46,12 @@
         </tbody>
     </table>
 </div>
-<div class="modal fade" id="hr-reviews-modal" tabindex="-1" role="dialog"
-     aria-labelledby="hr-reviews-modal-label" aria-hidden="true">
+<div class="modal fade" id="employee-warning-modal" tabindex="-1" role="dialog"
+     aria-labelledby="employee-warning-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="hr-reviews-modal-label">HR Reviews</h4>
+                <h4 class="modal-title" id="employee-warning-modal-label">Employee Warning</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
