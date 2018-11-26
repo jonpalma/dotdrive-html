@@ -6,27 +6,24 @@
         <thead class="thead-dark">
         <tr>
             <th>Id</th>
-            <th>Date</th>
-            <th>Case Name</th>
-            <th>Claim No.</th>
-            <th>Advance</th>
+            <th>Reason for Test</th>
+            <th>Collection Date</th>
+            <th>Lab Name</th>
+            <th>MRO Name</th>
+            <th>Verification Date</th>
             <th>Status</th>
-            <th>Job title</th>
+            <th>Substance</th>
             <th></th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td><a href="#">#10</a></td>
+            <td>Drug test</td>
             <td>01/11/2018</td>
-            <td>Accident 1</td>
-            <td>800HOO332</td>
-            <td>
-                <div class="progress progress-sm">
-                    <div class="progress-bar progress-lg bg-success" role="progressbar" style="width: 100%"
-                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </td>
+            <td>Lab One</td>
+            <td>ORagas</td>
+            <td>01/11/2018</td>
             <td><i class="mdi mdi-circle text-success"></i> Complete</td>
             <td>LLD</td>
             <td>
