@@ -33,6 +33,7 @@
 
 <!-- App js -->
 <script src="assets/js/app.min.js"></script>
+<script src="modules/js/fileUpload.js"></script>
 
 <!-- third party js -->
 <script src="assets/js/vendor/jquery-ui.min.js"></script>

@@ -86,6 +86,8 @@
 
                 </form>
 
+                <?php include('modules/views/fileUpload.php') ?>
+
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

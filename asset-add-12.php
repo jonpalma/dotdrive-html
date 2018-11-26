@@ -1,6 +1,6 @@
-<!--<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#accident-reports-modal"><i
+<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#accident-logs-modal"><i
             class="mdi mdi-plus"></i></button>
-<hr class="mb-4">-->
+<hr class="mb-4">
 <div class="table-responsive">
     <table class="table table-centered mb-0">
         <thead class="thead-dark">
@@ -46,72 +46,17 @@
         </tbody>
     </table>
 </div>
-<!--<div class="modal fade" id="accident-reports-modal" tabindex="-1" role="dialog"
-     aria-labelledby="accident-reports-modal-label" aria-hidden="true">
+<div class="modal fade" id="accident-logs-modal" tabindex="-1" role="dialog"
+     aria-labelledby="accident-logs-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="accident-reports-modal-label">Accident Reports</h4>
+                <h4 class="modal-title" id="accident-logs-modal-label">Accident Reports</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
 
                 <form action="#" class="needs-validation" novalidate>
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label for="assetinvolved">Asset Involved</label>
-                            <select class="form-control" id="assetinvolved" required>
-                                <option selected="selected" value=""></option>
-                                <option>Owner 3 (3)</option>
-                                <option>Trailer 53171 (53171)</option>
-                                <option>Trailer 53184 (53184)</option>
-                                <option>Trailer 53321 (53321)</option>
-                                <option>Trailer 53947 (53947)</option>
-                                <option>Trailer 54257 (54257)</option>
-                                <option>Trailer 54281 (54281)</option>
-                                <option>Trailer 54298 (54298)</option>
-                                <option>Trailer 54471 (54471)</option>
-                                <option>Trailer 54473 (54473)</option>
-                                <option>Trailer 8608 (8608)</option>
-                                <option>Trailer 8620 (8620)</option>
-                                <option>Truck 1206 (1206)</option>
-                                <option>Truck 1207 (1207)</option>
-                                <option>Truck 1208 (1208)</option>
-                                <option>Truck 1209 (1209)</option>
-                                <option>Truck 1210 (1210)</option>
-                                <option>Truck 1211 (1211)</option>
-                                <option>Truck 1212 (1212)</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label for="otherassetinvolved">Other Asset Involved</label>
-                            <select class="form-control" id="otherassetinvolved" multiple data-toggle="select2">
-                                <option>Rented Vehicle</option>
-                                <option>Owner 3 (3)</option>
-                                <option>Trailer 53171 (53171)</option>
-                                <option>Trailer 53184 (53184)</option>
-                                <option>Trailer 53321 (53321)</option>
-                                <option>Trailer 53947 (53947)</option>
-                                <option>Trailer 54257 (54257)</option>
-                                <option>Trailer 54281 (54281)</option>
-                                <option>Trailer 54298 (54298)</option>
-                                <option>Trailer 54471 (54471)</option>
-                                <option>Trailer 54473 (54473)</option>
-                                <option>Trailer 8608 (8608)</option>
-                                <option>Trailer 8620 (8620)</option>
-                                <option>Truck 1206 (1206)</option>
-                                <option>Truck 1207 (1207)</option>
-                                <option>Truck 1208 (1208)</option>
-                                <option>Truck 1209 (1209)</option>
-                                <option>Truck 1210 (1210)</option>
-                                <option>Truck 1211 (1211)</option>
-                                <option>Truck 1212 (1212)</option>
-                            </select>
-                        </div>
-
-                    </div>
 
                     <div class="row">
 
@@ -205,6 +150,35 @@
 
                     <div class="row">
 
+                        <div class="form-group col-md-6">
+                            <label>Employee Involved</label>
+                            <select class="form-control" id="employeeinvolved">
+                                <option selected disabled></option>
+                                <option>alexis roman gonzalez (17)</option>
+                                <option>Armando (18)</option>
+                                <option>Carlos (14)</option>
+                                <option>cesar lopez aldama (29)</option>
+                                <option>david (19)</option>
+                                <option>Eden Oziel (20)</option>
+                                <option>Enrique (28)</option>
+                                <option>enrique alonzo juarez-meraz (29)</option>
+                                <option>Hector (22)</option>
+                                <option>jesus francisco (21)</option>
+                                <option>jorge adrian hernandez ruiz (30)</option>
+                                <option>Juan (1)</option>
+                                <option>juan (1234)</option>
+                                <option>kevin rafael garcia Neri (27)</option>
+                                <option>Luis (24)</option>
+                                <option>mario muniz escobedo (16)</option>
+                                <option>Martin (26)</option>
+                                <option>Mayra (13)</option>
+                                <option>miguel angel (25)</option>
+                                <option>natalia hayde del rio (15)</option>
+                                <option>Oscar (10)</option>
+                                <option>Reynaldo (23)</option>
+                            </select>
+                        </div>
+
                         <div class="form-group mt-3 col-md-6">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input"
@@ -212,6 +186,10 @@
                                 <label class="custom-control-label" for="employeeatfault">Employee at Fault</label>
                             </div>
                         </div>
+
+                    </div>
+
+                    <div class="row">
 
                         <div class="form-group mt-3 col-md-6">
                             <div class="custom-control custom-checkbox">
@@ -221,10 +199,6 @@
                             </div>
                         </div>
 
-                    </div>
-
-                    <div class="row">
-
                         <div class="form-group col-md-6">
                             <label for="injurydetails">Injury Details</label>
                             <textarea class="form-control" id="injurydetails" rows="3"></textarea>
@@ -232,64 +206,21 @@
 
                     </div>
 
-                    <hr class="mb-4">
-
-                    <h4 class="header-title mb-3">Property Damage Details</h4>
-
                     <div class="row">
-
-                        <div class="form-group mt-3 col-md-6">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input"
-                                       id="propertydamage">
-                                <label class="custom-control-label" for="propertydamage">Property Damage</label>
-                            </div>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>Owner Name</label>
-                            <input type="text" id="ownername" class="form-control">
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Address</label>
-                            <input type="text" id="address" class="form-control">
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>Phone Number</label>
-                            <input type="text" id="phonenumber" class="form-control"
-                                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                   maxlength="14">
-                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label for="descriptionofdamage">Description of Damage</label>
-                            <textarea class="form-control" id="descriptionofdamage" rows="3" required></textarea>
-                        </div>
 
                         <div class="form-group col-md-6">
                             <label>Number of People Injured</label>
                             <input type="text" id="numberofpeopleinjured" class="form-control">
                         </div>
 
-                    </div>
-
-                    <div class="row">
-
                         <div class="form-group col-md-6">
                             <label>Number of Fatalities</label>
                             <input type="text" id="numberoffatalities" class="form-control">
                         </div>
+
+                    </div>
+
+                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label>Number of Vehicles Towed</label>
@@ -379,7 +310,6 @@
                 <?php include('modules/views/fileUpload.php') ?>
 
             </div>
-        </div><!-- /.modal-content --
-    </div><!-- /.modal-dialog --
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
 </div>
--->

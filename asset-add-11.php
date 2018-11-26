@@ -1,6 +1,6 @@
-<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#preventive-maintenance-modal">
+<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#parts-modal">
     <i
-            class="mdi mdi-plus"></i></button>
+        class="mdi mdi-plus"></i></button>
 <hr class="mb-4">
 <div class="table-responsive">
     <table class="table table-centered mb-0">
@@ -47,12 +47,12 @@
         </tbody>
     </table>
 </div>
-<div class="modal fade" id="preventive-maintenance-modal" tabindex="-1" role="dialog"
-     aria-labelledby="preventive-maintenance-modal-label" aria-hidden="true">
+<div class="modal fade" id="parts-modal" tabindex="-1" role="dialog"
+     aria-labelledby="parts-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="preventive-maintenance-modal-label">License</h4>
+                <h4 class="modal-title" id="parts-modal-label">License</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
@@ -62,28 +62,14 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Preventive Maintenance Name</label>
-                            <input type="text" id="preventivemaintenancename" class="form-control" required>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>Last PM Performed</label>
-                            <input type="text" class="form-control date" id="lastpmperformed" data-toggle="date-picker"
+                            <label>Purchase Date</label>
+                            <input type="text" class="form-control date" id="purchasedate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
 
-                    </div>
-
-                    <div class="row">
-
                         <div class="form-group col-md-6">
-                            <label>Miles Till Next PM</label>
-                            <input type="text" id="milestillnextpm" class="form-control">
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>Usage Hours Till Next PM</label>
-                            <input type="text" id="usagehourstillnextpm" class="form-control">
+                            <label>Part Name</label>
+                            <input type="text" id="partname" class="form-control" required>
                         </div>
 
                     </div>
@@ -91,31 +77,54 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>PM Interval</label>
-                            <input type="text" id="pminterval" class="form-control" required>
+                            <label>Part/Model Number</label>
+                            <input type="text" id="partnumber" class="form-control">
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Frequency</label>
-                            <select class="form-control" id="frequency">
+                            <label>Serial Number</label>
+                            <input type="text" id="serialnumber" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label>Part Vendor</label>
+                            <select class="form-control" id="partvendor">
                                 <option selected disabled></option>
-                                <option>None</option>
-                                <option>Days</option>
-                                <option>Weeks</option>
-                                <option>Months</option>
-                                <option>Years</option>
+                                <option>C&S Tires</option>
+                                <option>Fleet Pride</option>
                             </select>
                         </div>
 
+                        <div class="form-group col-md-6">
+                            <label>Quantity</label>
+                            <input type="text" id="quantity" class="form-control" value="0.00" required>
+                        </div>
+
                     </div>
 
                     <div class="row">
 
-                        <div class="form-group mt-3 col-md-6">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="alerton">
-                                <label class="custom-control-label" for="alerton">Alert On</label>
-                            </div>
+                        <div class="form-group col-md-6">
+                            <label>Unit Price</label>
+                            <input type="text" id="unitprice" class="form-control" value="$0.00" required>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>Total Price</label>
+                            <input type="text" id="totalprice" class="form-control" value="$0.00" disabled>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-12">
+                            <label for="memo">Memo</label>
+                            <textarea class="form-control" id="memo" rows="3"></textarea>
                         </div>
 
                     </div>

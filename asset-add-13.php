@@ -1,15 +1,17 @@
-<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#usage-logs-modal"><i
-            class="mdi mdi-plus"></i></button>
+<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#usage-modal"><i
+        class="mdi mdi-plus"></i></button>
 <hr class="mb-4">
 <div class="table-responsive">
     <table class="table table-centered mb-0">
         <thead class="thead-dark">
         <tr>
             <th>Id</th>
-            <th>Licence number</th>
-            <th>Type</th>
-            <th>Expiration day</th>
-            <th>State used</th>
+            <th>Date</th>
+            <th>Case Name</th>
+            <th>Claim No.</th>
+            <th>Advance</th>
+            <th>Status</th>
+            <th>Job title</th>
             <th></th>
         </tr>
         </thead>
@@ -19,7 +21,13 @@
             <td>01/11/2018</td>
             <td>Accident 1</td>
             <td>800HOO332</td>
-            <td>800HOO332</td>
+            <td>
+                <div class="progress progress-sm">
+                    <div class="progress-bar progress-lg bg-success" role="progressbar" style="width: 100%"
+                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </td>
+            <td><i class="mdi mdi-circle text-success"></i> Complete</td>
             <td>LLD</td>
             <td>
                 <div class="dropdown">
@@ -38,12 +46,12 @@
         </tbody>
     </table>
 </div>
-<div class="modal fade" id="usage-logs-modal" tabindex="-1" role="dialog"
-     aria-labelledby="usage-logs-modal-label" aria-hidden="true">
+<div class="modal fade" id="usage-modal" tabindex="-1" role="dialog"
+     aria-labelledby="usage-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="usage-logs-modal-label">Usage Logs</h4>
+                <h4 class="modal-title" id="usage-modal-label">License</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
@@ -53,34 +61,37 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="assetoperated">Asset Operated</label>
-                            <select class="form-control" id="assetoperated" required>
-                                <option selected="selected" value=""></option>
-                                <option>Owner 3 (3)</option>
-                                <option>Trailer 53171 (53171)</option>
-                                <option>Trailer 53184 (53184)</option>
-                                <option>Trailer 53321 (53321)</option>
-                                <option>Trailer 53947 (53947)</option>
-                                <option>Trailer 54257 (54257)</option>
-                                <option>Trailer 54281 (54281)</option>
-                                <option>Trailer 54298 (54298)</option>
-                                <option>Trailer 54471 (54471)</option>
-                                <option>Trailer 54473 (54473)</option>
-                                <option>Trailer 8608 (8608)</option>
-                                <option>Trailer 8620 (8620)</option>
-                                <option>Truck 1206 (1206)</option>
-                                <option>Truck 1207 (1207)</option>
-                                <option>Truck 1208 (1208)</option>
-                                <option>Truck 1209 (1209)</option>
-                                <option>Truck 1210 (1210)</option>
-                                <option>Truck 1211 (1211)</option>
-                                <option>Truck 1212 (1212)</option>
+                            <label>Employee Operator</label>
+                            <select class="form-control" id="employeeoperator">
+                                <option selected disabled></option>
+                                <option>Hector Aguilera  (22)</option>
+                                <option>Reynaldo Aguilera (23)</option>
+                                <option>cesar lopez. aldama (29)</option>
+                                <option>Enrique Camara Herrera (28)</option>
+                                <option>miguel angel cano de la cruz (25)</option>
+                                <option>Mayra Castro (13)</option>
+                                <option>natalia  hayde. del rio (15)</option>
+                                <option>Juan Diaz (1)</option>
+                                <option>mario muniz. escobedo (16)</option>
+                                <option>kevin rafael . garcia Neri (27)</option>
+                                <option>alexis roman . gonzalez (17)</option>
+                                <option>jorge adrian . hernandez ruiz (30)</option>
+                                <option>enrique  alonzo. juarez-meraz (29)</option>
+                                <option>jesus francisco lopez rios (21)</option>
+                                <option>juan perez (1234)</option>
+                                <option>Carlos Quinonez (14)</option>
+                                <option>Armando Quintana (18)</option>
+                                <option>david salcedo ortega (19)</option>
+                                <option>Luis Salcedo Ortega (24)</option>
+                                <option>Martin  Sotelo Rojas (26)</option>
+                                <option>Eden Oziel Valdez (20)</option>
+                                <option>Oscar Vasquez (10)</option>
                             </select>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>State Operated</label>
-                            <select class="form-control" id="stateoperated">
+                            <label>State Operator</label>
+                            <select class="form-control" id="stateoperator">
                                 <option selected disabled></option>
                                 <option>Alabama</option>
                                 <option>Alaska</option>
@@ -142,48 +153,23 @@
 
                         <div class="form-group col-md-6">
                             <label>Start Usage Date</label>
-                            <input type="text" class="form-control date" id="startusagedate"
-                                   data-toggle="date-picker" data-single-date-picker="true"
-                                   required>
+                            <input type="text" class="form-control date" id="startusagedate" data-toggle="date-picker"
+                                   data-single-date-picker="true" required>
                         </div>
+
+                        <div class="form-group col-md-6">
+                            <label>End Usage Date</label>
+                            <input type="text" class="form-control date" id="endusagedate" data-toggle="date-picker"
+                                   data-single-date-picker="true" required>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label>Start Odometer Reading</label>
                             <input type="text" id="startodometerreading" class="form-control">
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Start Hours Reading</label>
-                            <input type="text" id="starthoursreading" class="form-control">
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>Fuel Usage (gal)</label>
-                            <input type="text" id="fuelusage" class="form-control">
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Fuel Cost</label>
-                            <input type="text" id="fuelcost" class="form-control">
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>End Usage Date</label>
-                            <input type="text" class="form-control date" id="endusagedate"
-                                   data-toggle="date-picker" data-single-date-picker="true"
-                                   required>
                         </div>
 
                         <div class="form-group col-md-6">
@@ -196,8 +182,27 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
+                            <label>Start Hours Reading</label>
+                            <input type="text" id="starthoursreading" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-6">
                             <label>End Hours Reading</label>
                             <input type="text" id="endhoursreading" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label>Fuel Usage (gal)</label>
+                            <input type="text" id="fuelusage" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>Fuel Cost</label>
+                            <input type="text" id="fuelcost" class="form-control">
                         </div>
 
                     </div>

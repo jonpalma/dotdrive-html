@@ -600,3 +600,5 @@
     </div>
 
 </form>
+
+<?php include('modules/views/fileUpload.php') ?>
