@@ -97,7 +97,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="accidentdetails">Accident Details</label>
+                            <label for="accidentdetails">Accident Report</label>
                             <textarea class="form-control" id="accidentdetails" rows="3" required></textarea>
                         </div>
 

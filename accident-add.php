@@ -29,13 +29,13 @@
                         <div class="col-lg-2 col-sm-3 mb-2 mb-sm-0">
                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                  aria-orientation="vertical">
-                                <a class="nav-link active show" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
+                                <!--<a class="nav-link active show" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
                                    role="tab" aria-controls="v-pills-1" aria-selected="true">
                                     <span class="d-lg-block">Claim Details</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
+                                </a>-->
+                                <a class="nav-link active show" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
                                    aria-controls="v-pills-2" aria-selected="false">
-                                    <span class="d-lg-block">Accident Details</span>
+                                    <span class="d-lg-block">Accident Report</span>
                                 </a>
                                 <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
                                    aria-controls="v-pills-3" aria-selected="false">
@@ -53,13 +53,13 @@
                             <div class="tab-content" id="v-pills-tabContent">
 
                                 <!-- FIRST TAB -->
-                                <div class="tab-pane fade active show" id="v-pills-1" role="tabpanel"
+                                <!--<div class="tab-pane fade active show" id="v-pills-1" role="tabpanel"
                                      aria-labelledby="v-pills-1-tab">
-                                    <?php include('accident-add-1.php'); ?>
-                                </div>
+                                    <?php //include('accident-add-1.php'); ?>
+                                </div>-->
 
                                 <!-- SECOND TAB -->
-                                <div class="tab-pane fade" id="v-pills-2" role="tabpanel"
+                                <div class="tab-pane fade active show" id="v-pills-2" role="tabpanel"
                                      aria-labelledby="v-pills-2-tab">
                                     <?php include('accident-add-2.php'); ?>
                                 </div>

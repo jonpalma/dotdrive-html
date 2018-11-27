@@ -1,5 +1,5 @@
 <button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#employee-warning-modal"><i
-        class="mdi mdi-plus"></i></button>
+            class="mdi mdi-plus"></i></button>
 <hr class="mb-4">
 <div class="table-responsive">
     <table class="table table-centered mb-0">
@@ -79,6 +79,132 @@
                             <label>Next Review Due</label>
                             <input type="text" class="form-control date" id="nextreviewdue"
                                    data-toggle="date-picker" data-single-date-picker="true" required>
+                        </div>
+
+                    </div>
+
+                    <hr class="mb-4">
+
+                    <h4 class="page-title">Employee Warning Notice</h4>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label>Employee Name</label>
+                            <input type="text" id="employeename" class="form-control" required>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>Owner Operator Name</label>
+                            <input type="text" id="owneroperatorname" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label>Date</label>
+                            <input type="text" class="form-control date" id="date"
+                                   data-toggle="date-picker" data-single-date-picker="true" required>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>Warning #</label>
+                            <input type="text" id="warningnumber" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label>Veral Warning</label>
+                            <input type="text" id="verbalwarning" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>First Written Warning</label>
+                            <input type="text" id="firstwrittenwarning" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label>Second Written Warning</label>
+                            <input type="text" id="secondwrittenwarning" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>Final Written Warning</label>
+                            <input type="text" id="finalwrittenwarning" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label>Tardiness/Leaving Early</label>
+                            <input type="text" id="tardiness" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>Absenteeism</label>
+                            <input type="text" id="absenteeism" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label>Violation of Safety Rules</label>
+                            <input type="text" id="violationofsafetyrules" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>Rudeness to Customers</label>
+                            <input type="text" id="rudenesstocustomers" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label>Vehicle Cleanliness</label>
+                            <input type="text" id="cehiclecleanliness" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>DOT Violations (HOS, F+M, etc)</label>
+                            <input type="text" id="dotviolations" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label for="descriptionofinfraction">Description of Infraction</label>
+                            <textarea class="form-control" id="descriptionofinfraction" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="planforimprovement">Plan for Improvement</label>
+                            <textarea class="form-control" id="planforimprovement" rows="3"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label for="consequencesoffurtherinfractions">Consequences of Further Infractions</label>
+                            <textarea class="form-control" id="consequencesoffurtherinfractions" rows="3"></textarea>
                         </div>
 
                     </div>
