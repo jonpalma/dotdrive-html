@@ -822,7 +822,6 @@
 
     </div>
 
-
     <div class="row">
 
         <div class="form-group col-md-6">
@@ -833,6 +832,271 @@
         <div class="form-group col-md-6">
             <label>Registration</label>
             <input type="text" id="otherdriverregustration" class="form-control">
+        </div>
+
+    </div>
+
+    <hr class="mb-4">
+
+    <label>Casualities? (Indicate Number)</label>
+
+    <div class="row">
+
+        <div class="col-lg-5 col-4 offset-lg-2 offset-4">
+            <label>Fatalities</label>
+        </div>
+
+        <div class="col-lg-5 col-4">
+            <label>Injuries</label>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group col-lg-2 col-4">
+            <label>Company Employee</label>
+        </div>
+
+        <div class="form-group col-lg-5 col-4">
+            <input type="text" id="fatalities1" class="form-control">
+        </div>
+
+        <div class="form-group col-lg-5 col-4">
+            <input type="text" id="injuries1" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group col-lg-2 col-4">
+            <label>Occupants Other Vehicles</label>
+        </div>
+
+        <div class="form-group col-lg-5 col-4">
+            <input type="text" id="fatalities2" class="form-control">
+        </div>
+
+        <div class="form-group col-lg-5 col-4">
+            <input type="text" id="injuries2" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group col-lg-2 col-4">
+            <label>Pedestrians</label>
+        </div>
+
+        <div class="form-group col-lg-5 col-4">
+            <input type="text" id="fatalities3" class="form-control">
+        </div>
+
+        <div class="form-group col-lg-5 col-4">
+            <input type="text" id="injuries3" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="calledpolice">
+                <label class="custom-control-label" for="calledpolice">Have You Called the Police?</label>
+            </div>
+        </div>
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="calledmedicalassistance">
+                <label class="custom-control-label" for="calledmedicalassistance">Have You Called for Medical
+                    Assistance?</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group col-md-6">
+            <label>Where Have the Injured Persons Been Taken</label>
+            <input type="text" id="wheretheinjuredwastaken" class="form-control">
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>City/State</label>
+            <input type="text" id="citystate" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="warningdevices">
+                <label class="custom-control-label" for="warningdevices">Have You Properly Set Emergency Warning
+                    Devices?</label>
+            </div>
+        </div>
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="securedwitnesses">
+                <label class="custom-control-label" for="securedwitnesses">Have You Secured Witnesses - Names ¬
+                    Addresses?</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="fireorexplosion">
+                <label class="custom-control-label" for="fireorexplosion">Did the Accident Involve Fire or
+                    Explosion?</label>
+            </div>
+        </div>
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="proceedsafely">
+                <label class="custom-control-label" for="proceedsafely">Can Your Unit Proceed Safely Under Own
+                    Power?</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="towedvehicles">
+                <label class="custom-control-label" for="towedvehicles">Did the Accident Damage Cause Any Vehicle to be
+                    Towed?</label>
+            </div>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Remarks</label>
+            <input type="text" id="remarks" class="form-control">
+        </div>
+
+    </div>
+
+    <hr class="mb-4">
+
+    <h4 class="page-title">Hazardous Materials</h4>
+
+    <div class="row">
+
+        <div class="form-group col-md-6">
+            <label>Was Unit Transporting Hazardous Materials?</label>
+            <input type="text" id="transportinghazardousmaterials" class="form-control">
+        </div>
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="hazardoussubstances">
+                <label class="custom-control-label" for="hazardoussubstances">Hazardous Substances</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="hazardouswaste">
+                <label class="custom-control-label" for="hazardouswaste">Hazardous Waste</label>
+            </div>
+        </div>
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="marinepollutants">
+                <label class="custom-control-label" for="marinepollutants">Marine Pollutants</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group col-md-6">
+            <label>Give Name(s) and Class(es) of Hazardous Materials</label>
+            <input type="text" id="hazardousmaterialsnameclass" class="form-control">
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Was Unit Transporting Oil Subject to Oil Spill Response Plan?</label>
+            <input type="text" id="unittransportingoil" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group col-md-6">
+            <label>Where there any leaks or spills of the above materials?</label>
+            <input type="text" id="leaksorspills" class="form-control">
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Is There Any Fuel Leakage from Your Unit?</label>
+            <input type="text" id="fuelleakage" class="form-control">
+        </div>
+
+    </div>
+
+    <hr class="mb-4">
+
+    <div class="row">
+
+        <div class="form-group col-md-6">
+            <label>Person Notified</label>
+            <input type="text" id="personnotified" class="form-control">
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Time</label>
+            <div class="input-group">
+                <input type="text" class="form-control" data-toggle="timepicker" id="notifiedtime"
+                       value="10:00:00">
+                <div class="input-group-append">
+                    <span class="input-group-text"><i class="dripicons-clock"></i></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group col-md-6">
+            <label>Date</label>
+            <input type="text" class="form-control date" id="notifieddate" data-toggle="date-picker"
+                   data-single-date-picker="true" required>
+        </div>
+
+    </div>
+
+    <hr class="mb-4">
+
+    <h4 class="page-title">Notes on instructions to Company Employee</h4>
+
+    <div class="row">
+
+        <div class="form-group col-md-12">
+            <label for="notestoemployee">Notes</label>
+            <textarea class="form-control" id="notestoemployee" rows="3"></textarea>
         </div>
 
     </div>
