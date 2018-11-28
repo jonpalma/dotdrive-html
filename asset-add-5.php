@@ -6,29 +6,27 @@
         <thead class="thead-dark">
         <tr>
             <th>Id</th>
+            <th>Name</th>
             <th>Date</th>
-            <th>Case Name</th>
-            <th>Claim No.</th>
+            <th>Documents</th>
             <th>Advance</th>
             <th>Status</th>
-            <th>Job title</th>
             <th></th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td><a href="#">#10</a></td>
+            <td>Cab Card Expiration</td>
             <td>01/11/2018</td>
-            <td>Accident 1</td>
-            <td>800HOO332</td>
+            <td>3 - 5</td>
             <td>
                 <div class="progress progress-sm">
-                    <div class="progress-bar progress-lg bg-success" role="progressbar" style="width: 100%"
-                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar progress-lg bg-success" role="progressbar" style="width: 60%"
+                         aria-valuenow="60" aria-valuemin="0" aria-valuemax="60"></div>
                 </div>
             </td>
-            <td><i class="mdi mdi-circle text-success"></i> Complete</td>
-            <td>LLD</td>
+            <td><i class="mdi mdi-circle text-warning"></i> Incomplete</td>
             <td>
                 <div class="dropdown">
                     <a href="#" class="" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"

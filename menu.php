@@ -39,6 +39,10 @@
                     <li>
                         <a href="employee-list.php">List</a>
                     </li>
+
+                    <li>
+                        <a href="#">Aplications</a>
+                    </li>
                 </ul>
             </li>
 
