@@ -7,7 +7,7 @@
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="javascript: void(0);">Goytia</a></li>
                         <li class="breadcrumb-item"><a href="javascript: void(0);">Services</a></li>
-                        <li class="breadcrumb-item active">List</li>
+                        <li class="breadcrumb-item active">Register</li>
                     </ol>
                 </div>
                 <h4 class="page-title">List services</h4>

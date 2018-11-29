@@ -37,7 +37,7 @@
                         <a href="employee-add.php">Add</a>
                     </li>
                     <li>
-                        <a href="employee-list.php">List</a>
+                        <a href="employee-list.php">Register</a>
                     </li>
                 </ul>
             </li>
@@ -53,7 +53,7 @@
                         <a href="asset-add.php">Add</a>
                     </li>
                     <li>
-                        <a href="asset-list.php">List</a>
+                        <a href="asset-list.php">Register</a>
                     </li>
                 </ul>
             </li>
@@ -69,7 +69,7 @@
                         <a href="accident-add.php">Add</a>
                     </li>
                     <li>
-                        <a href="accident-list.php">List</a>
+                        <a href="accident-list.php">Register</a>
                     </li>
                 </ul>
             </li>
@@ -85,7 +85,7 @@
                         <a href="service-add.php">Add</a>
                     </li>
                     <li>
-                        <a href="service-list.php">List</a>
+                        <a href="service-list.php">Register</a>
                     </li>
                 </ul>
             </li>

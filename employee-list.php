@@ -7,7 +7,7 @@
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="javascript: void(0);">Safety</a></li>
                         <li class="breadcrumb-item"><a href="javascript: void(0);">Employee</a></li>
-                        <li class="breadcrumb-item active">List</li>
+                        <li class="breadcrumb-item active">Register</li>
                     </ol>
                 </div>
                 <h4 class="page-title">Employee list</h4>

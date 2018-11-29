@@ -96,9 +96,12 @@
 
                         <div class="form-group col-md-6">
                             <label>Owner Operator Name</label>
-                            <input type="text" id="owneroperatorname" class="form-control">
+                            <select class="form-control" id="owneroperator" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
                         </div>
-
                     </div>
 
                     <div class="row">
@@ -110,92 +113,86 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Warning #</label>
-                            <input type="text" id="warningnumber" class="form-control">
+                            <label>Verbal Warning</label>
+                            <select class="form-control" id="verbalwarning" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
                         </div>
 
                     </div>
 
                     <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Veral Warning</label>
-                            <input type="text" id="verbalwarning" class="form-control">
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>First Written Warning</label>
-                            <input type="text" id="firstwrittenwarning" class="form-control">
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Second Written Warning</label>
-                            <input type="text" id="secondwrittenwarning" class="form-control">
-                        </div>
 
                         <div class="form-group col-md-6">
                             <label>Final Written Warning</label>
-                            <input type="text" id="finalwrittenwarning" class="form-control">
+                            <select class="form-control" id="finalwrittenwarning" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
                         </div>
-
-                    </div>
-
-                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label>Tardiness/Leaving Early</label>
                             <input type="text" id="tardiness" class="form-control">
                         </div>
 
+                    </div>
+
+                    <div class="row">
+
                         <div class="form-group col-md-6">
                             <label>Absenteeism</label>
                             <input type="text" id="absenteeism" class="form-control">
                         </div>
-
-                    </div>
-
-                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label>Violation of Safety Rules</label>
                             <input type="text" id="violationofsafetyrules" class="form-control">
                         </div>
 
+                    </div>
+
+                    <div class="row">
+
                         <div class="form-group col-md-6">
                             <label>Rudeness to Customers</label>
                             <input type="text" id="rudenesstocustomers" class="form-control">
                         </div>
-
-                    </div>
-
-                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label>Vehicle Cleanliness</label>
                             <input type="text" id="cehiclecleanliness" class="form-control">
                         </div>
 
+                    </div>
+
+                    <div class="row">
+
                         <div class="form-group col-md-6">
                             <label>DOT Violations (HOS, F+M, etc)</label>
                             <input type="text" id="dotviolations" class="form-control">
                         </div>
-
-                    </div>
-
-                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label for="descriptionofinfraction">Description of Infraction</label>
                             <textarea class="form-control" id="descriptionofinfraction" rows="3"></textarea>
                         </div>
 
+                    </div>
+
+                    <div class="row">
+
                         <div class="form-group col-md-6">
                             <label for="planforimprovement">Plan for Improvement</label>
                             <textarea class="form-control" id="planforimprovement" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="consequencesoffurtherinfractions">Consequences of Further Infractions</label>
+                            <textarea class="form-control" id="consequencesoffurtherinfractions" rows="3"></textarea>
                         </div>
 
                     </div>
@@ -203,8 +200,16 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="consequencesoffurtherinfractions">Consequences of Further Infractions</label>
-                            <textarea class="form-control" id="consequencesoffurtherinfractions" rows="3"></textarea>
+                            <label for="typeofviolation">Type of Violation</label>
+                            <select class="form-control" id="typeofviolation" multiple data-toggle="select2">
+                                <option>Tardiness/Leaving Early</option>
+                                <option>Absenteeism</option>
+                                <option>Violation of Safety Rules</option>
+                                <option>Rudeness to Customers</option>
+                                <option>Vehicle Cleanliness</option>
+                                <option>DOT Violations (HOS, F+M, etc)</option>
+                                <option>Others</option>
+                            </select>
                         </div>
 
                     </div>
