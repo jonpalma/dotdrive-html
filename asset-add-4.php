@@ -6,10 +6,10 @@
         <thead class="thead-dark">
         <tr>
             <th>Id</th>
-            <th>Date</th>
-            <th>Case Name</th>
-            <th>Claim No.</th>
-            <th>Advance</th>
+            <th>VIN #</th>
+            <th>Assigned Trailer #</th>
+            <th>Driver</th>
+            <th>Title Holder</th>
             <th>Status</th>
             <th>Job title</th>
             <th></th>
@@ -18,9 +18,9 @@
         <tbody>
         <tr>
             <td><a href="#">#10</a></td>
-            <td>01/11/2018</td>
-            <td>Accident 1</td>
-            <td>800HOO332</td>
+            <td>0118</td>
+            <td> 1</td>
+            <td>James</td>
             <td>
                 <div class="progress progress-sm">
                     <div class="progress-bar progress-lg bg-success" role="progressbar" style="width: 100%"
@@ -28,7 +28,7 @@
                 </div>
             </td>
             <td><i class="mdi mdi-circle text-success"></i> Complete</td>
-            <td>LLD</td>
+            <td>LRE</td>
             <td>
                 <div class="dropdown">
                     <a href="#" class="" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"

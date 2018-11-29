@@ -6,10 +6,10 @@
         <thead class="thead-dark">
         <tr>
             <th>Id</th>
-            <th>Date</th>
-            <th>Case Name</th>
-            <th>Claim No.</th>
-            <th>Advance</th>
+            <th>Employee Operator</th>
+            <th>State Operator</th>
+            <th>Start Usage Date</th>
+            <th>End Usage Date</th>
             <th>Status</th>
             <th>Job title</th>
             <th></th>
