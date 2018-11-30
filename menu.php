@@ -41,7 +41,7 @@
                     </li>
 
                     <li>
-                        <a href="#">Aplications</a>
+                        <a href="employee-application.php">Applications</a>
                     </li>
                 </ul>
             </li>
