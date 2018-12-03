@@ -21,7 +21,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="table-responsive-sm">
-                                    <table class="table table-responsive table-centered mb-0">
+                                    <table class="table table-centered mb-0">
                                         <thead class="thead-dark">
                                             <tr>
                                                 <th>Id</th>
