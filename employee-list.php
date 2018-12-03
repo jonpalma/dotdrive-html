@@ -26,16 +26,10 @@
                                             <tr>
                                                 <th>Id</th>
                                                 <th>Driver</th>
-                                                <th>Application</th>
-                                                <th>CDL</th>
-                                                <th>MVR</th>
-                                                <th>Road</th>
-                                                <th>Certification</th>
-                                                <th>Drug test</th>
                                                 <th>Start day</th>
                                                 <th>Last day</th>
+                                                <th>DQ Files</th>
                                                 <th>Status</th>
-                                                <th></th>
                                                 <th></th>
                                             </tr>
                                         </thead>
@@ -44,19 +38,24 @@
                                                 <td><a href="#">#10</a></td>
                                                 <td>Juan Perez</td>
                                                 <td>01/11/2018</td>
-                                                <td>01/11/2018</td>
-                                                <td>01/11/2018</td>
-                                                <td>01/11/2018</td>
-                                                <td>01/11/2018</td>
-                                                <td>01/11/2018</td>
-                                                <td>01/11/2018</td>
-                                                <td>01/11/2018</td>
+                                                <td><i class="mdi mdi-circle text-success"></i> Active</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Application: 01/11/2018</li>
+                                                        <li>CDL: 01/11/2018</li>
+                                                        <li>MVR: 01/11/2018</li>
+                                                        <li><span style="color: #f00">Road Test:</span></li>
+                                                        <li>Road Test Certificate: 01/11/2018</li>
+                                                        <li>Drug test: 01/11/2018</li>
+                                                        <li>Medical Certificate: 01/11/2018</li>
+                                                        <li>Safety Performance Investigation: 01/11/2018</li>
+                                                    </ul>
+                                                </td>
                                                 <td>
                                                     <div class="progress progress-sm">
-                                                        <div class="progress-bar progress-lg bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div class="progress-bar progress-lg bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60"></div>
                                                     </div>
                                                 </td>
-                                                <td><i class="mdi mdi-circle text-success"></i> Complete</td>
                                                 <td>
                                                     <div class="dropdown">
                                                       <a href="#" class="" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

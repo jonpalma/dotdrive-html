@@ -25,13 +25,13 @@
             <label>DOT Inspection Due</label>
         </div>
 
-        <div class="form-group col-6">
+        <div class="form-group col-4">
             <input type="text" class="form-control date" id="dotinspectiondue" data-toggle="date-picker"
                    data-single-date-picker="true">
         </div>
 
-        <div class="form-group col-2 text-center">
-            <a href="#docs-modal" role="button" data-toggle="modal" data-target="#docs-modal" class="mdi mdi-file"></a>
+        <div class="form-group col-4 text-center">
+            <a href="#docs-modal" role="button" data-toggle="modal" data-target="#docs-modal" class="">Texto del documento.docs</a>
         </div>
 
     </div>

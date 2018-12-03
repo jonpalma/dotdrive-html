@@ -31,6 +31,7 @@
                                                 <th>Yaer</th>
                                                 <th>Plate</th>
                                                 <th>VIN</th>
+                                                <th>DOT Paperwork</th>
                                                 <th></th>
                                             </tr>
                                         </thead>
@@ -43,6 +44,15 @@
                                                 <td>2018</td>
                                                 <td>QW3434</td>
                                                 <td>ASDFQER2345523423</td>
+                                                <td>
+                                                    <ul> <!-- PODER DESCARGAR -->
+                                                        <li><a href="#">Cab Card  </a></li>
+                                                        <li><a href="#">Annual Inspectiona </a></li>
+                                                        <li><a href="#">Overweight  </a></li>
+                                                        <li><a href="#">Heavy Highway Tax Expiraa  </a></li>
+                                                        <li><a href="#">Hazmat Expirationa </a></li>
+                                                    </ul>
+                                                </td>
                                                 <td>
                                                     <div class="dropdown">
                                                       <a href="#" class="" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
