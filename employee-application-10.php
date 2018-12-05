@@ -30,7 +30,12 @@
                             <h4>License information</h4>
 
                             <p>
-                                DOT regulations require us to obtain the names and addresses of all your employers/contractors for the past 10 years. For the 7 years preceding the last 3 years, we need the name and address of the employers/contractors for which you were the operator of a commercial motor vehicle. For each employer/contractor provided under these requirements, we must have the dates of employment/contract and the reason for leaving.
+                                DOT regulations require us to obtain the names and addresses of all your
+                                employers/contractors for the past 10 years. For the 7 years preceding the last 3 years,
+                                we need the name and address of the employers/contractors for which you were the
+                                operator of a commercial motor vehicle. For each employer/contractor provided under
+                                these requirements, we must have the dates of employment/contract and the reason for
+                                leaving.
 
                             </p>
 

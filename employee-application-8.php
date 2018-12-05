@@ -28,7 +28,8 @@
                         <div class="row">
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>Have you attended a school (not related to truck driving) in the last 10 Years?     </label>
+                                <label>Have you attended a school (not related to truck driving) in the last 10
+                                    Years?</label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
                                     <option>Yes</option>
@@ -37,7 +38,7 @@
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>If YES, enter name:  </label> 
+                                <label>If YES, enter name: </label>
                                 <input type="text" id="street1" class="form-control" required>
                             </div>
 

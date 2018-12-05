@@ -29,25 +29,24 @@
 
                         <hr class="mb-4">
 
-                            <p>
-Thank you for applying for a position at S&R Express Inc. We are currently hiring CDL Drivers in El Paso, TX. <br><br>
+                        <p>
+                            Thank you for applying for a position at S&R Express Inc. We are currently hiring CDL
+                            Drivers in El Paso, TX. <br><br>
+                            To qualify with the S and R Express Inc, you must meet the following criteria:
 
-                                To qualify with the S and R Express Inc, you must meet the following criteria:
 
-                                
+                        </p>
 
-                            </p>
-  
-                            </p>
+                        </p>
 
-                                <ul>
-                                    <li>Social Security Number</li>
-                                    <li>Home Address history for the past 3 years</li>
-                                    <li>Current drivers license number and drivers license history for the past 3 years</li>
-                                    <li>Employment history for the past 10 years</li>
-                                    <li>History of traffic accidents, violation and/or convictions from the last 3 years</li>
+                        <ul>
+                            <li>Social Security Number</li>
+                            <li>Home Address history for the past 3 years</li>
+                            <li>Current drivers license number and drivers license history for the past 3 years</li>
+                            <li>Employment history for the past 10 years</li>
+                            <li>History of traffic accidents, violation and/or convictions from the last 3 years</li>
 
-                                </ul>
+                        </ul>
 
 
                         <div class="row">

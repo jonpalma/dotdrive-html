@@ -193,7 +193,8 @@
                             <div class="form-group col-lg-3 col-md-6">
                                 <div class="custom-control custom-checkbox">
                                     <input type="checkbox" class="custom-control-input" id="residencetime">
-                                    <label class="custom-control-label" for="residencetime">Residence address for 3 or more years?</label>
+                                    <label class="custom-control-label" for="residencetime">Residence address for 3 or
+                                        more years?</label>
                                 </div>
                             </div>
 
@@ -228,7 +229,8 @@
 
                             <div class="form-group col-lg-3 col-md-6">
                                 <label for="confirmemail">Confirm Email Address</label>
-                                <input type="email" id="confirmemail" name="confirmemail" class="form-control" placeholder="Email">
+                                <input type="email" id="confirmemail" name="confirmemail" class="form-control"
+                                       placeholder="Email">
                             </div>
 
                             <div class="form-group col-lg-3 col-md-6">

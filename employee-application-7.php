@@ -28,7 +28,7 @@
                         <div class="row">
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>Have you attended a Driver Training school?    </label>
+                                <label>Have you attended a Driver Training school?</label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
                                     <option>Yes</option>

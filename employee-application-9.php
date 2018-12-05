@@ -36,7 +36,7 @@
                         <div class="row">
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>Have you been unemployed at any time within the last 10 years?        </label>
+                                <label>Have you been unemployed at any time within the last 10 years?</label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
                                     <option>Yes</option>
