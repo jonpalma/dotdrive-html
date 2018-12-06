@@ -125,6 +125,28 @@
                             </select>
                         </div>
 
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>If referral or other, please name</label>
+                            <input type="text" class="form-control date" id="referral">
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Emergency contact name</label>
+                            <input type="text" class="form-control date" id="emergencyname">
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Emergency address</label>
+                            <input type="text" class="form-control date" id="emergencyaddress">
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Emergency Phone</label>
+                            <input type="text" class="form-control" data-toggle="input-mask"
+                                   data-mask-format="(000) 000-0000" maxlength="14">
+                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
+                        </div>
+
                     </div>
 
                     <label>
@@ -136,25 +158,124 @@
                     <div class="row">
 
                         <div class="form-group col-lg-6 col-md-6">
-                            <label>Straight Truck </label>
-                            <input type="text" class="form-control date" id="" required>
+                            <label>* Straight Truck</label>
+                            <textarea class="form-control" id="truck" rows="3" required></textarea>
                         </div>
+
                         <div class="form-group col-lg-6 col-md-6">
-                            <label>Tractor and Semi-Trailer </label>
-                            <input type="text" class="form-control date" id="" required>
+                            <label>* Tractor and Semi-Trailer</label>
+                            <textarea class="form-control" id="tractorsemi" rows="3" required></textarea>
                         </div>
+
                         <div class="form-group col-lg-6 col-md-6">
-                            <label>Tractor - Two Trailers </label>
-                            <select class="form-control" id="suffix" required>
+                            <label>* Tractor - Two Trailers</label>
+                            <textarea class="form-control" id="tractortwo" rows="3" required></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Other</label>
+                            <textarea class="form-control" id="other" rows="3" required></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Which safe driving awards do you hold and from whom?</label>
+                            <textarea class="form-control" id="awards" rows="3"></textarea>
+                        </div>
+
+                    </div>
+
+                    <hr class="mb-4">
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h4 class="page-title">Equipment(Owner/Operators Only)</h4>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Type</label>
+                            <textarea class="form-control" id="equipmenttype" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Year</label>
+                            <textarea class="form-control" id="equipmentyear" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Make</label>
+                            <textarea class="form-control" id="equipmentmake" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Model</label>
+                            <textarea class="form-control" id="equipmentmodel" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Color</label>
+                            <textarea class="form-control" id="equipmentcolor" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>VIN</label>
+                            <textarea class="form-control" id="equipmentvin" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Weight</label>
+                            <textarea class="form-control" id="equipmentweight" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Mileage</label>
+                            <textarea class="form-control" id="equipmentmileage" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Fifth wheel height</label>
+                            <textarea class="form-control" id="equipmentfifthwheel" rows="3"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h4 class="page-title">Education</h4>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>List last highest grade completed</label>
+                            <select class="form-control" id="educationgrade">
                                 <option selected disabled></option>
-                                <option>Yes</option>
-                                <option>No</option>
                             </select>
                         </div>
+
                         <div class="form-group col-lg-6 col-md-6">
-                            <label>Other </label>
-                            <input type="text" class="form-control date" id="">
+                            <label>List last school attended (name, city and state)</label>
+                            <textarea class="form-control" id="lastschool" rows="3"></textarea>
                         </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h4 class="page-title">Personal References</h4>
+                            <i>List name, address, city, state, phone, number and relationship</i>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-12">
+                            <label>First reference</label>
+                            <textarea class="form-control" id="reference1" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-12">
+                            <label>Second reference</label>
+                            <textarea class="form-control" id="reference2" rows="3"></textarea>
+                        </div>
+
                     </div>
 
                     <div class="row">

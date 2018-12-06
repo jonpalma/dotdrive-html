@@ -54,11 +54,11 @@
         $('[data-single-date-picker="true"],[data-reset-val=true]').val('');
     });
 
-    enableInp = (sel, index, inpType, multi = false) => {
+    enableInp = (sel, index, inpType, multi = false, contId = null) => {
         if (!multi) {
             let cont = sel.parent().next(),
                 inp = cont.find(inpType);
-            if (sel.prop('selectedIndex') === index) {
+            if (sel.prop('selectedIndex') === index || !index) {
                 cont.removeClass('d-none');
                 inp.prop('disabled', false);
             } else {
@@ -66,13 +66,16 @@
                 inp.prop('disabled', true);
             }
         } else {
-            let cont = sel.parent().parent().next();
-            if (sel.prop('selectedIndex') === index) {
-                console.log(cont);
+            let cont = '';
+            if(contId)
+                cont = $('#'+contId);
+            else
+                cont = sel.parent().parent().next();
+
+            if (sel.prop('selectedIndex') === index || !index) {
                 cont.removeClass('d-none');
                 cont.find('[disabled]').addClass('not-dis').prop('disabled', false);
             } else {
-                console.log('not');
                 cont.addClass('d-none');
                 cont.find('.not-dis').removeClass('not-dis').prop('disabled', true);
             }
