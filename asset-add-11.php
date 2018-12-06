@@ -57,13 +57,13 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Purchase Date</label>
+                            <label>* Purchase Date</label>
                             <input type="text" class="form-control date" id="purchasedate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Part Name</label>
+                            <label>* Part Name</label>
                             <input type="text" id="partname" class="form-control" required>
                         </div>
 
@@ -95,7 +95,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Quantity</label>
+                            <label>* Quantity</label>
                             <input type="text" id="quantity" class="form-control" value="0.00" required>
                         </div>
 
@@ -104,7 +104,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Unit Price</label>
+                            <label>* Unit Price</label>
                             <input type="text" id="unitprice" class="form-control" value="$0.00" required>
                         </div>
 

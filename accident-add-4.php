@@ -63,7 +63,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Away From Work</label>
+                            <label for="example-select">* Away From Work</label>
                             <select class="form-control" id="awayfromwork" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -72,7 +72,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">On Job Transfer/Restriction</label>
+                            <label for="example-select">* On Job Transfer/Restriction</label>
                             <select class="form-control" id="onjobtransfer" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -85,7 +85,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Employer paid for los time on day of injury</label>
+                            <label for="example-select">* Employer paid for los time on day of injury</label>
                             <select class="form-control" id="employerpaidforlosttime" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -105,7 +105,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="example-select">Privacy Case</label>
+                            <label for="example-select">* Privacy Case</label>
                             <select class="form-control" id="privacycase" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -235,7 +235,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Start Date</label>
+                            <label>* Start Date</label>
                             <input type="text" class="form-control date" id="startdate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
@@ -287,7 +287,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Start Date</label>
+                            <label>* Start Date</label>
                             <input type="text" class="form-control date" id="startdate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
@@ -344,7 +344,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Start Date</label>
+                            <label>* Start Date</label>
                             <input type="text" class="form-control date" id="startdate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>

@@ -55,13 +55,13 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Service Date</label>
+                            <label>* Service Date</label>
                             <input type="text" class="form-control date" id="servicedate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Work Performed</label>
+                            <label>* Work Performed</label>
                             <select class="form-control" id="workperformed" required>
                                 <option selected disabled></option>
                                 <option>Internally</option>
@@ -88,7 +88,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-12">
-                            <label for="descriptionofservice">Description of Service</label>
+                            <label for="descriptionofservice">* Description of Service</label>
                             <textarea class="form-control" id="descriptionofservice" rows="3" required></textarea>
                         </div>
 
@@ -109,7 +109,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Odometer Reading</label>
+                            <label>* Odometer Reading</label>
                             <input type="text" id="odometerreading" class="form-control" required>
                         </div>
 
@@ -171,7 +171,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Tax</label>
+                            <label>* Tax</label>
                             <input type="text" id="tax" class="form-control" required>
                         </div>
 
@@ -209,7 +209,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-12">
-                            <label for="notes">Notes</label>
+                            <label for="notes">* Notes</label>
                             <textarea class="form-control" id="notes" rows="3" required></textarea>
                         </div>
 

@@ -50,7 +50,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Type</label>
+                            <label>* Type</label>
                             <select class="form-control" id="type" required>
                                 <option selected disabled></option>
                                 <option>I-9</option>
@@ -60,7 +60,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Status</label>
+                            <label>* Status</label>
                             <select class="form-control" id="status" required>
                                 <option selected disabled></option>
                                 <option>Grandfathered</option>
@@ -75,7 +75,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Completed Date</label>
+                            <label>* Completed Date</label>
                             <input type="text" class="form-control date" id="completeddate"
                                    data-toggle="date-picker" data-single-date-picker="true" required>
                         </div>

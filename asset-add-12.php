@@ -75,7 +75,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="weathercondition">Weather Condition</label>
+                            <label for="weathercondition">* Weather Condition</label>
                             <select class="form-control" id="weathercondition" required>
                                 <option selected="selected" value=""></option>
                                 <option>Clear</option>
@@ -90,7 +90,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="accidentdetails">Accident Report</label>
+                            <label for="accidentdetails">* Accident Report</label>
                             <textarea class="form-control" id="accidentdetails" rows="3" required></textarea>
                         </div>
 
@@ -104,7 +104,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="accidentlocation">Accident Location</label>
+                            <label for="accidentlocation">* Accident Location</label>
                             <textarea class="form-control" id="accidentlocation" rows="3" required></textarea>
                         </div>
 
@@ -250,7 +250,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="witnessaddress">Witness Address</label>
+                            <label for="witnessaddress">* Witness Address</label>
                             <textarea class="form-control" id="witnessaddress" rows="3" required></textarea>
                         </div>
 
@@ -277,7 +277,7 @@
 
                         <div class="form-group col-md-6">
                             <label for="additionalwitnessaddress">Additional Witness Address</label>
-                            <textarea class="form-control" id="additionalwitnessaddress" rows="3" required></textarea>
+                            <textarea class="form-control" id="additionalwitnessaddress" rows="3"></textarea>
                         </div>
 
                         <div class="form-group col-md-6">

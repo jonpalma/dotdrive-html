@@ -50,14 +50,14 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Violation Date</label>
+                            <label>* Violation Date</label>
                             <input type="text" class="form-control date" id="violationdate"
                                    data-toggle="date-picker" data-single-date-picker="true"
                                    required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="violationdescription">Violation Description</label>
+                            <label for="violationdescription">* Violation Description</label>
                             <textarea class="form-control" id="violationdescription" rows="3" required></textarea>
                         </div>
 

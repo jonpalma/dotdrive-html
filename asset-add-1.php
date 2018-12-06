@@ -5,12 +5,12 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Asset ID</label>
+            <label>*  Asset ID</label>
             <input type="text" id="assetid" class="form-control" required>
         </div>
 
         <div class="form-group col-md-6">
-            <label>Name</label>
+            <label>*  Name</label>
             <input type="text" id="name" class="form-control" required>
         </div>
 
@@ -19,7 +19,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label for="example-select">Asset Type</label>
+            <label for="example-select">* Asset Type</label>
             <select class="form-control" id="assettype" required>
                 <option>Box Truck</option>
                 <option>Car</option>
@@ -31,7 +31,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label for="example-select">Location</label>
+            <label for="example-select">* Location</label>
             <select class="form-control" id="location" required>
                 <option>S and R Express Inc</option>
             </select>

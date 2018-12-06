@@ -58,7 +58,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Medical Exam</label>
+                            <label>* Medical Exam</label>
                             <select class="form-control" id="medicalexam" required>
                                 <option selected disabled></option>
                                 <option>DOT Physical</option>

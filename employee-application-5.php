@@ -29,7 +29,7 @@
                         <div class="row">
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>Were you ever in the military?</label>
+                                <label>* Were you ever in the military?</label>
                                 <select class="form-control" id="military" required>
                                     <option selected disabled></option>
                                     <option>Yes</option>
@@ -46,7 +46,7 @@
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>Branch of Service</label>
+                                <label>* Branch of Service</label>
                                 <select class="form-control" id="branch" required disabled>
                                     <option selected disabled></option>
                                     <option>Air Force</option>
@@ -59,24 +59,24 @@
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6 d-none">
-                                <label>Start date</label>
+                                <label>* Start date</label>
                                 <input type="text" class="form-control date" id="startdate" data-toggle="date-picker"
                                        data-single-date-picker="true" required disabled>
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6 d-none">
-                                <label>End date</label>
+                                <label>* End date</label>
                                 <input type="text" class="form-control date" id="enddate" data-toggle="date-picker"
                                        data-single-date-picker="true" required disabled>
                             </div>
 
                             <div class="form-group col-lg-3 col-md-6">
-                                <label>Rank at discharge</label>
+                                <label>* Rank at discharge</label>
                                 <input type="text" id="rank" class="form-control" required disabled>
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>Can you obtain your DD214?</label>
+                                <label>* Can you obtain your DD214?</label>
                                 <select class="form-control" id="dd214" required disabled>
                                     <option selected disabled></option>
                                     <option>Yes</option>
@@ -85,7 +85,7 @@
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>Did you have a honorable discharge?</label>
+                                <label>* Did you have a honorable discharge?</label>
                                 <select class="form-control" id="discharge" required disabled>
                                     <option selected disabled></option>
                                     <option>Yes</option>
@@ -94,7 +94,7 @@
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6 d-none">
-                                <label for="dischargeexplain">Please Explain</label>
+                                <label for="dischargeexplain">* Please Explain</label>
                                 <textarea class="form-control" id="dischargeexplain" rows="3" required
                                           disabled></textarea>
                             </div>

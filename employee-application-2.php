@@ -28,7 +28,7 @@
                         <div class="row">
 
                             <div class="form-group col-lg-4 col-md-6">
-                                <label for="position">What position are you applying for?</label>
+                                <label for="position">* What position are you applying for?</label>
                                 <select class="form-control" id="position" required>
                                     <option selected disabled></option>
                                     <option title="Do you have a Commercial Drivers License (CDL) and want to drive CDL vehicles? CLICK HERE">
@@ -56,12 +56,12 @@
                         <div class="row">
 
                             <div class="form-group col-lg-3 col-md-6">
-                                <label>* First Name</label>
+                                <label>*   First Name</label>
                                 <input type="text" id="firstname" class="form-control" required>
                             </div>
 
                             <div class="form-group col-lg-3 col-md-6">
-                                <label>Middle Name</label>
+                                <label>* Middle Name</label>
                                 <input type="text" id="middlename" class="form-control" required>
                             </div>
 
@@ -71,7 +71,7 @@
                             </div>
 
                             <div class="form-group col-lg-3 col-md-6">
-                                <label for="suffix">Suffix</label>
+                                <label for="suffix">* Suffix</label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
                                     <option>Jr.</option>

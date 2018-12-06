@@ -50,7 +50,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="trainingclass">Training Class</label>
+                            <label for="trainingclass">* Training Class</label>
                             <select class="form-control" id="trainingclass" required>
                                 <option selected disabled></option>
                             </select>

@@ -52,14 +52,14 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Expiration Date</label>
+                            <label>* Expiration Date</label>
                             <input type="text" class="form-control date" id="expirationdate"
                                    data-toggle="date-picker" data-single-date-picker="true"
                                    required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="type">Type</label>
+                            <label for="type">* Type</label>
                             <select class="form-control" id="type" required>
                                 <option selected disabled></option>
                                 <option>CDL</option>
@@ -138,7 +138,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>License Number</label>
+                            <label>* License Number</label>
                             <input type="text" id="licensenumber" class="form-control" required>
                         </div>
 

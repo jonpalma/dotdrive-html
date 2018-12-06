@@ -53,7 +53,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="assetoperated">Asset Operated</label>
+                            <label for="assetoperated">* Asset Operated</label>
                             <select class="form-control" id="assetoperated" required>
                                 <option selected="selected" value=""></option>
                                 <option>Owner 3 (3)</option>
@@ -141,7 +141,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Start Usage Date</label>
+                            <label>* Start Usage Date</label>
                             <input type="text" class="form-control date" id="startusagedate"
                                    data-toggle="date-picker" data-single-date-picker="true"
                                    required>
@@ -180,7 +180,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>End Usage Date</label>
+                            <label>* End Usage Date</label>
                             <input type="text" class="form-control date" id="endusagedate"
                                    data-toggle="date-picker" data-single-date-picker="true"
                                    required>

@@ -52,7 +52,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>License Name</label>
+                            <label>* License Name</label>
                             <input type="text" id="licensename" class="form-control" required>
                         </div>
 

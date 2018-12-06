@@ -3,7 +3,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Accident Date</label>
+            <label>* Accident Date</label>
             <input type="text" class="form-control date" id="accidentdate" data-toggle="date-picker"
                    data-single-date-picker="true" required>
         </div>
@@ -24,7 +24,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label for="accidentdescription">Accident Description</label>
+            <label for="accidentdescription">* Accident Description</label>
             <textarea class="form-control" id="accidentdescription" rows="3" required></textarea>
         </div>
 
@@ -58,7 +58,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label for="example-select">Agent of Loss Group</label>
+            <label for="example-select">* Agent of Loss Group</label>
             <select class="form-control" id="agentoflossgroup" required>
                 <option selected disabled></option>
                 <option>Animal, Plant or Human Agents</option>
@@ -86,7 +86,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label for="example-select">Benefit State</label>
+            <label for="example-select">* Benefit State</label>
             <select class="form-control" id="benefitstate" required>
                 <option selected disabled></option>
                 <option>Alabama</option>
@@ -153,7 +153,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label>Employer's Premises</label>
+            <label>* Employer's Premises</label>
             <select class="form-control" id="employerpremises" required>
                 <option selected disabled></option>
                 <option>Yes</option>
@@ -185,7 +185,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label>State</label>
+            <label>* State</label>
             <select class="form-control" id="state" required>
                 <option selected disabled></option>
                 <option>Alabama</option>
@@ -273,7 +273,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label>Authority Contacted</label>
+            <label>* Authority Contacted</label>
             <select class="form-control" id="authoritycontacted" required>
                 <option selected disabled></option>
                 <option>Yes</option>
@@ -286,7 +286,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Violation Issues</label>
+            <label>* Violation Issues</label>
             <select class="form-control" id="violationissues" required>
                 <option selected disabled></option>
                 <option>Yes</option>
@@ -295,7 +295,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label>Injury on Insured Premises</label>
+            <label>* Injury on Insured Premises</label>
             <select class="form-control" id="injuryonisuredpremises" required>
                 <option selected disabled></option>
                 <option>Yes</option>
@@ -317,7 +317,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label>Date & Time of Accident</label>
+            <label>* Date & Time of Accident</label>
             <input type="text" class="form-control date" id="dateandtimeofaccident" data-toggle="date-picker"
                    data-single-date-picker="true" required>
         </div>
@@ -387,7 +387,7 @@
     <div class="row">
 
         <div class="form-group col-md-4">
-            <label>Date of Accident</label>
+            <label>* Date of Accident</label>
             <input type="text" class="form-control date" id="dateofaccident" data-toggle="date-picker"
                    data-single-date-picker="true" required>
         </div>
@@ -1081,7 +1081,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Date</label>
+            <label>* Date</label>
             <input type="text" class="form-control date" id="notifieddate" data-toggle="date-picker"
                    data-single-date-picker="true" required>
         </div>

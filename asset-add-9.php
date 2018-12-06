@@ -55,12 +55,12 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Preventive Maintenance Name</label>
+                            <label>* Preventive Maintenance Name</label>
                             <input type="text" id="preventivemaintenancename" class="form-control" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Last PM Performed</label>
+                            <label>* Last PM Performed</label>
                             <input type="text" class="form-control date" id="lastpmperformed" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
@@ -84,7 +84,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>PM Interval</label>
+                            <label>* PM Interval</label>
                             <input type="text" id="pminterval" class="form-control" required>
                         </div>
 

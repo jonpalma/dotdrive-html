@@ -52,7 +52,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="reviewname">Review Name</label>
+                            <label for="reviewname">* Review Name</label>
                             <select class="form-control" id="reviewname" required>
                                 <option selected disabled></option>
                                 <option>Annual Review</option>
@@ -62,7 +62,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Review Completed</label>
+                            <label>* Review Completed</label>
                             <input type="text" class="form-control date" id="reviewcompleted"
                                    data-toggle="date-picker" data-single-date-picker="true"
                                    required>
@@ -78,7 +78,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Next Review Due</label>
+                            <label>* Next Review Due</label>
                             <input type="text" class="form-control date" id="nextreviewdue"
                                    data-toggle="date-picker" data-single-date-picker="true"
                                    required>

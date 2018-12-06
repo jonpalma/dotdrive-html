@@ -36,12 +36,12 @@
                         <div class="row">
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>License Number</label>
+                                <label>* License Number</label>
                                 <input type="text" id="street1" class="form-control" required>
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>State / Providence</label>
+                                <label>* State / Providence</label>
                                 <select class="form-control" id="state" required>
                                     <option selected disabled></option>
                                     <option>Alabama</option>
@@ -100,7 +100,7 @@
 
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>License Type </label>
+                                <label>* License Type </label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
                                     <option>NON-CDL</option>
@@ -119,7 +119,7 @@
                             </div>-->
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>Class Type</label>
+                                <label>* Class Type</label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
                                     <option>Class A</option>
@@ -129,12 +129,12 @@
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>License Expiration </label>
+                                <label>* License Expiration </label>
                                 <input type="text" class="form-control date" id="" data-toggle="date-picker"
                                        data-single-date-picker="true" required>
                             </div>
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>Is this your current driver license? </label>
+                                <label>* Is this your current driver license? </label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
                                     <option>Yes</option>

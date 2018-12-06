@@ -88,7 +88,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Start Date</label>
+                            <label>* Start Date</label>
                             <input type="text" class="form-control date" id="startdate"
                                    data-toggle="date-picker" data-single-date-picker="true"
                                    required>

@@ -10,7 +10,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label for="employeetype">Employee type</label>
+            <label for="employeetype">* Employee type</label>
             <select class="form-control" id="employeetype" required>
                 <option selected disabled></option>
                 <option>Administrative</option>
@@ -30,7 +30,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label for="employmentstatus">Employment Status</label>
+            <label for="employmentstatus">* Employment Status</label>
             <select class="form-control" id="employmentstatus" required>
                 <option selected disabled></option>
                 <option>Full-time</option>
@@ -40,7 +40,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label for="drivertype">Driver Type</label>
+            <label for="drivertype">* Driver Type</label>
             <select class="form-control" id="drivertype" required>
                 <option selected disabled></option>
                 <option>CDL</option>
@@ -54,7 +54,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Hire Date</label>
+            <label>* Hire Date</label>
             <input type="text" class="form-control date" id="hiredate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -225,12 +225,12 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>First Name</label>
+            <label>* First Name</label>
             <input type="text" id="firstname" class="form-control" required>
         </div>
 
         <div class="form-group col-md-6">
-            <label>Middle</label>
+            <label>* Middle</label>
             <input type="text" id="middlename" class="form-control" required>
         </div>
 
@@ -239,12 +239,12 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Last Name</label>
+            <label>* Last Name</label>
             <input type="text" id="lastname" class="form-control" required>
         </div>
 
         <div class="form-group col-md-6">
-            <label>Address Line 1</label>
+            <label>* Address Line 1</label>
             <input type="text" id="addressline1" class="form-control" required>
         </div>
 
@@ -258,7 +258,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label>City</label>
+            <label>* City</label>
             <input type="text" id="city" class="form-control" required>
         </div>
 
@@ -267,7 +267,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>State</label>
+            <label>* State</label>
             <select class="form-control select2" id="state" required data-toggle="select2">
                 <option selected disabled></option>
                 <option>Alabama</option>
@@ -325,7 +325,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label>Zip Code</label>
+            <label>* Zip Code</label>
             <input type="text" id="zipcode" class="form-control" required>
         </div>
 
@@ -334,7 +334,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Date of Birth</label>
+            <label>* Date of Birth</label>
             <input type="text" class="form-control date" id="dateofbirth"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>

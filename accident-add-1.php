@@ -3,13 +3,13 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Claim Date</label>
+            <label>* Claim Date</label>
             <input type="text" class="form-control date" id="claimdate" data-toggle="date-picker"
                    data-single-date-picker="true" required>
         </div>
 
         <div class="form-group col-md-6">
-            <label>Case Name</label>
+            <label>* Case Name</label>
             <input type="text" id="casename" class="form-control" required>
         </div>
 
@@ -18,12 +18,12 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Case Number</label>
+            <label>* Case Number</label>
             <input type="text" id="casenumber" class="form-control" required>
         </div>
 
         <div class="form-group col-md-6">
-            <label for="example-select">Privacy Case</label>
+            <label for="example-select">* Privacy Case</label>
             <select class="form-control" id="privacycase" required>
                 <option selected disabled></option>
                 <option>Yes</option>
@@ -36,7 +36,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Date of Injury / Onset of Illness</label>
+            <label>* Date of Injury / Onset of Illness</label>
             <input type="text" class="form-control date" id="dateofinjury" data-toggle="date-picker"
                    data-single-date-picker="true" required>
         </div>
@@ -111,12 +111,12 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>Completed By:</label>
+            <label>* Completed By:</label>
             <input type="text" id="completedby" class="form-control" required>
         </div>
 
         <div class="form-group col-md-6">
-            <label>Title</label>
+            <label>* Title</label>
             <input type="text" id="title" class="form-control" required>
         </div>
 
@@ -125,7 +125,7 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>US Telephone</label>
+            <label>* US Telephone</label>
             <input type="text" class="form-control" data-toggle="input-mask"
                    data-mask-format="(000) 000-0000" maxlength="14" required>
             <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>

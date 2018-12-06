@@ -56,12 +56,12 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Warranty Terms</label>
+                            <label>* Warranty Terms</label>
                             <input type="text" id="warrantyterms" class="form-control" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Warranty Start Date</label>
+                            <label>* Warranty Start Date</label>
                             <input type="text" class="form-control date" id="warrantystartdate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
@@ -77,7 +77,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Odometer Reading</label>
+                            <label>* Odometer Reading</label>
                             <input type="text" id="odometerreading" class="form-control" required>
                         </div>
 
@@ -86,12 +86,12 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Number of Miles Covered</label>
+                            <label>* Number of Miles Covered</label>
                             <input type="text" id="numberofmilescovered" class="form-control" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Number of Hours Covered</label>
+                            <label>* Number of Hours Covered</label>
                             <input type="text" id="numberofhourscovered" class="form-control" required>
                         </div>
 
@@ -118,7 +118,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Purchase Price</label>
+                            <label>* Purchase Price</label>
                             <input type="text" id="purchaseprice" class="form-control" required>
                         </div>
 

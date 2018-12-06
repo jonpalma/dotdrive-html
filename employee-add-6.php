@@ -5,7 +5,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -16,7 +16,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -35,7 +35,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -65,7 +65,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -76,7 +76,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -95,7 +95,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -106,7 +106,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -125,7 +125,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -136,7 +136,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -155,7 +155,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -166,7 +166,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -185,7 +185,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -196,7 +196,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -215,7 +215,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -226,7 +226,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -245,7 +245,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -256,7 +256,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -275,7 +275,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -286,7 +286,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
@@ -306,7 +306,7 @@
     <div class="row">
 
         <div class="form-group col-md-5">
-            <label for="status">Status</label>
+            <label for="status">* Status</label>
             <select class="form-control" id="status" required>
                 <option selected disabled></option>
                 <option>Grandfathered</option>
@@ -317,7 +317,7 @@
         </div>
 
         <div class="form-group col-md-5">
-            <label>Completed Date</label>
+            <label>* Completed Date</label>
             <input type="text" class="form-control date" id="completeddate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>

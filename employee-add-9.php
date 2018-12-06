@@ -56,14 +56,14 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Inspection Date</label>
+                            <label>* Inspection Date</label>
                             <input type="text" class="form-control date" id="inspectiondate"
                                    data-toggle="date-picker" data-single-date-picker="true"
                                    required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Inspection State</label>
+                            <label>* Inspection State</label>
                             <select class="form-control" id="inspectionstate" required>
                                 <option selected disabled></option>
                                 <option>Alabama</option>
@@ -125,7 +125,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Officer Name</label>
+                            <label>* Officer Name</label>
                             <input type="text" id="officername" class="form-control" required>
                         </div>
 
@@ -139,12 +139,12 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Road</label>
+                            <label>* Road</label>
                             <input type="text" id="road" class="form-control" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>County</label>
+                            <label>* County</label>
                             <input type="text" id="county" class="form-control" required>
                         </div>
 
@@ -153,7 +153,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>State</label>
+                            <label>* State</label>
                             <select class="form-control" id="state" required>
                                 <option selected disabled></option>
                                 <option>Alabama</option>
@@ -1680,7 +1680,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label for="assetinvolved">Asset Involved</label>
+                            <label for="assetinvolved">* Asset Involved</label>
                             <select class="form-control" id="assetinvolved" required>
                                 <option selected disabled></option>
                                 <option>Rented Vehicle</option>

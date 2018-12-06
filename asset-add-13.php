@@ -152,13 +152,13 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Start Usage Date</label>
+                            <label>* Start Usage Date</label>
                             <input type="text" class="form-control date" id="startusagedate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>End Usage Date</label>
+                            <label>* End Usage Date</label>
                             <input type="text" class="form-control date" id="endusagedate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>

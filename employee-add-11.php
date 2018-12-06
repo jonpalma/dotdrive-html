@@ -51,7 +51,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Review Name</label>
+                            <label>* Review Name</label>
                             <select class="form-control" id="reviewname" required>
                                 <option selected disabled></option>
                                 <option>Management Review</option>
@@ -61,7 +61,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Review Completed</label>
+                            <label>* Review Completed</label>
                             <input type="text" class="form-control date" id="reviewcompleted"
                                    data-toggle="date-picker" data-single-date-picker="true" required>
                         </div>
@@ -76,7 +76,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Next Review Due</label>
+                            <label>* Next Review Due</label>
                             <input type="text" class="form-control date" id="nextreviewdue"
                                    data-toggle="date-picker" data-single-date-picker="true" required>
                         </div>
@@ -90,12 +90,12 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Employee Name</label>
+                            <label>* Employee Name</label>
                             <input type="text" id="employeename" class="form-control" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Owner Operator Name</label>
+                            <label>* Owner Operator Name</label>
                             <select class="form-control" id="owneroperator" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -107,13 +107,13 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Date</label>
+                            <label>* Date</label>
                             <input type="text" class="form-control date" id="date"
                                    data-toggle="date-picker" data-single-date-picker="true" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Verbal Warning</label>
+                            <label>* Verbal Warning</label>
                             <select class="form-control" id="verbalwarning" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -126,7 +126,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Final Written Warning</label>
+                            <label>* Final Written Warning</label>
                             <select class="form-control" id="finalwrittenwarning" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>

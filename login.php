@@ -59,13 +59,13 @@
                                 <form action="#">
 
                                     <div class="form-group">
-                                        <label for="emailaddress">Email address</label>
+                                        <label for="emailaddress">* Email address</label>
                                         <input class="form-control" type="email" id="emailaddress" required="" placeholder="Enter your email">
                                     </div>
 
                                     <div class="form-group">
                                         <a href="pages-recoverpw.html" class="text-muted float-right"><small>Forgot your password?</small></a>
-                                        <label for="password">Password</label>
+                                        <label for="password">* Password</label>
                                         <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
                                     </div>
 

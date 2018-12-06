@@ -40,7 +40,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Injury/Illness Date</label>
+                            <label>* Injury/Illness Date</label>
                             <input type="text" class="form-control date" id="injurydate" data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
@@ -85,14 +85,14 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Injury/Illness Reported Date</label>
+                            <label>* Injury/Illness Reported Date</label>
                             <input type="text" class="form-control date" id="injuryreporteddate"
                                    data-toggle="date-picker"
                                    data-single-date-picker="true" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Injury/Illness Name</label>
+                            <label>* Injury/Illness Name</label>
                             <input type="text" id="injuryname" class="form-control" required>
                         </div>
 
@@ -101,12 +101,12 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Injury/Illness ID</label>
+                            <label>* Injury/Illness ID</label>
                             <input type="text" id="injuryid" class="form-control" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Employer's Premises</label>
+                            <label>* Employer's Premises</label>
                             <select class="form-control" id="employerpremises" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -214,12 +214,12 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Where the event occurred?</label>
+                            <label>* Where the event occurred?</label>
                             <textarea class="form-control" id="eventlocation" rows="3" required></textarea>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>What was the employee doing just before the incident occurred?</label>
+                            <label>* What was the employee doing just before the incident occurred?</label>
                             <textarea class="form-control" id="whatemployeeactions" rows="3" required></textarea>
                         </div>
 
@@ -228,12 +228,12 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>What happened?</label>
+                            <label>* What happened?</label>
                             <textarea class="form-control" id="whathappened" rows="3" required></textarea>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>What was the injury of illness?</label>
+                            <label>* What was the injury of illness?</label>
                             <textarea class="form-control" id="whatinury" rows="3" required></textarea>
                         </div>
 
@@ -357,7 +357,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Medical Treatment Beyond First Aid</label>
+                            <label>* Medical Treatment Beyond First Aid</label>
                             <select class="form-control" id="medicaltreatment" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -366,7 +366,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Loss of Consciousness</label>
+                            <label>* Loss of Consciousness</label>
                             <select class="form-control" id="lossofconsciousness" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -379,7 +379,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Injury/Illness Resulted in Death</label>
+                            <label>* Injury/Illness Resulted in Death</label>
                             <select class="form-control" id="resultedindeath" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -398,7 +398,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Agent of Loss Group</label>
+                            <label>* Agent of Loss Group</label>
                             <select class="form-control" id="agentoflossgroup" required>
                                 <option selected disabled></option>
                                 <option>Animal, Plant or Human Agents</option>
@@ -414,7 +414,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Injury Type</label>
+                            <label>* Injury Type</label>
                             <select class="form-control" id="injurytype" required>
                                 <option selected disabled></option>
                                 <option>Abrasion (Scrape)</option>
@@ -453,7 +453,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Injury Cause</label>
+                            <label>* Injury Cause</label>
                             <select class="form-control" id="injurycause" required>
                                 <option selected disabled></option>
                                 <option>Absorption, Ingestion, or Inhalation</option>
@@ -490,7 +490,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Did Employee Seek Medical Care</label>
+                            <label>* Did Employee Seek Medical Care</label>
                             <select class="form-control" id="seekmedicalcare" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -499,7 +499,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label>Emergency Room Visit</label>
+                            <label>* Emergency Room Visit</label>
                             <select class="form-control" id="emergencyroomvisit" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -512,7 +512,7 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Overnight Stay</label>
+                            <label>* Overnight Stay</label>
                             <select class="form-control" id="overnightstay" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
