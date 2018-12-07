@@ -25,13 +25,7 @@
                 <!-- start body content -->
                 <form action="employee-application-10.php" class="needs-validation" novalidate>
 
-                    <div class="row">
-
-                        <div class="col-12">
-                            <h4>10 - Year Employment History</h4>
-                        </div>
-
-                    </div>
+                    <h4>10 - Year Employment History</h4>
 
                     <hr class="mb-4">
 
