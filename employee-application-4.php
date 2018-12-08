@@ -41,7 +41,7 @@
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>* State / Providence</label>
+                                <label>* License State / Providence</label>
                                 <select class="form-control" id="state" required>
                                     <option selected disabled></option>
                                     <option>Alabama</option>
@@ -100,7 +100,7 @@
 
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>* License Type </label>
+                                <label>* License Type</label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
                                     <option>NON-CDL</option>
@@ -129,7 +129,7 @@
                             </div>
 
                             <div class="form-group col-lg-6 col-md-6">
-                                <label>* License Expiration </label>
+                                <label>* License Expiration Date</label>
                                 <input type="text" class="form-control date" id="" data-toggle="date-picker"
                                        data-single-date-picker="true" required>
                             </div>

@@ -39,7 +39,7 @@
                         </div>
 
                         <div class="form-group col-lg-6 col-md-6">
-                            <label>* Are you currently employed? </label>
+                            <label>* Are you currently employed?</label>
                             <select class="form-control" id="currentlyemployed" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -63,7 +63,7 @@
                         </div>
 
                         <div class="form-group col-lg-6 col-md-6">
-                            <label for="previouswork">* Have you ever worked for this company before? </label>
+                            <label for="previouswork">* Have you ever worked for this company before?</label>
                             <select class="form-control" id="previouswork" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -95,7 +95,7 @@
                         </div>
 
                         <div class="form-group col-lg-3 col-md-6">
-                            <label>* Please enter the names of any relatives employed here:</label>
+                            <label>* Please enter the names of any relatives employed here</label>
                             <input type="text" id="street1" class="form-control" required>
                         </div>
 
@@ -190,6 +190,7 @@
 
                         <div class="col-12">
                             <h4 class="page-title">Equipment(Owner/Operators Only)</h4>
+                            <i>EQUIPMENT (OWNER/OPERATORS ONLY) Equipment Description (Tractor)</i>
                         </div>
 
                         <div class="form-group col-lg-6 col-md-6">
