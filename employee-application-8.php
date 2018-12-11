@@ -22,8 +22,12 @@
             <div class="card">
                 <div class="card-body">
 
+                    <div class="progress progress-lg mb-4 mt-2">
+                        <div class="progress-bar progress-lg bg-info" role="progressbar" style="width: 42%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+                    </div>
+
                     <!-- start body content -->
-                    <form action="employee-application-9.php" class="needs-validation" novalidate>
+                    <form action="employee-application-10.php" class="needs-validation" novalidate>
 
                         <div class="row">
 

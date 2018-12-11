@@ -22,6 +22,10 @@
         <div class="card">
             <div class="card-body">
 
+                <div class="progress progress-lg mb-4 mt-2">
+                    <div class="progress-bar progress-lg bg-info" role="progressbar" style="width: 14%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+                </div>
+
                 <!-- start body content -->
                 <form action="employee-application-4.php" class="needs-validation" novalidate>
 
@@ -129,30 +133,222 @@
 
                     <label>
                         <h4 class="page-title">Driving Experience</h4>
-
-                        If no experience in a class, enter "NONE".
+                        <i>If no experience in a class, enter "NONE".</i>
                     </label>
 
                     <div class="row">
 
                         <div class="form-group col-lg-6 col-md-6">
                             <label>* Straight Truck</label>
-                            <textarea class="form-control" id="truck" rows="3" required></textarea>
+                            <select class="form-control" id="truck" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
                         </div>
+
+                        <div class="form-group col-lg-6 col-md-6 d-none" id="truckyears">
+                            <label>* Number of years</label>
+                            <select class="form-control" id="truck" required>
+                                <option selected disabled></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>Over 10</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>* Semitrailers</label>
+                            <select class="form-control" id="semi" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6 d-none" id="semiyears">
+                            <label>* Number of years</label>
+                            <select class="form-control" id="truck" required>
+                                <option selected disabled></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>Over 10</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>* Buses</label>
+                            <select class="form-control" id="buses" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6 d-none" id="busesyears">
+                            <label>* Number of years</label>
+                            <select class="form-control" id="truck" required>
+                                <option selected disabled></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>Over 10</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>* Flatbeds</label>
+                            <select class="form-control" id="flatbeds" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6 d-none" id="flatbedsyears">
+                            <label>* Number of years</label>
+                            <select class="form-control" id="truck" required>
+                                <option selected disabled></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>Over 10</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
 
                         <div class="form-group col-lg-6 col-md-6">
                             <label>* Tractor and Semi-Trailer</label>
-                            <textarea class="form-control" id="tractorsemi" rows="3" required></textarea>
+                            <select class="form-control" id="tractorsemi" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
                         </div>
+
+                        <div class="form-group col-lg-6 col-md-6 d-none" id="tractorsemiyears">
+                            <label>* Number of years</label>
+                            <select class="form-control" id="truck" required>
+                                <option selected disabled></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>Over 10</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
 
                         <div class="form-group col-lg-6 col-md-6">
                             <label>* Tractor - Two Trailers</label>
-                            <textarea class="form-control" id="tractortwo" rows="3" required></textarea>
+                            <select class="form-control" id="tractortwo" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
                         </div>
+
+                        <div class="form-group col-lg-6 col-md-6 d-none" id="tractortwoyears">
+                            <label>* Number of years</label>
+                            <select class="form-control" id="truck" required>
+                                <option selected disabled></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>Over 10</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
 
                         <div class="form-group col-lg-6 col-md-6">
                             <label>Other</label>
-                            <textarea class="form-control" id="other" rows="3" required></textarea>
+                            <select class="form-control" id="other" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-6 d-none" id="otheryears">
+                            <label>* Number of years</label>
+                            <select class="form-control" id="truck" required>
+                                <option selected disabled></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>Over 10</option>
+                            </select>
                         </div>
 
                     </div>
@@ -283,5 +479,33 @@
 
     $('#othername').change(function () {
         enableInp($(this), 1, 'input')
+    });
+
+    $('#truck').change(function () {
+        enableInp($(this), 1, 'select', false, 'truckyears')
+    });
+
+    $('#semi').change(function () {
+        enableInp($(this), 1, 'select', false, 'semiyears')
+    });
+
+    $('#buses').change(function () {
+        enableInp($(this), 1, 'select', false, 'busesyears')
+    });
+
+    $('#flatbeds').change(function () {
+        enableInp($(this), 1, 'select', false, 'flatbedsyears')
+    });
+
+    $('#tractorsemi').change(function () {
+        enableInp($(this), 1, 'select', false, 'tractorsemiyears')
+    });
+
+    $('#tractortwo').change(function () {
+        enableInp($(this), 1, 'select', false, 'tractortwoyears')
+    });
+
+    $('#other').change(function () {
+        enableInp($(this), 1, 'select', false, 'otheryears')
     });
 </script>

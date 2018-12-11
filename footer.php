@@ -58,6 +58,8 @@
         if (!multi) {
             let cont = sel.parent().next(),
                 inp = cont.find(inpType);
+            if(contId)
+                cont = $('#'+contId);
             if (sel.prop('selectedIndex') === index || !index) {
                 cont.removeClass('d-none');
                 inp.prop('disabled', false);

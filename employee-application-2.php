@@ -22,13 +22,17 @@
             <div class="card">
                 <div class="card-body">
 
+                    <div class="progress progress-lg mb-4 mt-2">
+                        <div class="progress-bar progress-lg bg-info" role="progressbar" style="width: 7%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+                    </div>
+
                     <!-- start body content -->
                     <form action="employee-application-3.php" class="needs-validation" novalidate>
 
                         <div class="row">
 
                             <div class="form-group col-lg-4 col-md-6">
-                                <h4>Application for Comercial Driver (CDL)</h4>
+                                <h4>Application for Commercial Driver (CDL)</h4>
                             </div>
 
                         </div>

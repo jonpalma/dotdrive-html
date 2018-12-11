@@ -22,6 +22,10 @@
         <div class="card">
             <div class="card-body">
 
+                <div class="progress progress-lg mb-4 mt-2">
+                    <div class="progress-bar progress-lg bg-info" role="progressbar" style="width: 77%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+                </div>
+
                 <p>
                     <i>Please verify that all of the information below is correct:</i><br>
                     <i style="color: red;">(You may need to scroll down to the bottom to continue)</i>
@@ -70,7 +74,7 @@
                         </tr>
                         <tr>
                             <td>What position are you applying for?</td>
-                            <td>e-DOT Driver Application - CDL</td>
+                            <td>Application for Commercial Driver (CDL</td>
                         </tr>
                         <tr>
                             <td>Date of birth</td>

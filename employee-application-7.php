@@ -22,6 +22,10 @@
         <div class="card">
             <div class="card-body">
 
+                <div class="progress progress-lg mb-4 mt-2">
+                    <div class="progress-bar progress-lg bg-info" role="progressbar" style="width: 35%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+                </div>
+
                 <!-- start body content -->
                 <form action="employee-application-8.php" class="needs-validation" novalidate>
 
@@ -97,9 +101,7 @@
                                     </div>
                                     <div class="modal-body">
 
-                                        <div class="col-12">
-                                            <h4 class="page-title">Driver Training</h4>
-                                        </div>
+                                        <h4 class="page-title">Driver Training</h4>
 
                                         <div class="row">
 
