@@ -135,5 +135,58 @@ Choferes
 ver opción que puedan subir información de sus multas o accidentes
 
 
+-------
+
+LUNES 10 diciembre
+
+EMPLOY APLICATION
+
+- incluir logotipo en la parte superior izquierda
+
+- eliminar employee-application-1.php LISTO
+
+- EA2 - cambiar texto * What position are you applying for? - Application for Comercial Driver (CDL) LISTO
+
+EA3 
+- borrar: (LISTO)
+* Do you have a current TWIC (Transportation Worker Identification Credentials) card? 
+* Please enter the names of any relatives employed here 
+* Have you ever been known by any other name? 
+* Which safe driving awards do you hold and from whom? 
+* Fifth wheel height 
+
+
+Agregar en el campo * How did you hear about us? LISTO
+- Facebook
+- Craiglist
+
+Driving Experience
+Agregar select * Straight Truck (Yes or No)
+Agregar Semitrailers, Buses, Flatbeds, despues de Straight Truck
+if yes = input para agregar años 1,2,3,4,5,6,7,8,9,10, over 10
+	Agregar esto mismo para 
+	* Tractor and Semi-Trailer
+	* Tractor - Two Trailers
+
+
+
+Equipment(Owner/Operators Only) LISTO
+- Poner inputs en vez de textarea
+
+Borrar employee-application-6.php LISTO
+
+Actualizar titulos de la lista de la tabla de  
+* Have you attended a Driver Training school?
+
+
+borrar  employee-application-9.php LISTO
+
+Traffic Conviction / Violation History (employee-application-12.php)
+* Charge / Description & * Charge / Description, ver los datos faltantes del select (salen vacios los selects)
+
+Agregar % de avance en la parte superior 
+
+Faltan las siguientes secciones	
+
 
 

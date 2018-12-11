@@ -30,7 +30,7 @@
                         <hr class="mb-4">
 
                         <p>
-                            Thank you for your interest in ' S and R Express Inc '. To apply for a driving position,
+                            Thank you for your interest in ' COMPANY NAME '. To apply for a driving position,
                             please complete our online application for employment. Incomplete information will delay the
                             processing of your application or prevent it from being submitted.
 
@@ -49,26 +49,14 @@
                             <li>Home address history for the past 3 years</li>
                             <li>Current drivers license number and drivers license history for the past 3 years</li>
                             <li> Employment history for the past 10 years</li>
+                            <li>History of traffic accidents, violations and/or convictions from the last 3 years (including
+                            DUI or reckless driving conviction and license suspension)</li>
 
-                        </ul>
-
-                        <p>
-                            <br>
-                            History of traffic accidents, violations and/or convictions from the last 3 years (including
-                            DUI or reckless driving conviction and license suspension)
-                        </p>
-
-                        <p>Helpful Hints :</p>
-
-                        <ul>
-                            <li>Fields with * are required entries. You must complete these fields before you can
-                                continue.
-                            </li>
                         </ul>
 
 
                         <p>If you encounter any errors during this process and cannot continue, please contact us at
-                            (915) 667-7410</p>
+                            (000) 000-0000</p>
 
 
                         <div class="row">

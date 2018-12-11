@@ -78,34 +78,10 @@
                                       disabled></textarea>
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
-                            <label>* Do you have a current TWIC (Transportation Worker Identification Credentials)
-                                card?</label>
-                            <select class="form-control" id="twic" required>
-                                <option selected disabled></option>
-                                <option>Yes</option>
-                                <option>No</option>
-                            </select>
-                        </div>
-
                         <div class="form-group col-lg-6 col-md-6 d-none">
                             <label>* Expiration date</label>
                             <input type="text" class="form-control date" id="expirationdate" data-toggle="date-picker"
                                    data-single-date-picker="true" required disabled>
-                        </div>
-
-                        <div class="form-group col-lg-3 col-md-6">
-                            <label>* Please enter the names of any relatives employed here</label>
-                            <input type="text" id="street1" class="form-control" required>
-                        </div>
-
-                        <div class="form-group col-lg-3 col-md-6">
-                            <label>* Have you ever been known by any other name? if YES, please enter:</label>
-                            <select class="form-control" id="othername" required>
-                                <option selected disabled></option>
-                                <option>Yes</option>
-                                <option>No</option>
-                            </select>
                         </div>
 
                         <div class="form-group col-lg-3 col-md-6 d-none">
@@ -119,28 +95,30 @@
                                 <option selected disabled></option>
                                 <option>Current employee</option>
                                 <option>Friend</option>
+                                <option>Facebook</option>
+                                <option>Craiglist</option>
                                 <option>Internet</option>
                                 <option>Word of Mouth</option>
                                 <option>Other</option>
                             </select>
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>If referral or other, please name</label>
                             <input type="text" class="form-control date" id="referral">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Emergency contact name</label>
                             <input type="text" class="form-control date" id="emergencyname">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Emergency address</label>
                             <input type="text" class="form-control date" id="emergencyaddress">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Emergency Phone</label>
                             <input type="text" class="form-control" data-toggle="input-mask"
                                    data-mask-format="(000) 000-0000" maxlength="14">
@@ -177,11 +155,6 @@
                             <textarea class="form-control" id="other" rows="3" required></textarea>
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
-                            <label>Which safe driving awards do you hold and from whom?</label>
-                            <textarea class="form-control" id="awards" rows="3"></textarea>
-                        </div>
-
                     </div>
 
                     <hr class="mb-4">
@@ -193,49 +166,44 @@
                             <i>EQUIPMENT (OWNER/OPERATORS ONLY) Equipment Description (Tractor)</i>
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Type</label>
-                            <textarea class="form-control" id="equipmenttype" rows="3"></textarea>
+                            <input class="form-control" id="equipmenttype" rows="3">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Year</label>
-                            <textarea class="form-control" id="equipmentyear" rows="3"></textarea>
+                            <input class="form-control" id="equipmentyear" rows="3">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Make</label>
-                            <textarea class="form-control" id="equipmentmake" rows="3"></textarea>
+                            <input class="form-control" id="equipmentmake" rows="3">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Model</label>
-                            <textarea class="form-control" id="equipmentmodel" rows="3"></textarea>
+                            <input class="form-control" id="equipmentmodel" rows="3">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Color</label>
-                            <textarea class="form-control" id="equipmentcolor" rows="3"></textarea>
+                            <input class="form-control" id="equipmentcolor" rows="3">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>VIN</label>
-                            <textarea class="form-control" id="equipmentvin" rows="3"></textarea>
+                            <input class="form-control" id="equipmentvin" rows="3">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Weight</label>
-                            <textarea class="form-control" id="equipmentweight" rows="3"></textarea>
+                            <input class="form-control" id="equipmentweight" rows="3">
                         </div>
 
-                        <div class="form-group col-lg-6 col-md-6">
+                        <div class="form-group col-lg-3 col-md-3">
                             <label>Mileage</label>
-                            <textarea class="form-control" id="equipmentmileage" rows="3"></textarea>
-                        </div>
-
-                        <div class="form-group col-lg-6 col-md-6">
-                            <label>Fifth wheel height</label>
-                            <textarea class="form-control" id="equipmentfifthwheel" rows="3"></textarea>
+                            <input class="form-control" id="equipmentmileage" rows="3">
                         </div>
 
                     </div>

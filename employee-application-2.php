@@ -28,23 +28,7 @@
                         <div class="row">
 
                             <div class="form-group col-lg-4 col-md-6">
-                                <label for="position">* What position are you applying for?</label>
-                                <select class="form-control" id="position" required>
-                                    <option selected disabled></option>
-                                    <option title="Do you have a Commercial Drivers License (CDL) and want to drive CDL vehicles? CLICK HERE">
-                                        e-DOT
-                                        Driver Application - CDL
-                                    </option>
-                                    <option title="Do you have a drivers license and want a Non-CDL driving position? CLICK HERE">
-                                        e-DOT
-                                        Driver
-                                        Application - Non-CDL
-                                    </option>
-                                    <option title="Do you want a Regular position to work in an office or warehouse setting? CLICK HERE">
-                                        Regular
-                                        Employee
-                                    </option>
-                                </select>
+                                <h4>Application for Comercial Driver (CDL)</h4>
                             </div>
 
                         </div>

@@ -35,12 +35,12 @@
 
                         <div class="row">
 
-                            <div class="form-group col-lg-6 col-md-6">
+                            <div class="form-group col-lg-4 col-md-4">
                                 <label>* License Number</label>
                                 <input type="text" id="street1" class="form-control" required>
                             </div>
 
-                            <div class="form-group col-lg-6 col-md-6">
+                            <div class="form-group col-lg-4 col-md-4">
                                 <label>* License State / Providence</label>
                                 <select class="form-control" id="state" required>
                                     <option selected disabled></option>
@@ -99,7 +99,7 @@
                             </div>
 
 
-                            <div class="form-group col-lg-6 col-md-6">
+                            <div class="form-group col-lg-4 col-md-4">
                                 <label>* License Type</label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
@@ -108,7 +108,7 @@
                                 </select>
                             </div>
 
-                            <!--<div class="form-group col-lg-6 col-md-6 d-none">
+                            <!--<div class="form-group col-lg-4 col-md-4 d-none">
                                 <label>License Class</label>
                                 <select class="form-control" id="licenseclass" required disabled>
                                     <option selected disabled></option>
@@ -118,7 +118,7 @@
                                 </select>
                             </div>-->
 
-                            <div class="form-group col-lg-6 col-md-6">
+                            <div class="form-group col-lg-4 col-md-4">
                                 <label>* Class Type</label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
@@ -128,12 +128,12 @@
                                 </select>
                             </div>
 
-                            <div class="form-group col-lg-6 col-md-6">
+                            <div class="form-group col-lg-4 col-md-4">
                                 <label>* License Expiration Date</label>
                                 <input type="text" class="form-control date" id="" data-toggle="date-picker"
                                        data-single-date-picker="true" required>
                             </div>
-                            <div class="form-group col-lg-6 col-md-6">
+                            <div class="form-group col-lg-4 col-md-4">
                                 <label>* Is this your current driver license? </label>
                                 <select class="form-control" id="suffix" required>
                                     <option selected disabled></option>
@@ -142,7 +142,7 @@
                                 </select>
                             </div>
 
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-12">
                                 <label>Endorsement(s)</label>
                                 <select class="form-control" id="endorsement" multiple data-toggle="select2">
                                     <option value="">None</option>
@@ -164,7 +164,7 @@
                                 </select>
                             </div>
 
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-12">
                                 <label>Endorsement(s) Restriction</label>
                                 <select class="form-control" id="endorsementrestriction" multiple data-toggle="select2">
                                     <option value="">None</option>
