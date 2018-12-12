@@ -123,6 +123,32 @@
                                                 <label>* Charge / Description</label>
                                                 <select class="form-control" id="charge" required disabled>
                                                     <option selected disabled></option>
+                                                    <option>Careless/Reckless Driving</option>
+                                                    <option>Cell Phone Usage</option>
+                                                    <option>Defective Equipment</option>
+                                                    <option>Driving with Suspended License</option>
+                                                    <option>Driving Without A License</option>
+                                                    <option>DUI/OWI</option>
+                                                    <option>Failure to Obey Signal</option>
+                                                    <option>Failure to Report Accident</option>
+                                                    <option>Failure to Yield</option>
+                                                    <option>Following Too Closely</option>
+                                                    <option>Hazmat Violation</option>
+                                                    <option>Improper Backing</option>
+                                                    <option>Improper Lane Change</option>
+                                                    <option>Improper Passing</option>
+                                                    <option>Improper Turn</option>
+                                                    <option>Inattentive Driving</option>
+                                                    <option>Lane Violation</option>
+                                                    <option>Leaving Scene of Accident</option>
+                                                    <option>No Insurance / Proof of Insurance</option>
+                                                    <option>Overweight</option>
+                                                    <option>Seat Belt</option>
+                                                    <option>Speeding</option>
+                                                    <option>Texting While Driving</option>
+                                                    <option>Too Fast for Conditions</option>
+                                                    <option>Violation Resulting from Accident</option>
+                                                    <option>Other</option>
                                                 </select>
                                             </div>
 

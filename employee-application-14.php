@@ -539,6 +539,9 @@
 
                     <hr class="mb-4 mt-0">
 
+                    <div class="mt-4 mb-2"><i><span style="color: red;">Please use your mouse to sign your name in the rectangle below</span>
+                            (by clicking the left mouse button in the rectangle and dragging the mouse while holding
+                            the button down). <span style="color: red;">Click Save when finished</span></i>.</div>
                     <div id="signature-pad" class="signature-pad">
                         <div class="signature-pad--body" style="border: 1px solid #7f8c8d">
                             <canvas style="width: 100%; height: 200px"></canvas>

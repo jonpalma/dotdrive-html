@@ -51,7 +51,7 @@
 
 <script>
     $(document).ready(function () {
-        $('[data-single-date-picker="true"],[data-reset-val=true]').val('');
+        $('[data-single-date-picker="true"],[data-reset-val=true]').not('[data-reset-val=false]').val('');
     });
 
     enableInp = (sel, index, inpType, multi = false, contId = null) => {
