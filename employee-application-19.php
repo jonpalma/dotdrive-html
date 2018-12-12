@@ -29,7 +29,7 @@
             <div class="card-body">
 
                 <div class="progress progress-lg mb-4 mt-2">
-                    <div class="progress-bar progress-lg bg-info" role="progressbar" style="width: 90%"
+                    <div class="progress-bar progress-lg bg-info" role="progressbar" style="width: 93%"
                          aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
                 </div>
 
