@@ -1,20 +1,5 @@
 <?php include('header-employee.php'); ?>
-<!-- start page title -->
-<div class="row">
-    <div class="col-12">
-        <div class="page-title-box">
-            <div class="page-title-right">
-                <ol class="breadcrumb m-0">
-                    <li class="breadcrumb-item"><a href="javascript: void(0);">Safety</a></li>
-                    <li class="breadcrumb-item"><a href="javascript: void(0);">Employees</a></li>
-                    <li class="breadcrumb-item active">Application</li>
-                </ol>
-            </div>
-            <h4 class="page-title">Employment Application</h4>
-        </div>
-    </div>
-</div>
-<!-- end page title -->
+
 
 <div class="row">
     <div class="col-12">
@@ -359,7 +344,7 @@
 
                         <div class="col-12">
                             <h4 class="page-title">Equipment(Owner/Operators Only)</h4>
-                            <i>EQUIPMENT (OWNER/OPERATORS ONLY) Equipment Description (Tractor)</i>
+                            <i>Equipment Description</i>
                         </div>
 
                         <div class="form-group col-lg-3 col-md-3">

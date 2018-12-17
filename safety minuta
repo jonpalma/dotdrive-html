@@ -141,7 +141,7 @@ LUNES 10 diciembre
 
 EMPLOY APLICATION
 
-- incluir logotipo en la parte superior izquierda
+- incluir logotipo en la parte superior izquierda LISTO
 
 - eliminar employee-application-1.php LISTO
 
@@ -160,33 +160,75 @@ Agregar en el campo * How did you hear about us? LISTO
 - Facebook
 - Craiglist
 
-Driving Experience
+Driving Experience LISTO
 Agregar select * Straight Truck (Yes or No)
-Agregar Semitrailers, Buses, Flatbeds, despues de Straight Truck
 if yes = input para agregar años 1,2,3,4,5,6,7,8,9,10, over 10
 	Agregar esto mismo para 
 	* Tractor and Semi-Trailer
 	* Tractor - Two Trailers
 
-
+Agregar Semitrailers, Buses, Flatbeds, despues de Straight Truck LISTO
 
 Equipment(Owner/Operators Only) LISTO
 - Poner inputs en vez de textarea
 
 Borrar employee-application-6.php LISTO
 
-Actualizar titulos de la lista de la tabla de  
+Actualizar titulos de la lista de la tabla de LISTO
 * Have you attended a Driver Training school?
 
 
 borrar  employee-application-9.php LISTO
 
-Traffic Conviction / Violation History (employee-application-12.php)
-* Charge / Description & * Charge / Description, ver los datos faltantes del select (salen vacios los selects)
+Traffic Conviction / Violation History (employee-application-12.php) LISTO
+* Charge / Description & * Charge / Description, ver los datos faltantes del select
 
-Agregar % de avance en la parte superior 
+Agregar % de avance  LISTO
 
-Faltan las siguientes secciones	
+Faltan las siguientes secciones	DESPUES DE employee-application-14.php continuar con el formulario
+
+-------
+-------
+-------
+
+JUEVES 13 diciembre
+
+EMPLOYEMENT APPLICATION
+
+- enseguida del logotipo agergar dirección, telefono, correo y website
+
+- EA3 
+	la opcion de OTHER if = yes poner textarea
+- EA12
+ 	agregar signo de dolar Fine Amount (if applicable)? antes del input
+
+- EA13
+	* Type of Accident / Incident - faltan los opciones del select
+
+- remplazar texto de employee-application-18.php? (VERIFICATION OF EMPLOYMENT REQUEST) por https://www.dropbox.com/s/ldhhau443y3wuxw/MVR%20Release%20Consent%20Form.pdf?dl=0
+
+- agregar ultima vista de REQUEST finalizado :)
+
+- employee-application-10.php agregar el porcentaje de años
+
+
+ASSETS
+
+- Eliminar USAGE
+
+- INFORMATION - eliminar cammpo de Location
+	- Misecellaneous information eliminar (todo el acordión)
+
+- PURCHASES - editar información LISTO
+
+- Eiminar todas las opciònes de ALERTA (van a ser automáticas con las fechas de expiración)
+
+
+Menu lateral
+	- Employee, asstes, accident, crear acordion para submenu
+
+	- Subir plataforma
+
 
 
 

@@ -23,19 +23,15 @@
 <!-- Begin page -->
 <div class="wrapper">
 
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-            <img class="img-fluid" src="assets/images/logoapplication.png" alt="logo" style="max-width: 200px;">
-        </a>
-    </nav>
-
     <!-- ============================================================== -->
     <!-- Start Page Content here -->
     <!-- ============================================================== -->
 
     <div class="" style="max-width: 1024px; margin: 0 auto;">
         <div class="content">
-
-
+            <div class="col-12">
+                <div style="margin: 0 auto"><img class="img-fluid" src="assets/images/logoapplication.png" alt="logo" style="max-width: 100px;"></div>
+            
+            </div>
             <!-- Start Content-->
             <div class="container-fluid">
