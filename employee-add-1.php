@@ -4,12 +4,7 @@
 
     <div class="row">
 
-        <div class="form-group col-md-6">
-            <label>Employee ID</label>
-            <input type="text" id="employeeid" class="form-control" required>
-        </div>
-
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label for="employeetype">* Employee type</label>
             <select class="form-control" id="employeetype" required>
                 <option selected disabled></option>
@@ -25,11 +20,7 @@
             </select>
         </div>
 
-    </div>
-
-    <div class="row">
-
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label for="employmentstatus">* Employment Status</label>
             <select class="form-control" id="employmentstatus" required>
                 <option selected disabled></option>
@@ -39,7 +30,7 @@
             </select>
         </div>
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label for="drivertype">* Driver Type</label>
             <select class="form-control" id="drivertype" required>
                 <option selected disabled></option>
@@ -49,27 +40,19 @@
             </select>
         </div>
 
-    </div>
-
-    <div class="row">
-
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>* Hire Date</label>
             <input type="text" class="form-control date" id="hiredate"
                    data-toggle="date-picker" data-single-date-picker="true"
                    required>
         </div>
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>Address</label>
             <input type="text" id="employmentaddress" class="form-control">
         </div>
 
-    </div>
-
-    <div class="row">
-
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>Phone</label>
             <input type="text" id="employmentphone" class="form-control"
                    data-toggle="input-mask" data-mask-format="(000) 000-0000"
@@ -77,21 +60,17 @@
             <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
         </div>
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label for="employmentemail">Email</label>
             <input type="email" id="employmentemail" name="employmentemail" class="form-control" placeholder="Email">
         </div>
 
-    </div>
-
-    <div class="row">
-
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>City</label>
             <input type="text" id="employmentcity" class="form-control">
         </div>
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>State</label>
             <select class="form-control select2" id="employmentstate" data-toggle="select2">
                 <option selected disabled></option>
@@ -153,7 +132,7 @@
 
     <div class="row">
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>Zip Code</label>
             <input type="text" id="zipcode" class="form-control">
         </div>
@@ -224,49 +203,37 @@
 
     <div class="row">
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>* First Name</label>
             <input type="text" id="firstname" class="form-control" required>
         </div>
 
-        <div class="form-group col-md-6">
-            <label>* Middle</label>
+        <div class="form-group col-md-4">
+            <label>Middle</label>
             <input type="text" id="middlename" class="form-control" required>
         </div>
 
-    </div>
-
-    <div class="row">
-
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>* Last Name</label>
             <input type="text" id="lastname" class="form-control" required>
         </div>
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>* Address Line 1</label>
             <input type="text" id="addressline1" class="form-control" required>
         </div>
 
-    </div>
-
-    <div class="row">
-
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>Address Line 2</label>
             <input type="text" id="addressline2" class="form-control">
         </div>
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>* City</label>
             <input type="text" id="city" class="form-control" required>
         </div>
 
-    </div>
-
-    <div class="row">
-
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>* State</label>
             <select class="form-control select2" id="state" required data-toggle="select2">
                 <option selected disabled></option>
@@ -324,16 +291,12 @@
             </select>
         </div>
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>* Zip Code</label>
             <input type="text" id="zipcode" class="form-control" required>
         </div>
 
-    </div>
-
-    <div class="row">
-
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label>* Date of Birth</label>
             <input type="text" class="form-control date" id="dateofbirth"
                    data-toggle="date-picker" data-single-date-picker="true"
@@ -493,94 +456,6 @@
                                 <option>Single</option>
                                 <option>Widow</option>
                             </select>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div> <!-- end card-->
-
-    </div>
-
-    <hr class="mb-4">
-
-    <div id="location-accordion-opt" class="custom-accordion mb-4">
-
-        <div class="card mb-0">
-            <div class="card-header" id="headingOneLocation">
-                <h5 class="m-0">
-                    <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
-                       href="#collapseOneLocation" aria-expanded="false"
-                       aria-controls="collapseOneLocation">
-                        Location Information <span class="float-right"><i
-                                    class="mdi mdi-chevron-down accordion-arrow"></i></span>
-                    </a>
-                </h5>
-            </div>
-            <div id="collapseOneLocation" class="collapse" aria-labelledby="headingOneLocation"
-                 data-parent="#location-accordion-opt" style="">
-                <div class="card-body">
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label for="officelocation">Office Location</label>
-                            <select class="form-control" id="officelocation">
-                                <option selected disabled></option>
-                                <option>S and R Express Inc</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label for="department">Department</label>
-                            <select class="form-control" id="department">
-                                <option selected disabled></option>
-                                <option>Account Manager</option>
-                                <option>Administrative</option>
-                                <option>Drivers</option>
-                                <option>Operations</option>
-                                <option>Sales</option>
-                                <option>Warehouse</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label for="supervisor">Supervisor</label>
-                            <select class="form-control" id="supervisor">
-                                <option selected disabled></option>
-                                <option>Quinonez, Carlos</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label for="jobtitle">Job Title</label>
-                            <select class="form-control" id="jobtitle">
-                                <option selected disabled></option>
-                                <option>CDL Driver</option>
-                                <option>Clerical</option>
-                                <option>Dispatcher</option>
-                                <option>Driver</option>
-                                <option>Laborer</option>
-                                <option>Mechanic</option>
-                                <option>Office Manager</option>
-                                <option>Operations Manager</option>
-                                <option>Sales</option>
-                                <option>Shop Manager</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Labor Union</label>
-                            <input type="text" id="laborunion" class="form-control">
                         </div>
 
                     </div>
