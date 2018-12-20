@@ -217,7 +217,13 @@
 
                                             <div class="form-group col-lg-6 col-md-6">
                                                 <label>Fine Amount (if applicable)?</label>
-                                                <input class="form-control date" type="" name="">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="prepend-dollar">$</span>
+                                                    </div>
+                                                    <input type="text" class="form-control"
+                                                           aria-describedby="prepend-dollar">
+                                                </div>
                                             </div>
 
                                             <div class="form-group col-lg-12">

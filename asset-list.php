@@ -28,7 +28,7 @@
                                                 <th>Type</th>
                                                 <th>Make</th>
                                                 <th>Model</th>
-                                                <th>Yaer</th>
+                                                <th>Year</th>
                                                 <th>Plate</th>
                                                 <th>VIN</th>
                                                 <th>DOT Paperwork</th>

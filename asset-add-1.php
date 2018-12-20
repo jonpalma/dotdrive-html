@@ -30,12 +30,12 @@
             </select>
         </div>
 
-        <div class="form-group col-md-6">
+        <!--<div class="form-group col-md-6">
             <label for="example-select">* Location</label>
             <select class="form-control" id="location" required>
                 <option>S and R Express Inc</option>
             </select>
-        </div>
+        </div>-->
 
     </div>
 
@@ -97,91 +97,6 @@
                         <div class="form-group col-md-6">
                             <label>Color</label>
                             <input type="text" id="color" class="form-control">
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div> <!-- end card-->
-
-    </div>
-
-    <hr class="mb-4">
-
-    <div id="miscellaneous-accordion-opt" class="custom-accordion mb-4">
-
-        <div class="card mb-0">
-            <div class="card-header" id="headingOneMiscellaneous">
-                <h5 class="m-0">
-                    <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
-                       href="#collapseOneMiscellaneous" aria-expanded="false"
-                       aria-controls="collapseOneMiscellaneous">
-                        Miscellaneous Information <span class="float-right"><i
-                                    class="mdi mdi-chevron-down accordion-arrow"></i></span>
-                    </a>
-                </h5>
-            </div>
-            <div id="collapseOneMiscellaneous" class="collapse" aria-labelledby="headingOneMiscellaneous"
-                 data-parent="#miscellaneous-accordion-opt" style="">
-                <div class="card-body">
-
-                    <div class="row">
-
-                        <div class="form-group col-md-4">
-                            <label for="misc1">Misc 1:</label>
-                            <textarea class="form-control" id="misc1" rows="3"></textarea>
-                        </div>
-
-                        <div class="form-group col-md-4">
-                            <label>Alert 1</label>
-                            <input type="text" class="form-control date" id="alert1" data-toggle="date-picker"
-                                   data-single-date-picker="true" value="">
-                        </div>
-
-                        <div class="form-group col-md-4">
-                            <label for="memo1">Memo 1:</label>
-                            <textarea class="form-control" id="memo1" rows="3"></textarea>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-4">
-                            <label for="misc2">Misc 2:</label>
-                            <textarea class="form-control" id="misc2" rows="3"></textarea>
-                        </div>
-
-                        <div class="form-group col-md-4">
-                            <label>Alert 2</label>
-                            <input type="text" class="form-control date" id="alert2" data-toggle="date-picker"
-                                   data-single-date-picker="true" value="">
-                        </div>
-
-                        <div class="form-group col-md-4">
-                            <label for="memo2">Memo 2:</label>
-                            <textarea class="form-control" id="memo2" rows="3"></textarea>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-4">
-                            <label for="misc3">Misc 3:</label>
-                            <textarea class="form-control" id="misc3" rows="3"></textarea>
-                        </div>
-
-                        <div class="form-group col-md-4">
-                            <label>Alert 3</label>
-                            <input type="text" class="form-control date" id="alert3" data-toggle="date-picker"
-                                   data-single-date-picker="true" value="">
-                        </div>
-
-                        <div class="form-group col-md-4">
-                            <label for="memo3">Memo 3:</label>
-                            <textarea class="form-control" id="memo3" rows="3"></textarea>
                         </div>
 
                     </div>

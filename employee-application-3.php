@@ -319,21 +319,7 @@
                         </div>
 
                         <div class="form-group col-lg-6 col-md-6 d-none" id="otheryears">
-                            <label>* Number of years</label>
-                            <select class="form-control" id="truck" required>
-                                <option selected disabled></option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option>8</option>
-                                <option>9</option>
-                                <option>10</option>
-                                <option>Over 10</option>
-                            </select>
+                            <textarea class="form-control" id="otheryears" rows="3"></textarea>
                         </div>
 
                     </div>
@@ -342,50 +328,85 @@
 
                     <div class="row">
 
-                        <div class="col-12">
-                            <h4 class="page-title">Equipment(Owner/Operators Only)</h4>
-                            <i>Equipment Description</i>
+                        <div class="form-group col-lg-6 col-md-6">
+                            <label>Owner/Operator</label>
+                            <select class="form-control" id="owneroperator" required>
+                                <option selected disabled></option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
                         </div>
 
-                        <div class="form-group col-lg-3 col-md-3">
-                            <label>Type</label>
-                            <input class="form-control" id="equipmenttype" rows="3">
-                        </div>
+                    </div>
 
-                        <div class="form-group col-lg-3 col-md-3">
-                            <label>Year</label>
-                            <input class="form-control" id="equipmentyear" rows="3">
-                        </div>
+                    <div id="owner-accordion-opt" class="custom-accordion mb-4 d-none">
 
-                        <div class="form-group col-lg-3 col-md-3">
-                            <label>Make</label>
-                            <input class="form-control" id="equipmentmake" rows="3">
-                        </div>
+                        <div class="card mb-0">
+                            <div class="card-header" id="headingOneOwner">
+                                <h5 class="m-0">
+                                    <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
+                                       href="#collapseOneOwner" aria-expanded="false"
+                                       aria-controls="collapseOneOwner">
+                                        Equipment (Owner/Operators Only) <span class="float-right"><i
+                                                    class="mdi mdi-chevron-down accordion-arrow"></i></span>
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseOneOwner" class="collapse" aria-labelledby="headingOneOwner"
+                                 data-parent="#owner-accordion-opt" style="">
+                                <div class="card-body">
 
-                        <div class="form-group col-lg-3 col-md-3">
-                            <label>Model</label>
-                            <input class="form-control" id="equipmentmodel" rows="3">
-                        </div>
+                                    <div class="row">
 
-                        <div class="form-group col-lg-3 col-md-3">
-                            <label>Color</label>
-                            <input class="form-control" id="equipmentcolor" rows="3">
-                        </div>
+                                        <div class="col-12">
+                                            <i>Equipment Description</i>
+                                        </div>
 
-                        <div class="form-group col-lg-3 col-md-3">
-                            <label>VIN</label>
-                            <input class="form-control" id="equipmentvin" rows="3">
-                        </div>
+                                        <div class="form-group col-lg-3 col-md-3">
+                                            <label>Type</label>
+                                            <input class="form-control" id="equipmenttype" rows="3" disabled>
+                                        </div>
 
-                        <div class="form-group col-lg-3 col-md-3">
-                            <label>Weight</label>
-                            <input class="form-control" id="equipmentweight" rows="3">
-                        </div>
+                                        <div class="form-group col-lg-3 col-md-3">
+                                            <label>Year</label>
+                                            <input class="form-control" id="equipmentyear" rows="3" disabled>
+                                        </div>
 
-                        <div class="form-group col-lg-3 col-md-3">
-                            <label>Mileage</label>
-                            <input class="form-control" id="equipmentmileage" rows="3">
-                        </div>
+                                        <div class="form-group col-lg-3 col-md-3">
+                                            <label>Make</label>
+                                            <input class="form-control" id="equipmentmake" rows="3" disabled>
+                                        </div>
+
+                                        <div class="form-group col-lg-3 col-md-3">
+                                            <label>Model</label>
+                                            <input class="form-control" id="equipmentmodel" rows="3" disabled>
+                                        </div>
+
+                                        <div class="form-group col-lg-3 col-md-3">
+                                            <label>Color</label>
+                                            <input class="form-control" id="equipmentcolor" rows="3" disabled>
+                                        </div>
+
+                                        <div class="form-group col-lg-3 col-md-3">
+                                            <label>VIN</label>
+                                            <input class="form-control" id="equipmentvin" rows="3" disabled>
+                                        </div>
+
+                                        <div class="form-group col-lg-3 col-md-3">
+                                            <label>Weight</label>
+                                            <input class="form-control" id="equipmentweight" rows="3" disabled>
+                                        </div>
+
+                                        <div class="form-group col-lg-3 col-md-3">
+                                            <label>Mileage</label>
+                                            <input class="form-control" id="equipmentmileage" rows="3" disabled>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div> <!-- end card-->
 
                     </div>
 
@@ -492,5 +513,9 @@
 
     $('#other').change(function () {
         enableInp($(this), 1, 'select', false, 'otheryears')
+    });
+
+    $('#owneroperator').change(function () {
+        enableInp($(this), 1, '', true, 'owner-accordion-opt');
     });
 </script>

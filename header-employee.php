@@ -29,9 +29,21 @@
 
     <div class="" style="max-width: 1024px; margin: 0 auto;">
         <div class="content">
-            <div class="col-12">
-                <div style="margin: 0 auto"><img class="img-fluid" src="assets/images/logoapplication.png" alt="logo" style="max-width: 100px;"></div>
-            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8">
+                        <div style="margin: 0 auto">
+                            <img class="img-fluid" src="assets/images/logoapplication.png" alt="logo" style="max-width: 100px;">
+                        </div>
+                    </div>
+                    <div class="col-4 text-right">
+                        <div><b>S and R Express Inc</b></div>
+                        <div>3216 Tierra Palma Dr</div>
+                        <div>El Paso, Texas</div>
+                        <div>79938</div>
+                        <div>(915) 667-7410</div>
+                    </div>
+                </div>
             </div>
             <!-- Start Content-->
             <div class="container-fluid">

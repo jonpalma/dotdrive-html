@@ -30,6 +30,19 @@
 
                             </p>
 
+                            <div class="row">
+
+                                <div class="col-6">
+                                    <p>You have completed 100% of the total 10  years required. </p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="progress progress-lg mb-4 mt-1">
+                                        <div class="progress-bar progress-lg bg-success" role="progressbar" style="width: 100%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
 
                     </div>

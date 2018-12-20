@@ -110,6 +110,9 @@
                                                 <label>* Type of Accident / Incident</label>
                                                 <select class="form-control" id="type" required disabled>
                                                     <option selected disabled></option>
+                                                    <option>Fatality</option>
+                                                    <option>Injury</option>
+                                                    <option>Non-Injury</option>
                                                 </select>
                                             </div>
 

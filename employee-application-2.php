@@ -34,8 +34,8 @@
                             </div>
 
                             <div class="form-group col-lg-3 col-md-6">
-                                <label>* Middle Name</label>
-                                <input type="text" id="middlename" class="form-control" required>
+                                <label>Middle Name</label>
+                                <input type="text" id="middlename" class="form-control">
                             </div>
 
                             <div class="form-group col-lg-3 col-md-6">

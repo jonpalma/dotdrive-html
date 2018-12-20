@@ -158,7 +158,7 @@
 
                     <div class="row">
 
-                        <div class="form-group mt-3 col-md-6">
+                        <div class="form-group mt-3 col-md-4">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input"
                                        id="activeemployee">
@@ -167,7 +167,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group mt-3 col-md-6">
+                        <div class="form-group mt-3 col-md-4">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input"
                                        id="issupervisor">
@@ -176,17 +176,26 @@
                             </div>
                         </div>
 
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group mt-3 col-md-6">
+                        <div class="form-group mt-3 col-md-4">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input"
                                        id="isapprentice">
                                 <label class="custom-control-label" for="isapprentice">Is
                                     Apprentice</label>
                             </div>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label for="department">Department</label>
+                            <select class="form-control" id="department">
+                                <option selected disabled></option>
+                                <option>Account Manager</option>
+                                <option>Administrative</option>
+                                <option>Drivers</option>
+                                <option>Operations</option>
+                                <option>Sales</option>
+                                <option>Warehouse</option>
+                            </select>
                         </div>
 
                     </div>
@@ -210,7 +219,7 @@
 
         <div class="form-group col-md-4">
             <label>Middle</label>
-            <input type="text" id="middlename" class="form-control" required>
+            <input type="text" id="middlename" class="form-control">
         </div>
 
         <div class="form-group col-md-4">
@@ -303,166 +312,42 @@
                    required>
         </div>
 
-    </div>
+        <div class="form-group col-md-4">
+            <label for="gender">Gender</label>
+            <select class="form-control" id="gender">
+                <option selected disabled></option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
 
-    <div id="employee-accordion-opt" class="custom-accordion mb-4">
+        <div class="form-group col-md-4">
+            <label>Social Security Number</label>
+            <input type="text" id="socialsecurity" class="form-control"
+                   data-toggle="input-mask" data-mask-format="000-00-0000"
+                   maxlength="9">
+        </div>
 
-        <div class="card mb-0">
-            <div class="card-header" id="headingOneEmployee">
-                <h5 class="m-0">
-                    <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
-                       href="#collapseOneEmployee" aria-expanded="false"
-                       aria-controls="collapseOneEmployee">
-                        Add more information <span class="float-right"><i
-                                    class="mdi mdi-chevron-down accordion-arrow"></i></span>
-                    </a>
-                </h5>
-            </div>
-            <div id="collapseOneEmployee" class="collapse" aria-labelledby="headingOneEmployee"
-                 data-parent="#employee-accordion-opt" style="">
-                <div class="card-body">
+        <div class="form-group col-md-4">
+            <label>Cellphone</label>
+            <input type="text" id="cellphone" class="form-control"
+                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
+                   maxlength="14">
+            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
+        </div>
 
-                    <div class="row">
+        <div class="form-group col-md-4">
+            <label>Emergency Contact</label>
+            <input type="text" id="emergencycontact" class="form-control">
+        </div>
 
-                        <div class="form-group col-md-6">
-                            <label>Social Security Number</label>
-                            <input type="text" id="socialsecurity" class="form-control"
-                                   data-toggle="input-mask" data-mask-format="000-00-0000"
-                                   maxlength="9">
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>Work Phone</label>
-                            <input type="text" id="workphone" class="form-control"
-                                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                   maxlength="14">
-                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Extn</label>
-                            <input type="text" id="extn" class="form-control">
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>Home Phone</label>
-                            <input type="text" id="homephone" class="form-control"
-                                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                   maxlength="14">
-                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Cellphone</label>
-                            <input type="text" id="cellphone" class="form-control"
-                                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                   maxlength="14">
-                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>Pager</label>
-                            <input type="text" id="pager" class="form-control"
-                                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                   maxlength="14">
-                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label for="daytimephone">Daytime Phone</label>
-                            <select class="form-control" id="daytimephone">
-                                <option selected disabled></option>
-                                <option>Cell</option>
-                                <option>Fax</option>
-                                <option>Home</option>
-                                <option>Pager</option>
-                                <option>Work</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label for="nighttimephone">Nighttime Phone</label>
-                            <select class="form-control" id="nighttimephone">
-                                <option selected disabled></option>
-                                <option>Cell</option>
-                                <option>Fax</option>
-                                <option>Home</option>
-                                <option>Pager</option>
-                                <option>Work</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Emergency Contact</label>
-                            <input type="text" id="emergencycontact" class="form-control">
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>Emergency Daytime Phone</label>
-                            <input type="text" id="emergencydaytimephone" class="form-control"
-                                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                   maxlength="14">
-                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>Emergency Nighttime Phone</label>
-                            <input type="text" id="emergencynighttimephone" class="form-control"
-                                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                                   maxlength="14">
-                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label for="gender">Gender</label>
-                            <select class="form-control" id="gender">
-                                <option selected disabled></option>
-                                <option>Male</option>
-                                <option>Female</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label for="maritalstatus">Marital Status</label>
-                            <select class="form-control" id="maritalstatus">
-                                <option selected disabled></option>
-                                <option>Divorced</option>
-                                <option>Married</option>
-                                <option>Separated</option>
-                                <option>Single</option>
-                                <option>Widow</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div> <!-- end card-->
+        <div class="form-group col-md-4">
+            <label>Emergency Daytime Phone</label>
+            <input type="text" id="emergencydaytimephone" class="form-control"
+                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
+                   maxlength="14">
+            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
+        </div>
 
     </div>
 

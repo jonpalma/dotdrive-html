@@ -29,62 +29,151 @@
                         <div class="col-lg-2 col-sm-3 mb-2 mb-sm-0">
                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                  aria-orientation="vertical">
-                                <span class="nav-link bg-light">Details</span>
-                                <a class="nav-link active show" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
-                                   role="tab" aria-controls="v-pills-1" aria-selected="true">
-                                    <span class="d-lg-block">Information</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
-                                   aria-controls="v-pills-2" aria-selected="false">
-                                    <span class="d-lg-block">Purchase</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
-                                   aria-controls="v-pills-3" aria-selected="false">
-                                    <span class="d-lg-block">License</span>
-                                </a>
-                                <span class="nav-link bg-light">Vehicle Information</span>
-                                <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
-                                   aria-controls="v-pills-4" aria-selected="false">
-                                    <span class="d-lg-block">Licenses</span>
-                                </a>
-                                <span class="nav-link bg-light">Department of Transportation</span>
-                                <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab"
-                                   aria-controls="v-pills-5" aria-selected="false">
-                                    <span class="d-lg-block">DOT Requirements</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab"
-                                   aria-controls="v-pills-6" aria-selected="false">
-                                    <span class="d-lg-block">Road-side inspections</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab"
-                                   aria-controls="v-pills-7" aria-selected="false">
-                                    <span class="d-lg-block">Driver's Vehicle Inspection</span>
-                                </a>
-                                <span class="nav-link bg-light">Asset Information</span>
-                                <a class="nav-link" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab"
-                                   aria-controls="v-pills-8" aria-selected="false">
-                                    <span class="d-lg-block">Warranty</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab"
-                                   aria-controls="v-pills-9" aria-selected="false">
-                                    <span class="d-lg-block">Preventive Maintenance</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab"
-                                   aria-controls="v-pills-10" aria-selected="false">
-                                    <span class="d-lg-block">Service Records</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-11-tab" data-toggle="pill" href="#v-pills-11" role="tab"
-                                   aria-controls="v-pills-11" aria-selected="false">
-                                    <span class="d-lg-block">Parts</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-12-tab" data-toggle="pill" href="#v-pills-12" role="tab"
-                                   aria-controls="v-pills-12" aria-selected="false">
-                                    <span class="d-lg-block">Accident Logs</span>
-                                </a>
-                                <a class="nav-link" id="v-pills-13-tab" data-toggle="pill" href="#v-pills-13" role="tab"
-                                   aria-controls="v-pills-13" aria-selected="false">
-                                    <span class="d-lg-block">Usage</span>
-                                </a>
+
+                                <div id="accordion-one-opt" class="custom-accordion">
+
+                                    <div class="card mb-0">
+                                        <div class="card-header pt-0 pb-0" id="headingOne">
+                                            <h5 class="m-0">
+                                                <a class="text-dark d-block pt-2 pb-2" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Details <span class="float-right"><i class="mdi mdi-chevron-down accordion-arrow"></i></span>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                             data-parent="#accordion-one-opt">
+
+                                            <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+
+                                                <a class="nav-link active show" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
+                                                   role="tab" aria-controls="v-pills-1" aria-selected="true">
+                                                    <span class="d-lg-block">Information</span>
+                                                </a>
+                                                <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
+                                                   aria-controls="v-pills-2" aria-selected="false">
+                                                    <span class="d-lg-block">Purchase</span>
+                                                </a>
+                                                <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
+                                                   aria-controls="v-pills-3" aria-selected="false">
+                                                    <span class="d-lg-block">License</span>
+                                                </a>
+                                                <a class="nav-link" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab"
+                                                   aria-controls="v-pills-8" aria-selected="false">
+                                                    <span class="d-lg-block">Warranty</span>
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div id="accordion-two-opt" class="custom-accordion">
+
+                                    <div class="card mb-0">
+                                        <div class="card-header pt-0 pb-0" id="headingTwo">
+                                            <h5 class="m-0">
+                                                <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Vehicle Information <span class="float-right"><i class="mdi mdi-chevron-down accordion-arrow"></i></span>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                             data-parent="#accordion-two-opt">
+
+                                            <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+
+                                                <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
+                                                   aria-controls="v-pills-4" aria-selected="false">
+                                                    <span class="d-lg-block">Licenses</span>
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div id="accordion-three-opt" class="custom-accordion">
+
+                                    <div class="card mb-0">
+                                        <div class="card-header pt-0 pb-0" id="headingThree">
+                                            <h5 class="m-0">
+                                                <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Department of Transportation <span class="float-right"><i class="mdi mdi-chevron-down accordion-arrow"></i></span>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                             data-parent="#accordion-three-opt">
+
+                                            <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+
+                                                <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab"
+                                                   aria-controls="v-pills-5" aria-selected="false">
+                                                    <span class="d-lg-block">DOT Requirements</span>
+                                                </a>
+                                                <a class="nav-link" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab"
+                                                   aria-controls="v-pills-6" aria-selected="false">
+                                                    <span class="d-lg-block">Road-side inspections</span>
+                                                </a>
+                                                <a class="nav-link" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab"
+                                                   aria-controls="v-pills-7" aria-selected="false">
+                                                    <span class="d-lg-block">Driver's Vehicle Inspection</span>
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div id="accordion-four-opt" class="custom-accordion">
+
+                                    <div class="card mb-0">
+                                        <div class="card-header pt-0 pb-0" id="headingFour">
+                                            <h5 class="m-0">
+                                                <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                    Asset Information <span class="float-right"><i class="mdi mdi-chevron-down accordion-arrow"></i></span>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                             data-parent="#accordion-four-opt">
+
+                                            <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+
+                                                <a class="nav-link" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab"
+                                                   aria-controls="v-pills-9" aria-selected="false">
+                                                    <span class="d-lg-block">Preventive Maintenance</span>
+                                                </a>
+                                                <a class="nav-link" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab"
+                                                   aria-controls="v-pills-10" aria-selected="false">
+                                                    <span class="d-lg-block">Service Records</span>
+                                                </a>
+                                                <a class="nav-link" id="v-pills-11-tab" data-toggle="pill" href="#v-pills-11" role="tab"
+                                                   aria-controls="v-pills-11" aria-selected="false">
+                                                    <span class="d-lg-block">Parts</span>
+                                                </a>
+                                                <a class="nav-link" id="v-pills-12-tab" data-toggle="pill" href="#v-pills-12" role="tab"
+                                                   aria-controls="v-pills-12" aria-selected="false">
+                                                    <span class="d-lg-block">Accident Logs</span>
+                                                </a>
+                                                <!--<a class="nav-link" id="v-pills-13-tab" data-toggle="pill" href="#v-pills-13" role="tab"
+                                                   aria-controls="v-pills-13" aria-selected="false">
+                                                    <span class="d-lg-block">Usage</span>
+                                                </a>-->
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div>
 
@@ -185,3 +274,8 @@
     <!-- end col-12 -->
     </div> <!-- end row -->
 <?php include('footer.php'); ?>
+<script>
+    $('.nav-link').click(function () {
+        $('.nav-link').removeClass('show').removeClass('active').attr('aria-selected','false')
+    });
+</script>

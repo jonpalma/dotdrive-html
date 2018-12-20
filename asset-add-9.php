@@ -104,12 +104,12 @@
 
                     <div class="row">
 
-                        <div class="form-group mt-3 col-md-6">
+                        <!--<div class="form-group mt-3 col-md-6">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input" id="alerton">
                                 <label class="custom-control-label" for="alerton">Alert On</label>
                             </div>
-                        </div>
+                        </div>-->
 
                     </div>
 

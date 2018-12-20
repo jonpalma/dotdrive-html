@@ -19,7 +19,7 @@
 
                 <!-- start body content -->
 
-                <form action="employee-application-19.php" class="needs-validation" novalidate>
+                <form action="employee-application-20.php" class="needs-validation" novalidate>
 
                     <h4 class="page-title">VERIFICATION OF EMPLOYMENT REQUEST</h4>
 
@@ -31,8 +31,8 @@
                         </div>
 
                         <div class="form-group col-lg-3 col-md-6">
-                            <label>* Middle Name</label>
-                            <input type="text" id="middlename" class="form-control" required>
+                            <label>Middle Name</label>
+                            <input type="text" id="middlename" class="form-control">
                         </div>
 
                         <div class="form-group col-lg-3 col-md-6">
@@ -102,7 +102,7 @@
                         </div>
 
                         <div class="col-6">
-                            <input type="email" id="email" class="form-control" required>
+                            <input type="email" id="email" class="form-control">
                         </div>
 
                     </div>
