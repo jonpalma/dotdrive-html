@@ -57,7 +57,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <input type="text" class="form-control date" id="date" data-toggle="date-picker"
-                                   data-single-date-picker="true" value="<?php echo date('d-m-Y'); ?>"
+                                   data-single-date-picker="true" value="<?php echo date('m/d/Y'); ?>"
                                    data-reset-val="false" disabled>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                         <div class="form-group col-lg-3 col-md-6">
                             <label>Date of Birth</label>
                             <input type="text" class="form-control date" id="dateofbirth" data-toggle="date-picker"
-                                   data-single-date-picker="true" value="<?php echo date('d-m-Y'); ?>"
+                                   data-single-date-picker="true" value="<?php echo date('m/d/Y'); ?>"
                                    data-reset-val="false" disabled>
                         </div>
 
