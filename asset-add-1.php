@@ -20,22 +20,41 @@
 
         <div class="form-group col-md-6">
             <label for="example-select">* Asset Type</label>
-            <select class="form-control" id="assettype" required>
-                <option>Box Truck</option>
-                <option>Car</option>
-                <option>Forklift</option>
-                <option>Tractor</option>
-                <option>Trailer</option>
-                <option>Truck</option>
-            </select>
+            <div class="input-group">
+                <select class="form-control" id="assettype" required>
+                    <option>Box Truck</option>
+                    <option>Car</option>
+                    <option>Forklift</option>
+                    <option>Tractor</option>
+                    <option>Trailer</option>
+                    <option>Truck</option>
+                </select>
+                <div class="input-group-append">
+                    <button class="btn btn-success" type="button" data-toggle="modal" data-target="#addAssetType"><i class="mdi mdi-plus"></i></button>
+                </div>
+            </div>
         </div>
 
-        <!--<div class="form-group col-md-6">
-            <label for="example-select">* Location</label>
-            <select class="form-control" id="location" required>
-                <option>S and R Express Inc</option>
-            </select>
-        </div>-->
+        <div class="modal fade" id="addAssetType" tabindex="-1" role="dialog" aria-labelledby="employee-training-modal-label" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="employee-training-modal-label">New Asset Type</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label>New Value</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+
+                        <button class="btn btn-block btn-success">Insert</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 

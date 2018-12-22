@@ -137,7 +137,18 @@
             <input type="text" id="zipcode" class="form-control">
         </div>
 
+        <div class="form-group mt-3 col-md-4">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input"
+                       id="activeemployee">
+                <label class="custom-control-label" for="activeemployee">Active
+                    Employee</label>
+            </div>
+        </div>
+
     </div>
+
+    <hr class="mb-4">
 
     <div id="employment-accordion-opt" class="custom-accordion mb-4">
 
@@ -147,7 +158,7 @@
                     <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
                        href="#collapseOneEmployment" aria-expanded="false"
                        aria-controls="collapseOneEmployment">
-                        Add more information <span class="float-right"><i
+                        Employee Information <span class="float-right"><i
                                     class="mdi mdi-chevron-down accordion-arrow"></i></span>
                     </a>
                 </h5>
@@ -158,44 +169,141 @@
 
                     <div class="row">
 
-                        <div class="form-group mt-3 col-md-4">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input"
-                                       id="activeemployee">
-                                <label class="custom-control-label" for="activeemployee">Active
-                                    Employee</label>
-                            </div>
-                        </div>
-
-                        <div class="form-group mt-3 col-md-4">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input"
-                                       id="issupervisor">
-                                <label class="custom-control-label" for="issupervisor">Is
-                                    Supervisor</label>
-                            </div>
-                        </div>
-
-                        <div class="form-group mt-3 col-md-4">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input"
-                                       id="isapprentice">
-                                <label class="custom-control-label" for="isapprentice">Is
-                                    Apprentice</label>
-                            </div>
+                        <div class="form-group col-md-4">
+                            <label>* First Name</label>
+                            <input type="text" id="firstname" class="form-control" required>
                         </div>
 
                         <div class="form-group col-md-4">
-                            <label for="department">Department</label>
-                            <select class="form-control" id="department">
+                            <label>Middle</label>
+                            <input type="text" id="middlename" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>* Last Name</label>
+                            <input type="text" id="lastname" class="form-control" required>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>* Address Line 1</label>
+                            <input type="text" id="addressline1" class="form-control" required>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>Address Line 2</label>
+                            <input type="text" id="addressline2" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>* City</label>
+                            <input type="text" id="city" class="form-control" required>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>* State</label>
+                            <select class="form-control select2" id="state" required data-toggle="select2">
                                 <option selected disabled></option>
-                                <option>Account Manager</option>
-                                <option>Administrative</option>
-                                <option>Drivers</option>
-                                <option>Operations</option>
-                                <option>Sales</option>
-                                <option>Warehouse</option>
+                                <option>Alabama</option>
+                                <option>Alaska</option>
+                                <option>Arizona</option>
+                                <option>Arkansas</option>
+                                <option>California</option>
+                                <option>Colorado</option>
+                                <option>Connecticut</option>
+                                <option>Delaware</option>
+                                <option>District of Columbia</option>
+                                <option>Florida</option>
+                                <option>Georgia</option>
+                                <option>Hawaii</option>
+                                <option>Idaho</option>
+                                <option>Illinois</option>
+                                <option>Indiana</option>
+                                <option>Iowa</option>
+                                <option>Kansas</option>
+                                <option>Kentucky</option>
+                                <option>Louisiana</option>
+                                <option>Maine</option>
+                                <option>Maryland</option>
+                                <option>Massachusetts</option>
+                                <option>Michigan</option>
+                                <option>Minnesota</option>
+                                <option>Mississippi</option>
+                                <option>Missouri</option>
+                                <option>Montana</option>
+                                <option>Nebraska</option>
+                                <option>Nevada</option>
+                                <option>New Hampshire</option>
+                                <option>New Jersey</option>
+                                <option>New Mexico</option>
+                                <option>New York</option>
+                                <option>North Carolina</option>
+                                <option>North Dakota</option>
+                                <option>Ohio</option>
+                                <option>Oklahoma</option>
+                                <option>Oregon</option>
+                                <option>Pennsylvania</option>
+                                <option>Rhode Island</option>
+                                <option>South Carolina</option>
+                                <option>South Dakota</option>
+                                <option>Tennessee</option>
+                                <option>Texas</option>
+                                <option>Utah</option>
+                                <option>Vermont</option>
+                                <option>Virginia</option>
+                                <option>Washington</option>
+                                <option>West Virginia</option>
+                                <option>Wisconsin</option>
+                                <option>Wyoming</option>
                             </select>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>* Zip Code</label>
+                            <input type="text" id="zipcode" class="form-control" required>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>* Date of Birth</label>
+                            <input type="text" class="form-control date" id="dateofbirth"
+                                   data-toggle="date-picker" data-single-date-picker="true"
+                                   required>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label for="gender">Gender</label>
+                            <select class="form-control" id="gender">
+                                <option selected disabled></option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>Social Security Number</label>
+                            <input type="text" id="socialsecurity" class="form-control"
+                                   data-toggle="input-mask" data-mask-format="000-00-0000"
+                                   maxlength="9">
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>Cellphone</label>
+                            <input type="text" id="cellphone" class="form-control"
+                                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
+                                   maxlength="14">
+                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>Emergency Contact</label>
+                            <input type="text" id="emergencycontact" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <label>Emergency Daytime Phone</label>
+                            <input type="text" id="emergencydaytimephone" class="form-control"
+                                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
+                                   maxlength="14">
+                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
                         </div>
 
                     </div>
@@ -203,151 +311,6 @@
                 </div>
             </div>
         </div> <!-- end card-->
-
-    </div>
-
-    <hr class="mb-4">
-
-    <h4 class="header-title mb-3">Employee Information</h4>
-
-    <div class="row">
-
-        <div class="form-group col-md-4">
-            <label>* First Name</label>
-            <input type="text" id="firstname" class="form-control" required>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>Middle</label>
-            <input type="text" id="middlename" class="form-control">
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>* Last Name</label>
-            <input type="text" id="lastname" class="form-control" required>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>* Address Line 1</label>
-            <input type="text" id="addressline1" class="form-control" required>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>Address Line 2</label>
-            <input type="text" id="addressline2" class="form-control">
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>* City</label>
-            <input type="text" id="city" class="form-control" required>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>* State</label>
-            <select class="form-control select2" id="state" required data-toggle="select2">
-                <option selected disabled></option>
-                <option>Alabama</option>
-                <option>Alaska</option>
-                <option>Arizona</option>
-                <option>Arkansas</option>
-                <option>California</option>
-                <option>Colorado</option>
-                <option>Connecticut</option>
-                <option>Delaware</option>
-                <option>District of Columbia</option>
-                <option>Florida</option>
-                <option>Georgia</option>
-                <option>Hawaii</option>
-                <option>Idaho</option>
-                <option>Illinois</option>
-                <option>Indiana</option>
-                <option>Iowa</option>
-                <option>Kansas</option>
-                <option>Kentucky</option>
-                <option>Louisiana</option>
-                <option>Maine</option>
-                <option>Maryland</option>
-                <option>Massachusetts</option>
-                <option>Michigan</option>
-                <option>Minnesota</option>
-                <option>Mississippi</option>
-                <option>Missouri</option>
-                <option>Montana</option>
-                <option>Nebraska</option>
-                <option>Nevada</option>
-                <option>New Hampshire</option>
-                <option>New Jersey</option>
-                <option>New Mexico</option>
-                <option>New York</option>
-                <option>North Carolina</option>
-                <option>North Dakota</option>
-                <option>Ohio</option>
-                <option>Oklahoma</option>
-                <option>Oregon</option>
-                <option>Pennsylvania</option>
-                <option>Rhode Island</option>
-                <option>South Carolina</option>
-                <option>South Dakota</option>
-                <option>Tennessee</option>
-                <option>Texas</option>
-                <option>Utah</option>
-                <option>Vermont</option>
-                <option>Virginia</option>
-                <option>Washington</option>
-                <option>West Virginia</option>
-                <option>Wisconsin</option>
-                <option>Wyoming</option>
-            </select>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>* Zip Code</label>
-            <input type="text" id="zipcode" class="form-control" required>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>* Date of Birth</label>
-            <input type="text" class="form-control date" id="dateofbirth"
-                   data-toggle="date-picker" data-single-date-picker="true"
-                   required>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label for="gender">Gender</label>
-            <select class="form-control" id="gender">
-                <option selected disabled></option>
-                <option>Male</option>
-                <option>Female</option>
-            </select>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>Social Security Number</label>
-            <input type="text" id="socialsecurity" class="form-control"
-                   data-toggle="input-mask" data-mask-format="000-00-0000"
-                   maxlength="9">
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>Cellphone</label>
-            <input type="text" id="cellphone" class="form-control"
-                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                   maxlength="14">
-            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>Emergency Contact</label>
-            <input type="text" id="emergencycontact" class="form-control">
-        </div>
-
-        <div class="form-group col-md-4">
-            <label>Emergency Daytime Phone</label>
-            <input type="text" id="emergencydaytimephone" class="form-control"
-                   data-toggle="input-mask" data-mask-format="(000) 000-0000"
-                   maxlength="14">
-            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-        </div>
 
     </div>
 

@@ -59,7 +59,7 @@
                                                 <td><a href="#">#10</a></td>
                                                 <td>Juan Perez</td>
                                                 <td>01/11/2018</td>
-                                                <td><i class="mdi mdi-circle text-danger"></i> Down</td>
+                                                <td><i class="mdi mdi-circle text-danger"></i> In Progress</td>
                                                 <td>
                                                     <div class="progress progress-sm">
                                                         <div class="progress-bar progress-lg bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60"></div>

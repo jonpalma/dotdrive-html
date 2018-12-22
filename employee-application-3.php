@@ -155,37 +155,6 @@
                     <div class="row">
 
                         <div class="form-group col-lg-6 col-md-6">
-                            <label>* Semitrailers</label>
-                            <select class="form-control" id="semi" required>
-                                <option selected disabled></option>
-                                <option>Yes</option>
-                                <option>No</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group col-lg-6 col-md-6 d-none" id="semiyears">
-                            <label>* Number of years</label>
-                            <select class="form-control" id="truck" required>
-                                <option selected disabled></option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option>8</option>
-                                <option>9</option>
-                                <option>10</option>
-                                <option>Over 10</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-lg-6 col-md-6">
                             <label>* Buses</label>
                             <select class="form-control" id="buses" required>
                                 <option selected disabled></option>
@@ -329,7 +298,7 @@
                     <div class="row">
 
                         <div class="form-group col-lg-6 col-md-6">
-                            <label>Owner/Operator</label>
+                            <label>Are you applying for Owner/Operator</label>
                             <select class="form-control" id="owneroperator" required>
                                 <option selected disabled></option>
                                 <option>Yes</option>
@@ -420,6 +389,27 @@
                             <label>List last highest grade completed</label>
                             <select class="form-control" id="educationgrade">
                                 <option selected disabled></option>
+                                <option>College - 1</option>
+                                <option>College - 2</option>
+                                <option>College - 3</option>
+                                <option>College - 4</option>
+                                <option>College - 5+</option>
+                                <option>GED</option>
+                                <option>Grade 1</option>
+                                <option>Grade 2</option>
+                                <option>Grade 3</option>
+                                <option>Grade 4</option>
+                                <option>Grade 5</option>
+                                <option>Grade 6</option>
+                                <option>Grade 7</option>
+                                <option>Grade 8</option>
+                                <option>Grade 9</option>
+                                <option>Grade 10</option>
+                                <option>Grade 11</option>
+                                <option>Grade 12</option>
+                                <option>MBA</option>
+                                <option>PhD</option>
+                                <option>Other</option>
                             </select>
                         </div>
 

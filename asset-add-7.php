@@ -44,7 +44,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="drivers-vehicle-inspection-modal-label">License</h4>
+                <h4 class="modal-title" id="drivers-vehicle-inspection-modal-label">Driver's Vehicle Inspection</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
@@ -54,20 +54,9 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Location</label>
-                            <select class="form-control" id="location">
-                                <option selected>S and R express Inc</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group col-md-6">
                             <label>* Odometer Reading</label>
                             <input type="text" id="odometerreading" class="form-control" required>
                         </div>
-
-                    </div>
-
-                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label>Report Date and Time</label>
@@ -105,10 +94,6 @@
                             </select>
                         </div>
 
-                    </div>
-
-                    <div class="row">
-
                         <div class="form-group col-md-6">
                             <label>Trailer #</label>
                             <input type="text" id="trailernumber" class="form-control">
@@ -122,10 +107,6 @@
                                 <option>Post-Trip Inspection</option>
                             </select>
                         </div>
-
-                    </div>
-
-                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label>Status</label>

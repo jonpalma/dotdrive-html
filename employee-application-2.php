@@ -44,8 +44,8 @@
                             </div>
 
                             <div class="form-group col-lg-3 col-md-6">
-                                <label for="suffix">* Suffix</label>
-                                <select class="form-control" id="suffix" required>
+                                <label for="suffix">Suffix</label>
+                                <select class="form-control" id="suffix">
                                     <option selected disabled></option>
                                     <option>Jr.</option>
                                     <option>II</option>

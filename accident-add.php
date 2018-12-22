@@ -20,13 +20,13 @@
         <div class="col-12">
 
             <div class="card">
-                <div class="card-body">
+                <div class="card-body pl-1">
 
                     <!-- start body content -->
 
-                    <div class="row">
+                    <div class="row m-0">
 
-                        <div class="col-lg-2 col-sm-3 mb-2 mb-sm-0">
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 mb-2 mb-sm-0 pl-0 pr-0">
                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                  aria-orientation="vertical">
                                 <!--<a class="nav-link active show" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
@@ -48,7 +48,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-10 col-sm-9">
+                        <div class="col-xl-10 col-lg-9 col-md-8 col-sm-8 pr-0">
 
                             <div class="tab-content" id="v-pills-tabContent">
 

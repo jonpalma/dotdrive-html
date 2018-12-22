@@ -51,7 +51,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="general-modal-label">License</h4>
+                <h4 class="modal-title" id="general-modal-label">Licenses</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
@@ -149,88 +149,52 @@
 
                     <div class="row">
 
-                        <div class="col-2 offset-10 text-center">
-                            <label>Alert On</label>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-4">
+                        <div class="form-group col-5">
                             <label>Annual Inspection Due</label>
                         </div>
 
-                        <div class="form-group col-6">
+                        <div class="form-group col-7">
                             <input type="text" class="form-control date" id="annualinspectiondue" data-toggle="date-picker"
                                    data-single-date-picker="true">
                         </div>
 
-                        <div class="form-group col-2 text-center">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="alerton1">
-                                <label class="custom-control-label" for="alerton1"></label>
-                            </div>
-                        </div>
-
                     </div>
 
                     <div class="row">
 
-                        <div class="form-group col-4">
+                        <div class="form-group col-5">
                             <label>State Inspection Due</label>
                         </div>
 
-                        <div class="form-group col-6">
+                        <div class="form-group col-7">
                             <input type="text" class="form-control date" id="stateinspectiondue" data-toggle="date-picker"
                                    data-single-date-picker="true">
                         </div>
 
-                        <div class="form-group col-2 text-center">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="alerton2">
-                                <label class="custom-control-label" for="alerton2"></label>
-                            </div>
-                        </div>
-
                     </div>
 
                     <div class="row">
 
-                        <div class="form-group col-4">
+                        <div class="form-group col-5">
                             <label>Insurance Expiration</label>
                         </div>
 
-                        <div class="form-group col-6">
+                        <div class="form-group col-7">
                             <input type="text" class="form-control date" id="insuranceexpiration" data-toggle="date-picker"
                                    data-single-date-picker="true">
                         </div>
 
-                        <div class="form-group col-2 text-center">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="alerton3">
-                                <label class="custom-control-label" for="alerton3"></label>
-                            </div>
-                        </div>
-
                     </div>
 
                     <div class="row">
 
-                        <div class="form-group col-4">
+                        <div class="form-group col-5">
                             <label>Owner Operator Insurance Expiration</label>
                         </div>
 
-                        <div class="form-group col-6">
+                        <div class="form-group col-7">
                             <input type="text" class="form-control date" id="owneroperatorinsuranceexpiration" data-toggle="date-picker"
                                    data-single-date-picker="true">
-                        </div>
-
-                        <div class="form-group col-2 text-center">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="alerton4">
-                                <label class="custom-control-label" for="alerton4"></label>
-                            </div>
                         </div>
 
                     </div>

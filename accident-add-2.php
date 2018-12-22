@@ -946,7 +946,7 @@
         <div class="form-group mt-3 col-md-6">
             <div class="custom-control custom-checkbox">
                 <input type="checkbox" class="custom-control-input" id="securedwitnesses">
-                <label class="custom-control-label" for="securedwitnesses">Have You Secured Witnesses - Names ¬
+                <label class="custom-control-label" for="securedwitnesses">Have You Secured Witnesses - Names -
                     Addresses?</label>
             </div>
         </div>
