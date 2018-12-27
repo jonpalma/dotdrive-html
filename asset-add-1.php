@@ -5,18 +5,9 @@
     <div class="row">
 
         <div class="form-group col-md-6">
-            <label>*  Asset ID</label>
-            <input type="text" id="assetid" class="form-control" required>
-        </div>
-
-        <div class="form-group col-md-6">
             <label>*  Name</label>
             <input type="text" id="name" class="form-control" required>
         </div>
-
-    </div>
-
-    <div class="row">
 
         <div class="form-group col-md-6">
             <label for="example-select">* Asset Type</label>
@@ -29,9 +20,16 @@
                     <option>Trailer</option>
                     <option>Truck</option>
                 </select>
-                <div class="input-group-append">
-                    <button class="btn btn-success" type="button" data-toggle="modal" data-target="#addAssetType"><i class="mdi mdi-plus"></i></button>
-                </div>
+                <span class="input-group-btn input-group-append">
+                    <button class="btn btn-info bootstrap-touchspin-up" type="button" data-toggle="modal" data-target="#addAssetType"><i class="mdi mdi-plus"></i></button>
+                </span>
+            </div>
+        </div>
+
+        <div class="form-group mt-3 col-md-6">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="activeasset">
+                <label class="custom-control-label" for="activeasset">Active Asset</label>
             </div>
         </div>
 
@@ -49,7 +47,7 @@
                             <input type="text" id="name" class="form-control">
                         </div>
 
-                        <button class="btn btn-block btn-success">Insert</button>
+                        <button class="btn btn-block btn-success" data-dismiss="modal">Insert</button>
 
                     </div>
                 </div>
@@ -76,22 +74,10 @@
                 <div class="card-body">
 
                     <div class="row">
-
-                        <div class="form-group mt-3 col-md-6">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="activeasset">
-                                <label class="custom-control-label" for="activeasset">Active Asset</label>
-                            </div>
-                        </div>
-
                         <div class="form-group col-md-6">
                             <label>Serial #</label>
                             <input type="text" id="serialnumber" class="form-control">
                         </div>
-
-                    </div>
-
-                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label>Make</label>
@@ -102,11 +88,6 @@
                             <label>Model</label>
                             <input type="text" id="model" class="form-control">
                         </div>
-
-                    </div>
-
-
-                    <div class="row">
 
                         <div class="form-group col-md-6">
                             <label>Year</label>

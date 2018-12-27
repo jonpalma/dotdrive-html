@@ -1608,8 +1608,13 @@
                     <div class="row">
 
                         <div class="form-group col-md-6">
-                            <label>Total for Inspection</label>
-                            <input type="text" id="totalforinspection" class="form-control" disabled>
+                            <label>Fine Amount</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="prepend-dollar">$</span>
+                                </div>
+                                <input type="text" id="totalforinspection" class="form-control" aria-describedby="prepend-dollar">
+                            </div>
                         </div>
 
                         <div class="form-group col-md-6">

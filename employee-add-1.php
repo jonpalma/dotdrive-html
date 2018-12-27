@@ -6,18 +6,36 @@
 
         <div class="form-group col-md-4">
             <label for="employeetype">* Employee type</label>
-            <select class="form-control" id="employeetype" required>
-                <option selected disabled></option>
-                <option>Administrative</option>
-                <option>CDL</option>
-                <option>CDL Driver</option>
-                <option>Driver</option>
-                <option>Mechanic</option>
-                <option>Non-CDL</option>
-                <option>Operations</option>
-                <option>Regular Employee</option>
-                <option>SAles</option>
-            </select>
+            <div class="input-group">
+                <select class="form-control" id="employeetype" required>
+                    <option selected disabled></option>
+                    <option>CDL Driver</option>
+                </select>
+                <span class="input-group-btn input-group-append">
+                    <button class="btn btn-info bootstrap-touchspin-up" type="button" data-toggle="modal" data-target="#addEmployeeType"><i class="mdi mdi-plus"></i></button>
+                </span>
+            </div>
+        </div>
+
+        <div class="modal fade" id="addEmployeeType" tabindex="-1" role="dialog" aria-labelledby="employee-training-modal-label" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="employee-training-modal-label">New Employee Type</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label>New Value</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+
+                        <button class="btn btn-block btn-success" data-dismiss="modal">Insert</button>
+
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="form-group col-md-4">
@@ -27,16 +45,6 @@
                 <option>Full-time</option>
                 <option>Part-time</option>
                 <option>Seasonal</option>
-            </select>
-        </div>
-
-        <div class="form-group col-md-4">
-            <label for="drivertype">* Driver Type</label>
-            <select class="form-control" id="drivertype" required>
-                <option selected disabled></option>
-                <option>CDL</option>
-                <option>Non-CDL</option>
-                <option>None</option>
             </select>
         </div>
 
@@ -127,10 +135,6 @@
                 <option>Wyoming</option>
             </select>
         </div>
-
-    </div>
-
-    <div class="row">
 
         <div class="form-group col-md-4">
             <label>Zip Code</label>

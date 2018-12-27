@@ -131,7 +131,7 @@
                     <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
                        href="#collapseOneClaim" aria-expanded="false"
                        aria-controls="collapseOneClaim">
-                        Additional Information <span class="float-right"><i
+                        Vehicle Information <span class="float-right"><i
                                     class="mdi mdi-chevron-down accordion-arrow"></i></span>
                     </a>
                 </h5>
@@ -139,8 +139,6 @@
             <div id="collapseOneClaim" class="collapse" aria-labelledby="headingOneClaim"
                  data-parent="#info-accordion-opt" style="">
                 <div class="card-body">
-
-                    <h4 class="page-title">Vehicle Information</h4>
 
                     <div class="row">
 
@@ -225,9 +223,29 @@
 
                     </div>
 
-                    <hr class="mb-4">
+                </div>
+            </div>
+        </div> <!-- end card-->
 
-                    <h4 class="page-title">Inspections and Expirations</h4>
+    </div>
+
+    <div id="insp-accordion-opt" class="custom-accordion mb-4">
+
+        <div class="card mb-0">
+            <div class="card-header" id="headingInsp">
+                <h5 class="m-0">
+                    <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
+                       href="#collapseInsp" aria-expanded="false"
+                       aria-controls="collapseInsp">
+                        Inspections and Expirations <span class="float-right"><i
+                                    class="mdi mdi-chevron-down accordion-arrow"></i></span>
+                    </a>
+                </h5>
+            </div>
+            <div id="collapseInsp" class="collapse" aria-labelledby="headingInsp"
+                 data-parent="#insp-accordion-opt" style="">
+
+                <div class="card-body">
 
                     <div class="row">
 
@@ -281,9 +299,30 @@
 
                     </div>
 
-                    <hr class="mb-4">
+                </div>
 
-                    <h4 class="page-title">Tire Information</h4>
+            </div>
+        </div> <!-- end card-->
+
+    </div>
+
+    <div id="tire-accordion-opt" class="custom-accordion mb-4">
+
+        <div class="card mb-0">
+            <div class="card-header" id="headingTires">
+                <h5 class="m-0">
+                    <a class="text-dark d-block pt-2 pb-2 collapsed" data-toggle="collapse"
+                       href="#collapseTires" aria-expanded="false"
+                       aria-controls="collapseTires">
+                        Tire Information <span class="float-right"><i
+                                    class="mdi mdi-chevron-down accordion-arrow"></i></span>
+                    </a>
+                </h5>
+            </div>
+            <div id="collapseTires" class="collapse" aria-labelledby="headingTires"
+                 data-parent="#tire-accordion-opt" style="">
+
+                <div class="card-body">
 
                     <div class="row">
 
@@ -362,6 +401,7 @@
                     </div>
 
                 </div>
+
             </div>
         </div> <!-- end card-->
 

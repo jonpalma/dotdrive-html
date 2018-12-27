@@ -1,5 +1,6 @@
 <form action="#" class="needs-validation" novalidate>
 
+    <!--
     <div class="row">
 
         <div class="form-group col-md-6">
@@ -307,6 +308,8 @@
 
     <hr class="mb-4">
 
+    -->
+
     <h4 class="page-title">Motor Vehicle Accident Register</h4>
 
     <div class="row">
@@ -382,7 +385,7 @@
 
     <hr class="mb-4">
 
-    <h4 class="page-title">Preliminary Report of Accident or Loss</h4>
+    <h4 class="page-title">Report of Accident or Loss</h4>
 
     <div class="row">
 
@@ -414,6 +417,7 @@
 
         <div class="form-group col-md-4">
             <label>Total Number of Vehicles Involved in Accident?</label>
+            <input type="text" id="numberofvehicles" class="form-control">
         </div>
 
         <div class="form-group col-md-4">
@@ -1088,6 +1092,7 @@
 
     </div>
 
+    <!--
     <hr class="mb-4">
 
     <h4 class="page-title">Notes on instructions to Company Employee</h4>
@@ -1100,6 +1105,7 @@
         </div>
 
     </div>
+    -->
 
     <div class="row">
 

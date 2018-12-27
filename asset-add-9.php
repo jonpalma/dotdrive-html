@@ -1,7 +1,7 @@
-<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#preventive-maintenance-modal">
+<!--<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#preventive-maintenance-modal">
     <i
             class="mdi mdi-plus"></i></button>
-<hr class="mb-4">
+<hr class="mb-4">-->
 <div class="table-responsive">
     <table class="table table-centered mb-0">
         <thead class="thead-dark">
@@ -40,6 +40,7 @@
         </tbody>
     </table>
 </div>
+<!--
 <div class="modal fade" id="preventive-maintenance-modal" tabindex="-1" role="dialog"
      aria-labelledby="preventive-maintenance-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -104,12 +105,12 @@
 
                     <div class="row">
 
-                        <!--<div class="form-group mt-3 col-md-6">
+                        <!-<div class="form-group mt-3 col-md-6">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input" id="alerton">
                                 <label class="custom-control-label" for="alerton">Alert On</label>
                             </div>
-                        </div>-->
+                        </div>->
 
                     </div>
 
@@ -126,6 +127,7 @@
                 <?php include('modules/views/fileUpload.php') ?>
 
             </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
+        </div><!- /.modal-content ->
+    </div><!- /.modal-dialog ->
 </div>
+-->

@@ -1,7 +1,7 @@
-<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#service-records-modal">
+<!--<button type="button" class="btn btn-icon btn-success" data-toggle="modal" data-target="#service-records-modal">
     <i
             class="mdi mdi-plus"></i></button>
-<hr class="mb-4">
+<hr class="mb-4">-->
 <div class="table-responsive">
     <table class="table table-centered mb-0">
         <thead class="thead-dark">
@@ -40,6 +40,7 @@
         </tbody>
     </table>
 </div>
+<!--
 <div class="modal fade" id="service-records-modal" tabindex="-1" role="dialog"
      aria-labelledby="service-records-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -228,6 +229,7 @@
                 <?php include('modules/views/fileUpload.php') ?>
 
             </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
+        </div><!- /.modal-content ->
+    </div><!- /.modal-dialog ->
 </div>
+-->

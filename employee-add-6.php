@@ -90,7 +90,7 @@
     </div>
 
     <hr class="mb-4">
-    <label>Medical Examiner’s Certificate (391.43 g)</label>
+    <label>Medical Examiner's Certificate (391.43 g)</label>
 
     <div class="row">
 
@@ -105,11 +105,26 @@
             </select>
         </div>
 
-        <div class="form-group col-md-5">
-            <label>* Completed Date</label>
-            <input type="text" class="form-control date" id="completeddate"
-                   data-toggle="date-picker" data-single-date-picker="true"
-                   required>
+        <div class="col-md-5">
+
+            <div class="row">
+
+                <div class="form-group col-md-12">
+                    <label>* Completed Date</label>
+                    <input type="text" class="form-control date" id="completeddate"
+                           data-toggle="date-picker" data-single-date-picker="true"
+                           required>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label>* Expiration Date</label>
+                    <input type="text" class="form-control date" id="expirationdate"
+                           data-toggle="date-picker" data-single-date-picker="true"
+                           required>
+                </div>
+
+            </div>
+
         </div>
 
         <div class="form-group col-2 text-center mt-4">
@@ -285,11 +300,26 @@
             </select>
         </div>
 
-        <div class="form-group col-md-5">
-            <label>* Completed Date</label>
-            <input type="text" class="form-control date" id="completeddate"
-                   data-toggle="date-picker" data-single-date-picker="true"
-                   required>
+        <div class="col-5">
+
+            <div class="row">
+
+                <div class="form-group col-md-12">
+                    <label>* Completed Date</label>
+                    <input type="text" class="form-control date" id="completeddate"
+                           data-toggle="date-picker" data-single-date-picker="true"
+                           required>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label>* Expiration Date</label>
+                    <input type="text" class="form-control date" id="expirationdate"
+                           data-toggle="date-picker" data-single-date-picker="true"
+                           required>
+                </div>
+
+            </div>
+
         </div>
 
         <div class="form-group col-2 text-center mt-4">

@@ -32,6 +32,8 @@
                 <div class="mb-1">
                     If you have any questions in the meantime, please contact us at (915) 667-7410.
                 </div>
+                
+                <div class=" mdi mdi-checkbox-marked-circle-outline text-center" style="color: #4BB543; font-size: 200px; line-height: normal;"></div>
 
                 <!-- end body content -->
 

@@ -48,43 +48,6 @@
 
                 <form action="#" class="needs-validation" novalidate>
 
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label>* Review Name</label>
-                            <select class="form-control" id="reviewname" required>
-                                <option selected disabled></option>
-                                <option>Management Review</option>
-                                <option>Salary Review</option>
-                                <option>Warning</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>* Review Completed</label>
-                            <input type="text" class="form-control date" id="reviewcompleted"
-                                   data-toggle="date-picker" data-single-date-picker="true" required>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="form-group col-md-6">
-                            <label for="reviewcomments">Review Comments</label>
-                            <textarea class="form-control" id="reviewcomments" rows="3"></textarea>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label>* Next Review Due</label>
-                            <input type="text" class="form-control date" id="nextreviewdue"
-                                   data-toggle="date-picker" data-single-date-picker="true" required>
-                        </div>
-
-                    </div>
-
-                    <hr class="mb-4">
-
                     <h4 class="page-title">Employee Warning Notice</h4>
 
                     <div class="row">

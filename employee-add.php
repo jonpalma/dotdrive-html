@@ -127,10 +127,10 @@
 
                                             <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
 
-                                                <a class="nav-link pl-1 pr-1" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab"
+                                                <!--<a class="nav-link pl-1 pr-1" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab"
                                                    aria-controls="v-pills-10" aria-selected="false">
                                                     <span class="d-lg-block">HR Paperwork</span>
-                                                </a>
+                                                </a>-->
                                                 <a class="nav-link pl-1 pr-1" id="v-pills-11-tab" data-toggle="pill" href="#v-pills-11" role="tab"
                                                    aria-controls="v-pills-11" aria-selected="false">
                                                     <span class="d-lg-block">Employee Warning</span>
@@ -141,7 +141,7 @@
                                                 </a>-->
                                                 <a class="nav-link pl-1 pr-1" id="v-pills-13-tab" data-toggle="pill" href="#v-pills-13" role="tab"
                                                    aria-controls="v-pills-13" aria-selected="false">
-                                                    <span class="d-lg-block">Substance Testing</span>
+                                                    <span class="d-lg-block">Substance Testing (Random)</span>
                                                 </a>
                                                 <a class="nav-link pl-1 pr-1" id="v-pills-14-tab" data-toggle="pill" href="#v-pills-14" role="tab"
                                                    aria-controls="v-pills-14" aria-selected="false">

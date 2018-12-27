@@ -278,12 +278,9 @@
 
                                                     <div class="form-group col-lg-6 col-md-6">
                                                         <label>* Is this your current employer?</label>
-                                                        <select class="form-control" id="currentemployer" required
-                                                                disabled>
-                                                            <option selected disabled></option>
-                                                            <option>Yes</option>
-                                                            <option>No</option>
-                                                        </select>
+                                                        <input type="text" id="currentemployer"
+                                                               class="form-control" required
+                                                               disabled>
                                                     </div>
 
                                                     <div class="form-group col-lg-6 col-md-6">

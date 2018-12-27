@@ -26,10 +26,10 @@
                     <div class="text-justify mb-2">
                         In conjunction with my potential employment at
                         <div class="form-group d-inline-block pl-2 pr-2" style="width: 250px">
-                            <input type="text" class="form-control" placeholder="The Company" required>
+                            <input type="text" class="form-control" placeholder="The Company" value="Company Name" required>
                         </div>, I
                         <div class="form-group d-inline-block pl-2 pr-2" style="width: 250px">
-                            <input type="text" class="form-control" placeholder="Applicant" required>
+                            <input type="text" class="form-control" placeholder="Applicant" value="Applicant Name" required>
                         </div> consent to the release of my Motor Vehicle
                         Records (MVR) to the company. I understand the company will use these records to evaluate my
                         suitability to fulfill driving duties that may be related to the position for which I am
@@ -44,7 +44,7 @@
                     <div class="text-justify">
                         Signed
                         <div class="form-group d-inline-block pl-2 pr-2" style="width: 250px">
-                            <input type="text" class="form-control" placeholder="Applicant" required>
+                            <input type="text" class="form-control" placeholder="Applicant" value="Applicant Name" required>
                         </div>
                     </div>
                     <div class="text-justify">
@@ -58,13 +58,13 @@
                     <div class="text-justify">
                         Driver's License Number:
                         <div class="form-group d-inline-block pl-2 pr-2" style="width: 250px">
-                            <input type="text" class="form-control" placeholder="License Number" required>
+                            <input type="text" class="form-control" placeholder="License Number" value="License Number" required>
                         </div>
                     </div>
                     <div class="text-justify">
                         State:
                         <div class="form-group d-inline-block pl-2 pr-2" style="width: 250px">
-                            <input type="text" class="form-control" placeholder="State" required>
+                            <input type="text" class="form-control" placeholder="State" value="State Name" required>
                         </div>
                     </div>
 

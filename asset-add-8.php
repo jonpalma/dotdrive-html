@@ -101,9 +101,14 @@
 
                         <div class="form-group col-md-6">
                             <label>Warranty Vendor</label>
-                            <select class="form-control" id="warrantyvendor">
-                                <option selected disabled></option>
-                            </select>
+                            <div class="input-group">
+                                <select class="form-control" id="warrantyvendor">
+                                    <option selected disabled></option>
+                                </select>
+                                <span class="input-group-btn input-group-append">
+                                    <button class="btn btn-info bootstrap-touchspin-up" type="button" data-toggle="modal" data-target="#addVendor"><i class="mdi mdi-plus"></i></button>
+                                </span>
+                            </div>
                         </div>
 
                         <div class="form-group col-md-6">
@@ -146,4 +151,25 @@
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade" id="addVendor" tabindex="-1" role="dialog" aria-labelledby="vendor-modal-label" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="vendor-modal-label">New Warranty Vendor</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+
+                <div class="form-group">
+                    <label>New Value</label>
+                    <input type="text" id="name" class="form-control">
+                </div>
+
+                <button class="btn btn-block btn-success" data-dismiss="modal">Insert</button>
+
+            </div>
+        </div>
+    </div>
 </div>

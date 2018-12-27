@@ -13,30 +13,17 @@
 
                 <!-- start body content -->
 
-                <form action="employee-application-17.php" class="needs-validation" novalidate>
+                <form action="employee-application-18.php" class="needs-validation" novalidate>
 
                     <h4 class="page-title text-center mb-4">BACKGROUND CHECK DISCLOSURE AND RELEASE AUTHORIZATION FORM
                         FOR EMPLOYMENT PURPOSES Background Screening Disclosure</h4>
 
                     <p class="text-justify">S and R Express Inc may request a comprehensive review of your background
                         information from a consumer reporting agency in connection with your employment application and
-                        for employment purposes, including promotion, reassignment, or retention as an employee. Your
-                        background information may be obtained in the form of consumer reports and/or investigative
-                        consumer reports. These reports may be obtained at any time after receipt of your authorization
-                        and, if you are hired by the Company, throughout your employment. Corra, 201 Continental
-                        Boulevard, Suite 107, El Segundo, CA 90245, 1‐310‐524‐9800, and its designated agents and
-                        representatives or another consumer reporting agency will prepare or assemble the reports. The
-                        scope of the consumer report/investigative consumer report may include, but is not limited to,
-                        the following areas: consumer credit, names and dates of previous/current employment, worker’s
-                        compensation claims, criminal history records (from local, state, federal, international and
-                        other law enforcement agencies’ records), sexual offender’s lists, wants and warrants records,
-                        motor vehicle records, military records, educational verification, license verification, civil
-                        cases, OIG/GSA, OFAC/patriot act, any sanction lists, finger printing and drug testing. These
+                        for employment purposes, including promotion, reassignment, or retention as an employee. These
                         reports may include information as to your general reputation, character, personal
                         characteristics, mode of living, work habits, job performance and experience along with reasons
-                        for termination of past employment from previous employers. You may request more information
-                        about the nature and scope of any investigative consumer reports by contacting the Company. A
-                        summary of your rights under the Fair Credit Reporting Act is also being provided to you.
+                        for termination of past employment from previous employers.
                     </p>
 
                     <h4 class="page-title text-center mt-4 mb-4">Authorization and Release</h4>
@@ -46,9 +33,6 @@
                         enforcement or public agency may have. I authorize the full release of the information described
                         above, without any reservation, throughout any duration of my employment at the Company. I
                         certify that all information provided below is true and accurate to the best of my knowledge.
-                        This authorization and consent shall be valid in original, facsimile (“fax"), or copy form. I
-                        understand that Corra’s privacy practices can be found at
-                        <a href="http://www.corragroup.com/privacy-policy.html">http://www.corragroup.com/privacy-policy.html</a>.
                     </p>
 
                     <div class="form-group row">

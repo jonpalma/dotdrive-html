@@ -52,6 +52,13 @@
 <script>
     $(document).ready(function () {
         $('[data-single-date-picker="true"],[data-reset-val=true]').not('[data-reset-val=false]').val('');
+
+        // Modal over modal fix
+        $(document).on('hidden.bs.modal', function (event) {
+            if ($('.modal:visible').length) {
+                $('body').addClass('modal-open');
+            }
+        });
     });
 
     enableInp = (sel, index, inpType, multi = false, contId = null) => {
