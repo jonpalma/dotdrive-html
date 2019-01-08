@@ -2,9 +2,12 @@
     <table class="table table-centered mb-0">
         <thead class="thead-dark">
         <tr>
-            <th>Id</th>
+            <th>WO #</th>
             <th>Asset</th>
             <th>Service</th>
+            <th>Actual Start</th>
+            <th>Actual Completion</th>
+            <th>Total</th>
         </tr>
         </thead>
         <tbody>
@@ -15,6 +18,9 @@
                 <div>Service 1</div>
                 <div>Service 2</div>
             </td>
+            <td>01/07/2019</td>
+            <td>01/10/2019</td>
+            <td>$2,099</td>
         </tr>
         <tr>
             <td><a href="#">#2</a></td>
@@ -23,6 +29,9 @@
                 <div>Maintenance 1</div>
                 <div>Service 2</div>
             </td>
+            <td>01/07/2019</td>
+            <td>01/10/2019</td>
+            <td>$2,099</td>
         </tr>
         <tr>
             <td><a href="#">#3</a></td>
@@ -31,6 +40,9 @@
                 <div>Service 1</div>
                 <div>Maintenance 2</div>
             </td>
+            <td>01/07/2019</td>
+            <td>01/10/2019</td>
+            <td>$2,099</td>
         </tr>
         </tbody>
     </table>

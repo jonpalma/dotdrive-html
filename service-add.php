@@ -28,8 +28,8 @@
 
                         <div class="row">
 
-                            <div class="form-group col-md-3">
-                                <label for="example-select">* Service Type</label>
+                            <div class="form-group col-md-2">
+                                <label for="example-select">Service Type</label>
                                 <select class="form-control" id="privacycase" required>
                                     <option selected disabled></option>
                                     <option>Maintenance</option>
@@ -37,8 +37,8 @@
                                 </select>
                             </div>
 
-                            <div class="form-group col-md-3">
-                                <label for="example-select">* Asset</label>
+                            <div class="form-group col-md-2">
+                                <label for="example-select">Asset</label>
                                 <select class="form-control" id="privacycase" required>
                                     <option selected disabled></option>
                                     <option>Truck</option>
@@ -47,44 +47,77 @@
                                 </select>
                             </div>
 
-                            <div class="form-group col-md-3">
-                                <label for="example-select">* Violations</label>
-                                <select class="form-control" id="privacycase" multiple data-toggle="select2" required>
-                                    <option>Violation</option>
-                                    <option>Violation 2</option>
-                                    <option>Violation 3</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group col-md-3">
-                                <label>* Date</label>
+                            <div class="form-group col-md-2">
+                                <label for="example-select">Date</label>
                                 <input type="text" class="form-control date" id="date" data-toggle="date-picker"
                                        data-single-date-picker="true" required>
                             </div>
 
-                            <div class="form-group col-md-4">
-                                <label>* Odometer</label>
+                            <div class="form-group col-md-2">
+                                <label>Scheduled Start</label>
+                                <input type="text" class="form-control date" id="date" data-toggle="date-picker"
+                                       data-single-date-picker="true" required>
+                            </div>
+
+                            <div class="form-group col-md-2">
+                                <label>Scheduled Completion</label>
+                                <input type="text" class="form-control date" id="date" data-toggle="date-picker"
+                                       data-single-date-picker="true" required>
+                            </div>
+
+                            <div class="form-group col-md-2">
+                                <label>Odometer</label>
                                 <input type="text" id="odometer" class="form-control" required>
                             </div>
 
-                            <div class="form-group col-lg-4 col-md-8">
-                                <label for="description">* Description</label>
-                                <input type="text" id="description" class="form-control" required>
-                            </div>
+                            <div class="row">
 
-                            <div class="form-group col-lg-3 col-md-4">
-                                <label>Total</label>
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="prepend-dollar">$</span>
-                                    </div>
-                                    <input type="text" id="total" class="form-control"
-                                           aria-describedby="prepend-dollar" required>
+                                <div class="col-md-2">
+                                    <label>Violation</label>
+                                    <input type="checkbox" class="form-control" name="">
                                 </div>
+
+                                <div class="form-group col-md-2">
+                                    <label>Date Violation</label>
+                                    <input type="text" class="form-control date" id="date" data-toggle="date-picker"
+                                           data-single-date-picker="true" required>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label># violation</label>
+                                    <input type="" class="form-control" name="">
+                                </div>
+
+
                             </div>
 
-                            <div class="form-group col-lg-1 col-md-8 mt-3">
-                                <button type="button" class="btn btn-icon btn-success mt-1"><i class="mdi mdi-plus"></i></button>
+                            <div class="row">
+
+                                <div class="form-group col-lg-6 col-md-8">
+                                    <label for="description">Description</label>
+                                    <input type="text" id="description" class="form-control" required>
+                                </div>
+
+                                <div class="form-group col-lg-1 col-md-1">
+                                    <label for="description">Documents</label>
+                                    <input type="text" id="description" class="form-control" required>
+                                </div>
+
+                                <div class="form-group col-lg-2 col-md-2">
+                                    <label>Total</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="prepend-dollar">$</span>
+                                        </div>
+                                        <input type="text" id="total" class="form-control"
+                                               aria-describedby="prepend-dollar" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-lg-1 col-md-8 mt-3">
+                                    <button type="button" class="btn btn-icon btn-success mt-1"><i class="mdi mdi-plus"></i></button>
+                                </div>
+
                             </div>
 
                         </div>

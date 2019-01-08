@@ -31,7 +31,11 @@
                                  aria-orientation="vertical">
                                 <a class="nav-link active show" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
                                    role="tab" aria-controls="v-pills-1" aria-selected="true">
-                                    <span class="d-lg-block">Active</span>
+                                    <span class="d-lg-block">Assets</span>
+                                </a>
+                                <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
+                                   aria-controls="v-pills-4" aria-selected="false">
+                                    <span class="d-lg-block">Scheluded</span>
                                 </a>
                                 <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
                                    aria-controls="v-pills-2" aria-selected="false">
@@ -64,6 +68,12 @@
                                 <div class="tab-pane fade" id="v-pills-3" role="tabpanel"
                                      aria-labelledby="v-pills-3-tab">
                                     <?php include('service-list-3.php'); ?>
+                                </div>
+
+                                <!--  TAB -->
+                                <div class="tab-pane fade" id="v-pills-4" role="tabpanel"
+                                     aria-labelledby="v-pills-4-tab">
+                                    <?php include('service-list-4.php'); ?>
                                 </div>
 
                             </div>

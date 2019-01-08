@@ -2,7 +2,7 @@
     <table class="table table-centered mb-0">
         <thead class="thead-dark">
         <tr>
-            <th>Id</th>
+            <th>WO #</th>
             <th>Asset</th>
             <th>Status</th>
         </tr>
@@ -16,12 +16,17 @@
         <tr>
             <td><a href="#">#2</a></td>
             <td>Truck 2</td>
-            <td><i class="mdi mdi-circle text-danger"></i> Inactive</td>
+            <td><i class="mdi mdi-circle text-info"></i> Scheluded</td>
         </tr>
         <tr>
             <td><a href="#">#3</a></td>
             <td>Truck 3</td>
-            <td><i class="mdi mdi-circle text-info"></i> Violations</td>
+            <td><i class="mdi mdi-circle text-warning"></i> In progress</td>
+        </tr>
+        <tr>
+            <td><a href="#">#4</a></td>
+            <td>Truck 4</td>
+            <td><i class="mdi mdi-circle text-danger"></i> Past due</td>
         </tr>
         </tbody>
     </table>
