@@ -88,6 +88,11 @@
                                     <input type="" class="form-control" name="">
                                 </div>
 
+                                <div class="col-md-2">
+                                    <label>Driver</label>
+                                    <input type="" class="form-control" name="">
+                                </div>
+
 
                             </div>
 

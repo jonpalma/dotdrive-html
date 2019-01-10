@@ -24,21 +24,21 @@
                         <table class="table table-centered mb-0">
                             <thead class="thead-dark">
                             <tr>
-                                <th>Id</th>
-                                <th>Violation</th>
+                                <th>WO #</th>
+                                <th>Violation Date</th>
+                                <th>Violation number</th>
                                 <th>Asset</th>
-                                <th>Date</th>
-                                <th>Code</th>
+                                <th>Driver</th>
                                 <th></th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td><a href="#">#1</a></td>
+                                <td><a href="#">#31</a></td>
+                                <td>04/01/2019</td>
                                 <td>Violation #1</td>
                                 <td>Truck 3</td>
-                                <td>04/01/2019</td>
-                                <td>R53D</td>
+                                <td>Charly</td>
                                 <td>
                                     <div class="dropdown">
                                         <a href="#" class="" type="button" id="dropdownMenu2" data-toggle="dropdown"
@@ -47,7 +47,7 @@
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                                             <button class="dropdown-item" type="button"><i
-                                                        class="mdi mdi-square-edit-outline"></i> Edit
+                                                        class="mdi mdi-square-edit-outline"></i> Download
                                             </button>
                                             <button class="dropdown-item" type="button"><i class="mdi mdi-delete"></i>
                                                 Delete
@@ -57,10 +57,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><a href="#">#2</a></td>
+                                <td><a href="#">#62</a></td>
+                                <td>04/01/2019</td>
                                 <td>Violation #2</td>
                                 <td>Truck 3</td>
-                                <td>04/01/2019</td>
                                 <td>R2D2</td>
                                 <td>
                                     <div class="dropdown">
