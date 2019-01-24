@@ -44,7 +44,7 @@
                         <a href="employee-application.php">Applications</a>
                     </li>
                     <li>
-                        <a href="employee-application-list.php">List</a>
+                        <a href="employee-service-list.php">List</a>
                     </li>
                 </ul>
             </li>

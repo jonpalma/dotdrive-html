@@ -419,6 +419,10 @@ mark,
   font-size: 90%;
   color: #6c757d; }
 
+.missing-info {
+  color: #f00;
+}
+
 code {
   font-size: 87.5%;
   color: #39afd1;
