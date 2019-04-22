@@ -6,17 +6,16 @@
         <!-- LOGO -->
         <a href="dashboard.php" class="logo text-center">
                         <span class="logo-lg">
-                            <img src="assets/images/logo.png" alt="" height="16">
+                            <img src="assets/images/logo.png" alt="" height="22"  >
                         </span>
             <span class="logo-sm">
-                            <img src="assets/images/logo_sm.png" alt="" height="16">
+                            <img src="assets/images/logo_sm.png" alt="" height="22" >
                         </span>
         </a>
 
         <!--- Sidemenu -->
         <ul class="metismenu side-nav">
 
-            <li class="side-nav-title side-nav-item">Navigation</li>
 
             <li class="side-nav-item">
                 <a href="dashboard.php" class="side-nav-link">
