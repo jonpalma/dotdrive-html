@@ -1,6 +1,0 @@
-/* MODALS CSS */
-@media (max-width: 576px) {
-    .modal-dialog.modal-lg {
-        max-width: 650px;
-    }
-}
