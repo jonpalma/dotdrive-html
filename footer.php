@@ -1,23 +1,23 @@
 <footer>
-    <div class="container pt-5 pb-5 text-white">
+    <div class="container pt-5 pb-5 text-white" id="contact">
         <div class="row align-items-center pt-5 pb-5">
             <div class="col-lg-5 col-md-5 col-sm-12 mt-4 mb-4">
                 <img src="img/logo-white.png" alt="logo" class="img-fluid mb-5">
                 <p>
-                    Lorem Ipsum  No. 7890<br>
-                    Lorem Ipsum C.P. 090909<br>
-                    USA
+                    13029 Pellicano Dr.<br>
+                    El Paso Texas<br>
+                    79928
                 </p>
                 <p>
-                    Tel. (01) 800 890 89 89
+                    Tel. (915)241-7909
                 </p>
                 <p>
                     info@dotdrive.com
                 </p>
-                <a href="" target="_blank" class="btn btn-link"><img src="img/f-fb.png" alt="facebook" class="img-fluid"></a>
-                <a href="" target="_blank" class="btn btn-link"><img src="img/f-tw.png" alt="twitter" class="img-fluid"></a>
-                <a href="" target="_blank" class="btn btn-link"><img src="img/f-g.png" alt="Google +" class="img-fluid"></a>
-                <a href="" target="_blank" class="btn btn-link"><img src="img/f-Be.png" alt="Behance" class="img-fluid"></a>
+                <!-- <a href="" target="_blank" class="btn btn-link"><img src="img/f-fb.png" alt="facebook" class="img-fluid"></a>
+                <a href="" target="_blank" class="btn btn-link"><img src="img/f-tw.png" alt="twitter" class="img-fluid"></a>  
+                -->  
+
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 text-center">
                 <h2 class="no-divider">Contact Us!</h2>

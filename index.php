@@ -31,7 +31,10 @@
                                 <div class="col">
                                     <h3>DQ Files</h3>
                                     <p>Easily manage your DQ files and remain DOT compliant by processing drivers on-line and keeping track of the completeness of their files</p>
-                                    <a href="">Features</a>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dqFiles">
+                                      Features
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +60,9 @@
                                 <div class="col">
                                     <h3>Vehicle Maintenance</h3>
                                     <p>Schedule, log and organize your vehicle maintenance records by creating work orders for preventive maintenance and service repairs</p>
-                                    <a href="">Features</a>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vehicleMaintenance">
+                                      Features
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -148,13 +153,13 @@
                 <div class="card col-lg-3 col-md-6 col-sm-6">
                     <div class="card-body">
                         <h3>Individual</h3>
-                        <h3>$0 dlls / Unit / Month</h3>
+                        <h3>$10 dlls / Unit / Month</h3>
                         <img src="img/card1.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-3 mt-2">
-                            Employees<br>
+                            Hiring process<br>
                             Asset Management<br>
                             Accident Log and Reporting<br>
-                            Services Records<br>
+                            Service Records<br>
                             DOT Violation Repair Record<br>
                             Interactive Dashboard<br>
                         </p>
@@ -164,13 +169,13 @@
                 <div class="card active col-lg-3 col-md-6 col-sm-6">
                     <div class="card-body">
                         <h3>Business</h3>
-                        <h3>$20 dlls / Unit /Month</h3>
+                        <h3>$20 dlls / Unit / Month</h3>
                         <img src="img/card2.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-2 text-white">
-                            Employees<br>
+                            Hiring process<br>
                             Asset Management<br>
                             Accident Log and Reporting<br>
-                            Services Records<br>
+                            Service Records<br>
                             DOT Violation Repair Record<br>
                             Interactive Dashboard<br>
                             Professional Reports<br>
@@ -182,13 +187,13 @@
                 <div class="card col-lg-3 col-md-6 col-sm-6">
                     <div class="card-body">
                         <h3>Professional</h3>
-                        <h3>$15 dlls / UNit Month</h3>
+                        <h3>$15 dlls / Unit / Month</h3>
                         <img src="img/card3.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-2">
-                            Employees<br>
+                            Hiring process<br>
                             Asset Management<br>
                             Accident Log and Reporting<br>
-                            Services Records<br>
+                            Service Records<br>
                             DOT Violation Repair Record<br>
                             Interactive Dashboard<br>
                             Professional Reports<br>
@@ -203,10 +208,10 @@
                         <h3>Unlimited</h3>
                         <img src="img/card4.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-2">
-                            Employees<br>
+                            Hiring process<br>
                             Asset Management<br>
                             Accident Log and Reporting<br>
-                            Services Records<br>
+                            Service Records<br>
                             DOT Violation Repair Record<br>
                             Interactive Dashboard<br>
                             Professional Reports<br>
@@ -229,8 +234,8 @@
                                     <img src="img/testimonial.png" alt="" class="card-img-top">
                                 </div>
                                 <div class="card-footer">
-                                    <h3 class="font-weight-bold">Lorem ipsum</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                    <h3 class="font-weight-bold">SR Express Inc.</h3>
+                                    <p>Software is very user friendly. Access all of you DOT files on line and immediatel when you need them. DOT Drive has helped our office adopt paperless that keep us DOT compliant.</p>
                                 </div>
                             </div>
                             <div class="card">
@@ -238,13 +243,13 @@
                                     <img src="img/testimonial.png" alt="" class="card-img-top">
                                 </div>
                                 <div class="card-footer">
-                                    <h3 class="font-weight-bold">Lorem ipsum</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                    <h3 class="font-weight-bold">SR Express Inc.</h3>
+                                    <p>Software is very user friendly. Access all of you DOT files on line and immediatel when you need them. DOT Drive has helped our office adopt paperless that keep us DOT compliant.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <!--<div class="carousel-item">
                         <div class="card-deck">
                             <div class="card">
                                 <div class="card-img-container">
@@ -265,9 +270,53 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="dqFiles" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content ">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">DQ Files</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <li>License expiration reminders</li>
+            <li>Medical card expiration reminders</li>
+            <li>Completeness check for FMCSA required documents</li>
+            <li>line employment application</li>
+            <li>Safety performance records</li>
+            <li>List of violations per driver</li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal  -->
+    <div class="modal fade" id="vehicleMaintenance" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">DQ Files</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <li>Manage your assets, time and labor utilization which will ultimately contribute towards reduced overall costs and increased profits</li>
+            <li>Vehicle log (unit #, make, model, VIN and tire size)</li>
+            <li>Streamline workflow</li>
+            <li>Create, manage and track work orders from any location and in real-time</li>
+            <li>Upload post-trip inspection reports</li>
+            <li>Print work order reports per desired term to review labor and part expenses per unit (truck or trailer)</li>
+            <li>Dashboard with charts and graphs for month-to-month comparison</li>
+            <li>Record of post-trip inspections</li>
+          </div>
+        </div>
+      </div>
     </div>
 <?php include('footer.php'); ?>
