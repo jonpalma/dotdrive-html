@@ -235,7 +235,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <h3 class="font-weight-bold">SR Express Inc.</h3>
-                                    <p>Software is very user friendly. Access all of you DOT files on line and immediatel when you need them. DOT Drive has helped our office adopt paperless that keep us DOT compliant.</p>
+                                    <p>Software is very user friendly. Access all of you DOT files on line and immediately when you need them. DOT Drive has helped our office adopt paperless that keep us DOT compliant.</p>
                                 </div>
                             </div>
                             <div class="card">
@@ -244,7 +244,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <h3 class="font-weight-bold">SR Express Inc.</h3>
-                                    <p>Software is very user friendly. Access all of you DOT files on line and immediatel when you need them. DOT Drive has helped our office adopt paperless that keep us DOT compliant.</p>
+                                    <p>Besides being fully CSA compliant, DOT Drive is making one of our departments become almost 100% paperless. </p>
                                 </div>
                             </div>
                         </div>
