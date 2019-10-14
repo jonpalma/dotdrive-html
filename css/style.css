@@ -69,7 +69,7 @@ h2:after:not(.no-divider) {
 }
 
 .navbar-brand img {
-  height: 35px;
+  height: auto;
 }
 
 .navbar-nav .nav-item:nth-last-of-type(1) {
@@ -155,7 +155,7 @@ h2:after:not(.no-divider) {
   padding: 0 5px;
 }
 #features #features-desc img {
-  width: 80px;
+  width: 45px;
 }
 #features .pseudo-container {
   top: 0;

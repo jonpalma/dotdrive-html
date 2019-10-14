@@ -114,8 +114,8 @@
         <div class="container mt-2 pt-5">
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-white mt-3 mb-3">
-                    <h2>Watch our video</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <h2>One Platform fot your DOT Files</h2>
+                    <p>DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print reports per specific unit showing evertyhing you need for business operations planning, strategy, review or even if in case you get audited by the Department of Transportation.</p>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <a href="javascript:void(0);" class="d-block" id="play"><img class="img-fluid" src="img/video.png" alt="Video"></a>
@@ -231,7 +231,7 @@
                         <div class="card-deck">
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img src="img/testimonial.png" alt="" class="card-img-top">
+                                    <img src="img/testimonial-1.png" alt="" class="card-img-top">
                                 </div>
                                 <div class="card-footer">
                                     <h3 class="font-weight-bold">SR Express Inc.</h3>
@@ -240,10 +240,10 @@
                             </div>
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img src="img/testimonial.png" alt="" class="card-img-top">
+                                    <img src="img/testimonial-2.png" alt="" class="card-img-top">
                                 </div>
                                 <div class="card-footer">
-                                    <h3 class="font-weight-bold">SR Express Inc.</h3>
+                                    <h3 class="font-weight-bold">IDIQ Logistics, LLC</h3>
                                     <p>Besides being fully CSA compliant, DOT Drive is making one of our departments become almost 100% paperless. </p>
                                 </div>
                             </div>
