@@ -114,7 +114,7 @@
         <div class="container mt-2 pt-5">
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-white mt-3 mb-3">
-                    <h2>One Platform fot your DOT Files</h2>
+                    <h2>One platform for all of your DOT Files</h2>
                     <p>DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print reports per specific unit showing evertyhing you need for business operations planning, strategy, review or even if in case you get audited by the Department of Transportation.</p>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
