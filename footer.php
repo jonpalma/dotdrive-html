@@ -21,10 +21,11 @@
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 text-center">
                 <h2 class="no-divider">Contact Us!</h2>
-                <form action="">
+                <form action="mailer.php" method="POST">
                     <input type="text" class="form-control" name="name" placeholder="Full Name" required>
                     <input type="email" class="form-control" name="email" placeholder="Email Address" required>
-                    <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
+                    <input type="phone" class="form-control" name="phone" placeholder="Phone Number" required>
+                    <input type="message" class="form-control" name="message" placeholder="Message" required>
                     <button type="submit" class="btn btn-primary btn-block">Send</button>
                 </form>
             </div>

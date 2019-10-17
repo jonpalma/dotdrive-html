@@ -52,7 +52,7 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-primary btn-sqr-primary text-white btn-sm" href="#contact">Try free</a>
+                    <a class="nav-link btn btn-primary btn-sqr-primary text-white btn-sm" href="#contact">Request a Demo</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="http://app.dotdrive.net">Login</a>
