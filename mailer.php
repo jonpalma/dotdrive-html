@@ -69,17 +69,16 @@ if (!function_exists('http_response_code')) {
 // Only process POST requests.
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get the form fields and remove whitespace.
-    $bName = strip_tags(trim($_POST["bName"]));
+    $bName = trim($_POST["bName"]);
     $name = trim($_POST["name"]);
-    
-        $phone = trim($_POST["phone"]);
-        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-        $address = trim($_POST["address"]);
-        $numberTrucks = trim($_POST["numberTrucks"]);
-        $numberTrailers = trim($_POST["numberTrailers"]);
-        $numberDrivers = trim($_POST["numberDrivers"]);
-        $usDot = trim($_POST["usDot"]);
-        $message = trim($_POST["message"]);    
+    $phone = trim($_POST["phone"]);
+    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+    $address = trim($_POST["address"]);
+    $numberTrucks = trim($_POST["numberTrucks"]);
+    $numberTrailers = trim($_POST["numberTrailers"]);
+    $numberDrivers = trim($_POST["numberDrivers"]);
+    $usDot = trim($_POST["usDot"]);
+    $message = trim($_POST["message"]);    
 
     // Check that data was sent to the mailer.
     if ( empty($name) OR empty($message)) {
@@ -130,11 +129,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         // Set a 500 (internal server error) response code.
         http_response_code(500);
-        echo "Oops! Ocurrió un error, intentelo nuevamente.";
+        echo "Oops! Ocurrió un error 500, intentelo nuevamente.";
     }
 
 } else {
     // Not a POST request, set a 403 (forbidden) response code.
     http_response_code(403);
-    echo "Oops! Ocurrió un error, intentelo nuevamente.";
+    echo "Oops! Ocurrió un error 403, intentelo nuevamente.";
 }

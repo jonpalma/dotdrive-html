@@ -4,7 +4,7 @@
             <div class="col-lg-5 col-md-5 col-sm-12 mt-4 mb-4">
                 <img src="img/logo-white.png" alt="logo" class="img-fluid mb-5">
                 <p>
-                    13029 Pellicano Dr.<br>
+                    Address. 13029 Pellicano Dr.<br>
                     El Paso Texas<br>
                     79928
                 </p>
@@ -12,7 +12,7 @@
                     Tel. (915)241-7909
                 </p>
                 <p>
-                    info@dotdrive.com
+                    Email. info@dotdrive.net
                 </p>
                 <!-- <a href="" target="_blank" class="btn btn-link"><img src="img/f-fb.png" alt="facebook" class="img-fluid"></a>
                 <a href="" target="_blank" class="btn btn-link"><img src="img/f-tw.png" alt="twitter" class="img-fluid"></a>  
