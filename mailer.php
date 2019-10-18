@@ -69,14 +69,17 @@ if (!function_exists('http_response_code')) {
 // Only process POST requests.
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get the form fields and remove whitespace.
-    $name = strip_tags(trim($_POST["name"]));
-    $name = str_replace(array("\r","\n"),array(" "," "),$name);
-    if(isset($_POST["phone"])) {
+    $bName = strip_tags(trim($_POST["bName"]));
+    $name = trim($_POST["name"]);
+    
         $phone = trim($_POST["phone"]);
-    }
-    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-    $message = trim($_POST["message"]);
-
+        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+        $address = trim($_POST["address"]);
+        $numberTrucks = trim($_POST["numberTrucks"]);
+        $numberTrailers = trim($_POST["numberTrailers"]);
+        $numberDrivers = trim($_POST["numberDrivers"]);
+        $usDot = trim($_POST["usDot"]);
+        $message = trim($_POST["message"]);    
 
     // Check that data was sent to the mailer.
     if ( empty($name) OR empty($message)) {
@@ -103,11 +106,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Build the email content.
     $email_content = "Mensaje enviado desde la forma de contacto de http://dotdrive.net/<br><br>";
     $email_content .= "Nombre: $name<br><br>";
-    if(isset($phone)) {
-        $email_content .= "Tel: $phone<br><br>";
-    }
+    $email_content .= "Nombre: $phone<br><br>";
+
     $email_content .= "Email: $email<br><br>";
+    $email_content .= "Mensaje:<br>$address<br><br>";
+    $email_content .= "Mensaje:<br>$numberTrucks<br><br>";
+    $email_content .= "Mensaje:<br>$numberTrailers<br><br>";
+    $email_content .= "Mensaje:<br>$numberDrivers<br><br>";
+    $email_content .= "Mensaje:<br>$usDot<br><br>";
     $email_content .= "Mensaje:<br>$message<br><br>";
+
+
 
     // Build the email headers.
     $email_headers = "Content-Type: text/html; charset=UTF-8\n";
