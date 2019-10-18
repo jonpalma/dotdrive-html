@@ -85,14 +85,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ( empty($name) OR empty($message)) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! Ocurrió un error, intentelo nuevamente.";
+        echo "Oops! Ocurrió un error en nombre o mensaje, intentelo nuevamente.";
         exit;
     }
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! Ocurrió un error, intentelo nuevamente.";
+        echo "Oops! Ocurrió un error en el mail, intentelo nuevamente.";
         exit;
     }
 
