@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="text-center text-white footer-bottom pt-2 pb-2">
-        <span class="text-center">All rights reserved 2019</span>
+        <span class="text-center">All rights reserved 2019. <a href="#" data-toggle="modal" data-target="#privacy">Privacy Notice.</a></span>
     </div>
 </footer>
 
