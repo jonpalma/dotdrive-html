@@ -21,20 +21,7 @@
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 text-center">
                 <h2 class="no-divider">Contact Us!</h2>
-                <form action="mailer.php" method="POST">
-                    
-                    <input type="text" class="form-control" name="bName" placeholder="Business Name" required>
-                    <input type="text" class="form-control" name="name" placeholder="Full Name" required>
-                    <input type="email" class="form-control" name="email" placeholder="Email Address" required>
-                    <input type="phone" class="form-control" name="phone" placeholder="Phone Number" required>
-                    <input type="text" class="form-control" name="address" placeholder="Address" required>
-                    <input type="text" class="form-control" name="numberTrucks" placeholder="Number of Trucks" required>
-                    <input type="text" class="form-control" name="numberTrailers" placeholder="Number of Trailers" required>
-                    <input type="text" class="form-control" name="numberDrivers" placeholder="Number of Drivers" required>
-                    <input type="text" class="form-control" name="usDot" placeholder="US DOT" required>
-                    <input type="text" class="form-control" name="message" placeholder="Message" required>
-                    <button type="submit" class="btn btn-primary btn-block">Send</button>
-                </form>
+                <iframe src="http://nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 600px;"></iframe>
             </div>
         </div>
     </div>
