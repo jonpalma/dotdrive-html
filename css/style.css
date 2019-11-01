@@ -215,8 +215,8 @@ h2:after:not(.no-divider) {
   position: absolute;
   top: 50%;
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   padding: 0;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
@@ -224,7 +224,7 @@ h2:after:not(.no-divider) {
   cursor: pointer;
   outline: none;
   background: transparent;
-  font-size: 30px;
+  font-size: 25px;
   color: #0094cd;
   text-align: center;
   border-radius: 100%;
@@ -237,6 +237,24 @@ h2:after:not(.no-divider) {
   top: 50%;
   transform: translate(-50%, -50%);
   width: calc(23% + 8px);
+}
+
+[data-tgt-slick] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  transition: all 200ms ease;
+}
+[data-tgt-slick].active, [data-tgt-slick].transition {
+  width: auto;
+  height: auto;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+}
+[data-tgt-slick].active {
+  opacity: 1;
 }
 
 #pricing {
@@ -367,6 +385,24 @@ footer .footer-bottom {
 
   footer {
     text-align: center;
+  }
+
+  #screenshots #phone-case {
+    width: calc(38% + 7px);
+  }
+}
+@media (max-width: 480px) {
+  #banner .container img {
+    display: none;
+  }
+  #banner .container .col-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #screenshots #phone-case {
+    width: calc(117% + 7px);
+    max-width: none;
   }
 }
 

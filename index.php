@@ -125,8 +125,33 @@
     </div>
     <div id="screenshots" class="section">
         <div class="container">
-            <div class="text-center mb-5 pb-5">
-                <h4>SCREENSHOTS</h4>
+            <div class="text-center" data-tgt-slick="0">
+                <h4>SCREENSHOTS 1</h4>
+                <h2>Reduce Paperwork</h2>
+                <h5>No more misplaced documents</h5>
+            </div>
+            <div class="text-center" data-tgt-slick="1">
+                <h4>SCREENSHOTS 2</h4>
+                <h2>Reduce Paperwork</h2>
+                <h5>No more misplaced documents</h5>
+            </div>
+            <div class="text-center" data-tgt-slick="2">
+                <h4>SCREENSHOTS 3</h4>
+                <h2>Reduce Paperwork</h2>
+                <h5>No more misplaced documents</h5>
+            </div>
+            <div class="text-center" data-tgt-slick="3">
+                <h4>SCREENSHOTS 4</h4>
+                <h2>Reduce Paperwork</h2>
+                <h5>No more misplaced documents</h5>
+            </div>
+            <div class="text-center" data-tgt-slick="4">
+                <h4>SCREENSHOTS 5</h4>
+                <h2>Reduce Paperwork</h2>
+                <h5>No more misplaced documents</h5>
+            </div>
+            <div class="text-center" data-tgt-slick="5">
+                <h4>SCREENSHOTS 6</h4>
                 <h2>Reduce Paperwork</h2>
                 <h5>No more misplaced documents</h5>
             </div>
@@ -356,7 +381,7 @@
             -   in response to lawful requests by public authorities, including to meet national security or law enforcement requirements. DOT Drive will cooperate with government and law enforcement officials and private parties to enforce and comply with the law. We may disclose Personal Information and any other content and information about you to government or law enforcement officials or private parties if, in our discretion, we believe it is necessary or appropriate in order to respond to or comply with legal requests (including court orders and subpoenas), to protect the safety, property or rights of DOT Drive or of any third party, to prevent or stop any illegal, unethical, or legally actionable activity, or to comply with the law;<br>
             -   to a potential buyer (and its agents and advisers) in connection with any proposed purchase, merger or acquisition of any part of our business, provided that we inform the buyer it must use your personal information only for the purposes disclosed in this Privacy Notice;
             -   to any other person with your consent to the disclosure.
-</p>
+            </p>
             <p><strong>Advertising</strong></p>
             <p>We also may share information with third party ad servers, ad networks, and data exchanges ("Advertisers") so that they can tailor their advertisements to your apparent interests and deliver those advertisements to you while you are either on our Sites or using our Services. These companies may place or recognize a unique cookie on your computer or use other technologies such as Web beacons to conclude that you have an interest in and to display a relative advertisement instead of a random advertisement. In addition, Advertisers use technologies (such as cookies, pixels, and Web beacons) to collect information about your browsing behavior on our Sites and via our Services which they may match with information they have previously collected. Our Privacy Notice does not cover any use of information that Advertisers may collect from you or that you choose to provide to them. For information about how to opt out of receiving certain behavioral advertisements, please visit this website (or this one if located in the European Union). Please note this does not opt you out of being served ads. You will continue to receive generic ads.</p>
 
