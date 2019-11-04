@@ -126,43 +126,44 @@
     <div id="screenshots" class="section">
         <div class="container">
             <div class="text-center" data-tgt-slick="0">
-                <h4>SCREENSHOTS 1</h4>
+                <h4>Digital Processes</h4>
                 <h2>Reduce Paperwork</h2>
                 <h5>No more misplaced documents</h5>
             </div>
             <div class="text-center" data-tgt-slick="1">
-                <h4>SCREENSHOTS 2</h4>
-                <h2>Reduce Paperwork</h2>
-                <h5>No more misplaced documents</h5>
+                <h4>Preventive Maintenance and Repairs </h4>
+                <h2>Track activity, work orders and expenses</h2>
+                <h5>Track activity, work orders and expenses</h5>
             </div>
             <div class="text-center" data-tgt-slick="2">
-                <h4>SCREENSHOTS 3</h4>
-                <h2>Reduce Paperwork</h2>
-                <h5>No more misplaced documents</h5>
+                <h4>Hiring Resources </h4>
+                <h2>Save time and efforts</h2>
+                <h5>Process your new employees on-line and stop wasting everyone's time. Completeness of your DQ files is a must; DOT Drive will send you alerts in case your driver is not ready to drive yet </h5>
             </div>
             <div class="text-center" data-tgt-slick="3">
-                <h4>SCREENSHOTS 4</h4>
-                <h2>Reduce Paperwork</h2>
-                <h5>No more misplaced documents</h5>
+                <h4>Access whenever and wherever you are</h4>
+                <h2>Show real-time data</h2>
+                <h5>DOT Drive will keep your data synchronized on real-time</h5>
             </div>
             <div class="text-center" data-tgt-slick="4">
-                <h4>SCREENSHOTS 5</h4>
-                <h2>Reduce Paperwork</h2>
-                <h5>No more misplaced documents</h5>
+                <h4>Access whenever and wherever you are</h4>
+                <h2>Show real-time data</h2>
+                <h5>DOT Drive will keep your data synchronized on real-time</h5>
             </div>
             <div class="text-center" data-tgt-slick="5">
-                <h4>SCREENSHOTS 6</h4>
-                <h2>Reduce Paperwork</h2>
-                <h5>No more misplaced documents</h5>
+                <h4>Access whenever and wherever you are</h4>
+                <h2>Show real-time data</h2>
+                <h5>DOT Drive will keep your data synchronized on real-time</h5>
             </div>
+
             <div class="position-relative">
                 <div class="slick-init">
+                    <div><img src="img/phone1.png" class="mx-auto" alt="phone"></div>
                     <div><img src="img/phone2.png" class="mx-auto" alt="phone"></div>
-                    <div><img src="img/phone2.png" class="mx-auto" alt="phone"></div>
-                    <div><img src="img/phone2.png" class="mx-auto" alt="phone"></div>
-                    <div><img src="img/phone2.png" class="mx-auto" alt="phone"></div>
-                    <div><img src="img/phone2.png" class="mx-auto" alt="phone"></div>
-                    <div><img src="img/phone2.png" class="mx-auto" alt="phone"></div>
+                    <div><img src="img/phone3.png" class="mx-auto" alt="phone"></div>
+                    <div><img src="img/phone4.png" class="mx-auto" alt="phone"></div>
+                    <div><img src="img/phone4.png" class="mx-auto" alt="phone"></div>
+                    <div><img src="img/phone4.png" class="mx-auto" alt="phone"></div>
                 </div>
                 <img src="img/case.png" alt="Phone case" class="position-absolute" id="phone-case">
             </div>
