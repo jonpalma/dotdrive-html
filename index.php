@@ -46,7 +46,9 @@
                                 <div class="col">
                                     <h3>DOT Violations</h3>
                                     <p>Maintain record of all roadside inspections, violations and repairs performed to your motor vehicles</p>
-                                    <a href="">Features</a>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dotViolation">
+                                      Features
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -73,8 +75,10 @@
                                 </div>
                                 <div class="col">
                                     <h3>Hiring Resources</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                    <a href="">Features</a>
+                                    <p>Fill, track and process new employees online. Complete DQ files in minutes and following a self explanatory process with a set workflow. </p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hiringResources">
+                                      Features
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -87,8 +91,10 @@
                                 </div>
                                 <div class="col">
                                     <h3>Accident Reporting</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                    <a href="">Features</a>
+                                    <p>Keep record of you reportable and non-reportable accidents as requested by FMCSA.</p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#accidentReporting">
+                                      Features
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -99,8 +105,10 @@
                                 </div>
                                 <div class="col">
                                     <h3>Services</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                    <a href="">Features</a>
+                                    <p>Use our “Services” workflow to maintain record of all repairs and preventive maintenance performed to your equipment in house or at external shops. </p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#services">
+                                      Features
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -440,24 +448,24 @@
     </div>
 
     <!-- Modal -->
-
-
     <div class="modal fade" id="dqFiles" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content ">
           <div class="modal-header">
-            <h3 class="modal-title" id="exampleModalLongTitle">DQ Files</h3>
+            <h3 class="modal-title" id="exampleModalLongTitle">DQ FILES</h3>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <li>License expiration reminders</li>
-            <li>Medical card expiration reminders</li>
-            <li>Completeness check for FMCSA required documents</li>
-            <li>line employment application</li>
-            <li>Safety performance records</li>
-            <li>List of violations per driver</li>
+            <ul>
+                <li>License expiration reminders</li>
+                <li>Medical card expiration reminders</li>
+                <li>Completeness check for FMCSA required documents</li>
+                <li>line employment application</li>
+                <li>Safety performance records</li>
+                <li>List of violations per driver</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -467,22 +475,107 @@
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content modal-lg">
           <div class="modal-header">
-            <h3 class="modal-title" id="exampleModalLongTitle">DQ Files</h3>
+            <h3 class="modal-title" id="exampleModalLongTitle">VEHICLE MAINTENANCE</h3>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <li>Manage your assets, time and labor utilization which will ultimately contribute towards reduced overall costs and increased profits</li>
-            <li>Vehicle log (unit #, make, model, VIN and tire size)</li>
-            <li>Streamline workflow</li>
-            <li>Create, manage and track work orders from any location and in real-time</li>
-            <li>Upload post-trip inspection reports</li>
-            <li>Print work order reports per desired term to review labor and part expenses per unit (truck or trailer)</li>
-            <li>Dashboard with charts and graphs for month-to-month comparison</li>
-            <li>Record of post-trip inspections</li>
+            <ul>
+                <li>Manage your assets, time and labor utilization which will ultimately contribute towards reduced overall costs and increased profits</li>
+                <li>Vehicle log (unit #, make, model, VIN and tire size)</li>
+                <li>Streamline workflow</li>
+                <li>Create, manage and track work orders from any location and in real-time</li>
+                <li>Upload post-trip inspection reports</li>
+                <li>Print work order reports per desired term to review labor and part expenses per unit (truck or trailer)</li>
+                <li>Dashboard with charts and graphs for month-to-month comparison</li>
+                <li>Record of post-trip inspections</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
+    <!-- Modal  -->
+    <div class="modal fade" id="accidentReporting" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">ACCIDENT REPORTING</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Link accidents with drivers involved</li>
+                <li>Maintain all required information from your accidents and export detailed reports </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal  -->
+    <div class="modal fade" id="dotViolation" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">DOT VIOLATIONS</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Protect your company against incorrect violations and help yourself to back up your DataQs</li>
+                <li>Link violations with drivers and print reports showing drivers company record so you can share when you get called in for a safety performance check</li>
+                <li>Record detail information regarding DOT inspections</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal  -->
+    <div class="modal fade" id="hiringResources" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">HIRING RESOURCES</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Share link for only employment application</li>
+                <li>Prospective employee will be able to review minimum requirements and sign their application on line</li>
+                <li>Hiring process to include safety performance check, years of experience check (counter), etc.</li>
+                <li>Follow work flow and complete DQ files in minutes and before sending your drivers to the road</li>
+                <li>Receive alerts in case a document is about to expire - avoid getting pulled over and receiving a fine for such a small issue that could have been prevented ahead of time</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal  -->
+    <div class="modal fade" id="services" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">SERVICES</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Assign scheduled start/finish dates for repairs and PM services</li>
+                <li>Track actual start/finish dates and actual work performed to your assets</li>
+                <li>Keep record of all expenses and copies of your invoices</li>
+                <li>Visit your monthly expenses and compare month to month so you can strategize your next move</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
 <?php include('footer.php'); ?>
