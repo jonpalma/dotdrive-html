@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 text-center">
                 <h2 class="no-divider">Contact Us!</h2>
-                <iframe src="http://nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 430px;"></iframe>
+                <iframe src="http://nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 680px;"></iframe>
             </div>
         </div>
     </div>

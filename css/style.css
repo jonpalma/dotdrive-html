@@ -133,7 +133,7 @@ h2:after:not(.no-divider) {
 #features {
   position: relative;
   padding-bottom: 200px;
-  margin-bottom: -220px;
+  margin-bottom: -160px;
 }
 #features .container > .row {
   position: relative;
