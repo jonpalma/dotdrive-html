@@ -23,7 +23,7 @@
                 <img class="img-fluid d-none d-lg-block" src="img/ipad.png" alt="iPad">
                 <div class="col-md-12 col-lg-8 col-md-8 offset-sm-0 offset-lg-4" id="features-desc">
                     <div class="row">
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/1.png" alt="DQ Files">
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/4.png" alt="DQ Files">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/2.png" alt="DQ Files">
@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/5.png" alt="DQ Files">
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/3.png" alt="DQ Files">
@@ -98,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/6.png" alt="DQ Files">
