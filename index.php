@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="col">
                                     <h3>DQ Files</h3>
-                                    <p>Easily manage your DQ files and remain DOT compliant by processing drivers on-line and keeping track of the completeness of their files</p>
+                                    <p>Easily manage your DQ files and remain DOT compliant by processing drivers on-line and keeping track of the completeness of their files.</p>
                                     <!-- Button trigger modal -->
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dqFiles">
                                       Features
@@ -45,7 +45,7 @@
                                 </div>
                                 <div class="col">
                                     <h3>DOT Violations</h3>
-                                    <p>Maintain record of all roadside inspections, violations and repairs performed to your motor vehicles</p>
+                                    <p>Maintain record of all roadside inspections, violations and repairs performed to your motor vehicles. </p><br>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dotViolation">
                                       Features
                                     </button>
@@ -61,7 +61,7 @@
                                 </div>
                                 <div class="col">
                                     <h3>Vehicle Maintenance</h3>
-                                    <p>Schedule, log and organize your vehicle maintenance records by creating work orders for preventive maintenance and service repairs</p>
+                                    <p>Schedule, log and organize your vehicle maintenance records by creating work orders for preventive maintenance and service repairs.</p>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vehicleMaintenance">
                                       Features
                                     </button>
@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="col">
                                     <h3>Hiring Resources</h3>
-                                    <p>Fill, track and process new employees online. Complete DQ files in minutes and following a self explanatory process with a set workflow. </p>
+                                    <p>Fill, track and process new employees online. Complete DQ files in minutes and following a self explanatory process with a set workflow. </p> <br>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hiringResources">
                                       Features
                                     </button>
@@ -91,7 +91,7 @@
                                 </div>
                                 <div class="col">
                                     <h3>Accident Reporting</h3>
-                                    <p>Keep record of you reportable and non-reportable accidents as requested by FMCSA.</p>
+                                    <p>Keep record of you reportable and non-reportable accidents as requested by FMCSA.</p> <br>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#accidentReporting">
                                       Features
                                     </button>
