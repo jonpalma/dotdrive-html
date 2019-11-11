@@ -30,11 +30,12 @@
                                 </div>
                                 <div class="col">
                                     <h3>DQ Files</h3>
-                                    <p>Easily manage your DQ files and remain DOT compliant by processing drivers on-line and keeping track of the completeness of their files.</p>
-                                    <!-- Button trigger modal -->
+                                    <p>Easily manage your DQ files and remain DOT compliant by processing drivers on-line and keeping track of the completeness of their files. <br>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dqFiles">
                                       Features
-                                    </button>
+                                    </button></p>
+                                    <!-- Button trigger modal -->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -45,10 +46,10 @@
                                 </div>
                                 <div class="col">
                                     <h3>DOT Violations</h3>
-                                    <p>Maintain record of all roadside inspections, violations and repairs performed to your motor vehicles. </p><br>
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dotViolation">
+                                    <p>Maintain record of all roadside inspections, violations and repairs performed to your motor vehicles. <br><br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dotViolation">
                                       Features
-                                    </button>
+                                    </button></p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -61,10 +62,10 @@
                                 </div>
                                 <div class="col">
                                     <h3>Vehicle Maintenance</h3>
-                                    <p>Schedule, log and organize your vehicle maintenance records by creating work orders for preventive maintenance and service repairs.</p>
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vehicleMaintenance">
+                                    <p>Schedule, log and organize your vehicle maintenance records by creating work orders for preventive maintenance and service repairs. <br> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vehicleMaintenance">
                                       Features
-                                    </button>
+                                    </button></p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -75,10 +76,11 @@
                                 </div>
                                 <div class="col">
                                     <h3>Hiring Resources</h3>
-                                    <p>Fill, track and process new employees online. Complete DQ files in minutes and following a self explanatory process with a set workflow. </p> <br>
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hiringResources">
+                                    <p>Fill, track and process new employees online. Complete DQ files in minutes and following a self explanatory process with a set workflow.<br> <br>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hiringResources">
                                       Features
-                                    </button>
+                                    </button></p> 
+                                    
                                 </div>
                             </div>
                         </div>
@@ -91,10 +93,11 @@
                                 </div>
                                 <div class="col">
                                     <h3>Accident Reporting</h3>
-                                    <p>Keep record of you reportable and non-reportable accidents as requested by FMCSA.</p> <br>
+                                    <p>Keep record of you reportable and non-reportable accidents as requested by FMCSA. <br><br>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#accidentReporting">
                                       Features
-                                    </button>
+                                    </button> </p> 
+                                    
                                 </div>
                             </div>
                         </div>
@@ -105,10 +108,11 @@
                                 </div>
                                 <div class="col">
                                     <h3>Services</h3>
-                                    <p>Use our “Services” workflow to maintain record of all repairs and preventive maintenance performed to your equipment in house or at external shops. </p>
+                                    <p>Use our “Services” workflow to maintain record of all repairs and preventive maintenance performed to your equipment in house or at external shops. <br> 
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#services">
                                       Features
-                                    </button>
+                                    </button> </p>
+                                    
                                 </div>
                             </div>
                         </div>

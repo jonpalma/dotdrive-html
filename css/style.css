@@ -383,6 +383,10 @@ footer .footer-bottom {
     margin: 0 auto;
   }
 
+  .section {
+    padding: 80px 10px;
+  }
+
   footer {
     text-align: center;
   }
