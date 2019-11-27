@@ -213,7 +213,7 @@
                             DOT Violation Repair Record<br>
                             Interactive Dashboard<br>
                         </p>
-                        <button class="btn btn-primary btn-sqr-primary mb-2">Up to 3 Units</button>
+                        <button class="btn btn-primary btn-sqr-primary mb-2" data-toggle="modal" data-target="#contactForm">Up to 3 Units</button>
                     </div>
                 </div>
                 <div class="card active col-lg-3 col-md-6 col-sm-6">
@@ -230,7 +230,7 @@
                             Interactive Dashboard<br>
                             Professional Reports<br>
                         </p>
-                        <button class="btn btn-primary btn-sqr-primary mb-2">Up to 10 Units</button>
+                        <button class="btn btn-primary btn-sqr-primary mb-2" data-toggle="modal" data-target="#contactForm">Up to 10 Units</button>
                         <p class="notes mb-0">$50 Monthly License Fee</p>
                     </div>
                 </div>
@@ -248,7 +248,7 @@
                             Interactive Dashboard<br>
                             Professional Reports<br>
                         </p>
-                        <button class="btn btn-primary btn-sqr-primary mb-2">Up to 30 Units</button>
+                        <button class="btn btn-primary btn-sqr-primary mb-2" data-toggle="modal" data-target="#contactForm">Up to 30 Units</button>
                         <p class="notes mb-0">$50 Monthly License Fee</p>
                     </div>
                 </div>
@@ -266,7 +266,7 @@
                             Interactive Dashboard<br>
                             Professional Reports<br>
                         </p>
-                        <button class="btn btn-primary btn-sqr-primary mb-2">Contact us</button>
+                        <button class="btn btn-primary btn-sqr-primary mb-2" data-toggle="modal" data-target="#contactForm">Contact us</button>
                         <p class="notes mb-0">No Monthly License Fee</p>
                     </div>
                 </div>
@@ -581,5 +581,22 @@
         </div>
       </div>
     </div>
+    <!-- Modal contact form  -->
+    <div class="modal fade" id="contactForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">Contact us</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe src="http://nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 <?php include('footer.php'); ?>
