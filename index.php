@@ -93,7 +93,7 @@
                                 </div>
                                 <div class="col">
                                     <h3>Accident Reporting</h3>
-                                    <p>Keep record of you reportable and non-reportable accidents as requested by FMCSA. <br><br>
+                                    <p>Keep record of your reportable and non-reportable accidents as required by FMCSA. <br><br>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#accidentReporting">
                                       Features
                                     </button> </p> 
@@ -127,7 +127,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-white mt-3 mb-3">
                     <h2>One platform for all of your DOT Files</h2>
-                    <p>DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print reports per specific unit showing evertyhing you need for business operations planning, strategy, review or even if in case you get audited by the Department of Transportation.</p>
+                    <p>DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print reports per specific unit showing everything you need for business operations planning, strategy, review or even if in case you get audited by the Department of Transportation.</p>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <a href="javascript:void(0);" class="d-block" id="play"><img class="img-fluid" src="img/video.png" alt="Video"></a>
