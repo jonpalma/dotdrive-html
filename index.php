@@ -1,4 +1,68 @@
-<?php include('header.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOTDRIVE - Software for a CSA intervention or DOT audit</title>
+    <meta name="description" content="DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print reports per specific unit showing everything you need for business operations planning, strategy.">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container pt-2 pb-2">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="DOTDRIVE"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#video">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary btn-sqr-primary text-white btn-sm" href="#contact">Request a Demo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://app.dotdrive.net">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <div id="banner">
         <div class="pseudo-container h-100 w-100 position-absolute"></div>
         <div class="container h-100">
@@ -597,6 +661,140 @@
         </div>
       </div>
     </div>
+<footer>
+    <div class="container pt-5 pb-5 text-white" id="contact">
+        <div class="row align-items-center pt-5 pb-5">
+            <div class="col-lg-5 col-md-5 col-sm-12 mt-4 mb-4">
+                <img src="img/logo-white.png" alt="logo" class="img-fluid mb-5">
+                <p>
+                    Address. 13029 Pellicano Dr.<br>
+                    El Paso Texas<br>
+                    79928
+                </p>
+                <p>
+                    Tel. (915)241-7909
+                </p>
+                <p>
+                    Email. info@dotdrive.net
+                </p>
+                <!-- <a href="" target="_blank" class="btn btn-link"><img src="img/f-fb.png" alt="facebook" class="img-fluid"></a>
+                <a href="" target="_blank" class="btn btn-link"><img src="img/f-tw.png" alt="twitter" class="img-fluid"></a>  
+                -->  
 
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 text-center">
+                <h2 class="no-divider">Contact Us!</h2>
+                <iframe src="http://nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="text-center text-white footer-bottom pt-2 pb-2">
+        <span class="text-center">All rights reserved 2019. <a href="#" data-toggle="modal" data-target="#privacy">Privacy Notice.</a></span>
+    </div>
+</footer>
 
-<?php include('footer.php'); ?>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="slick/slick.min.js" type="text/javascript"></script>
+<script>
+    (() => {
+        let slick = $('.slick-init'),
+            initSlick = () => {
+                slick.on('init', function (event, slick) {
+                    let center = $('.slick-center');
+                    $('.slck-adj').removeClass('slck-adj');
+                    $('.slck-lat').removeClass('slck-lat');
+                    center.prev().addClass('slck-adj').prev().addClass('slck-lat');
+                    center.next().addClass('slck-adj').next().addClass('slck-lat');
+                    $(`[data-tgt-slick]`).removeClass('transition').removeClass('active');
+                    $(`[data-tgt-slick=${center.data('slick-index')}]`).addClass('active');
+                    console.log(event, slick, center.data('slick-index'));
+                }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                    let slckC = $('.slick-center'),
+                        center = null,
+                        direction = '';
+                    if (Math.abs(nextSlide - currentSlide) === 1) {
+                        direction = (nextSlide - currentSlide > 0) ? "right" : "left";
+                    }
+                    else {
+                        direction = (nextSlide - currentSlide > 0) ? "left" : "right";
+                    }
+                    switch (direction) {
+                        case 'right':
+                            center = slckC.next();
+                            break;
+                        case 'left':
+                            center = slckC.prev();
+                            break;
+                    }
+                    $('.slck-adj').removeClass('slck-adj');
+                    $('.slck-lat').removeClass('slck-lat');
+                    center.prev().addClass('slck-adj').prev().addClass('slck-lat');
+                    center.next().addClass('slck-adj').next().addClass('slck-lat');
+                    $(`[data-tgt-slick=${currentSlide}]`).removeClass('active').addClass('transition');
+                }).on('afterChange', function (event, slick, currentSlide, data) {
+                    let current = $(`[data-tgt-slick=${currentSlide}]`);
+                    $(`.transition[data-tgt-slick]`).removeClass('transition');
+                    current.addClass('active');
+                });
+
+                slick.slick({
+                    centerMode: true,
+                    centerPadding: '0',
+                    slidesToShow: 5,
+                    arrows: true,
+                    prevArrow: `<button class="slck-prev"><i class="fas fa-chevron-left"></i></button`,
+                    nextArrow: `<button class="slck-next"><i class="fas fa-chevron-right"></i></button`,
+                    swipe: false,
+                    responsive: [
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                arrows: true,
+                                centerMode: true,
+                                centerPadding: '0',
+                                slidesToShow: 3,
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '0',
+                                slidesToShow: 1,
+                                autoplay: true,
+                            }
+                        }
+                    ]
+                });
+            };
+        initSlick();
+
+        let rtime,
+            timeout = false,
+            delta = 200;
+
+        $(window).resize(function() {
+            rtime = new Date();
+            if (timeout === false) {
+                timeout = true;
+                setTimeout(resizeend, delta);
+            }
+        });
+
+        function resizeend() {
+            if (new Date() - rtime < delta) {
+                setTimeout(resizeend, delta);
+            } else {
+                timeout = false;
+                console.log('here');
+                slick.slick('unslick');
+                initSlick();
+            }
+        }
+    })();
+</script>
+</body>
+</html>
