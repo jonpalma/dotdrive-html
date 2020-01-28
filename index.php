@@ -203,7 +203,7 @@
                 <div class="card col-lg-3 col-md-6 col-sm-6">
                     <div class="card-body">
                         <h3>Individual</h3>
-                        <h3>$10 dlls / Unit / Month</h3>
+                        <h3>$20 dlls / Unit / Month</h3>
                         <img src="img/card1.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-3 mt-2">
                             Hiring process<br>
@@ -219,7 +219,7 @@
                 <div class="card active col-lg-3 col-md-6 col-sm-6">
                     <div class="card-body">
                         <h3>Business</h3>
-                        <h3>$20 dlls / Unit / Month</h3>
+                        <h3>$15 dlls / Unit / Month</h3>
                         <img src="img/card2.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-2 text-white">
                             Hiring process<br>
@@ -237,7 +237,7 @@
                 <div class="card col-lg-3 col-md-6 col-sm-6">
                     <div class="card-body">
                         <h3>Professional</h3>
-                        <h3>$15 dlls / Unit / Month</h3>
+                        <h3>$10 dlls / Unit / Month</h3>
                         <img src="img/card3.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-2">
                             Hiring process<br>
@@ -285,7 +285,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <h3 class="font-weight-bold">SR Express Inc.</h3>
-                                    <p>Software is very user friendly. Access all of you DOT files on line and immediately when you need them. DOT Drive has helped our office adopt paperless that keep us DOT compliant.</p>
+                                    <p>Software is very user friendly. Access all of your DOT files on line and immediately when you need them.</p>
                                 </div>
                             </div>
                             <div class="card">
