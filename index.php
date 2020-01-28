@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>DOTDRIVE - Software for a CSA intervention or DOT audit</title>
     <meta name="description" content="DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print reports per specific unit showing everything you need for business operations planning, strategy.">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="img/icon/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -19,9 +21,6 @@
     <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
