@@ -335,7 +335,7 @@
                                     <img src="img/testimonial-1.png" alt="" class="card-img-top">
                                 </div>
                                 <div class="card-footer">
-                                    <h3 class="font-weight-bold">SR Express Inc.</h3>
+                                    <h3 class="font-weight-bold">Owner Operator</h3>
                                     <p>Software is very user friendly. Access all of your DOT files on line and immediately when you need them.</p>
                                 </div>
                             </div>
