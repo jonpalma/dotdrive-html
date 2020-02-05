@@ -668,10 +668,7 @@
                     79928
                 </p>
                 <p>
-                    Tel. (915)241-7909
-                </p>
-                <p>
-                    Email. info@dotdrive.net
+                    Phone (915)241-7909
                 </p>
                 <!-- <a href="" target="_blank" class="btn btn-link"><img src="img/f-fb.png" alt="facebook" class="img-fluid"></a>
                 <a href="" target="_blank" class="btn btn-link"><img src="img/f-tw.png" alt="twitter" class="img-fluid"></a>  
@@ -680,12 +677,12 @@
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 text-center">
                 <h2 class="no-divider">Contact Us!</h2>
-                <iframe src="http://nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe>
+                <iframe src="https://www.nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe>
             </div>
         </div>
     </div>
     <div class="text-center text-white footer-bottom pt-2 pb-2">
-        <span class="text-center">All rights reserved 2019. <a href="#" data-toggle="modal" data-target="#privacy">Privacy Notice.</a></span>
+        <span class="text-center">All rights reserved <?php echo date("Y")?>. <a href="#" data-toggle="modal" data-target="#privacy">Privacy Notice.</a></span>
     </div>
 </footer>
 
