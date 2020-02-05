@@ -53,7 +53,7 @@
                     <a class="nav-link btn btn-primary btn-sqr-primary text-white btn-sm" href="#contact">Request a Demo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://app.dotdrive.net">Login</a>
+                    <a class="nav-link" href="https://app.dotdrive.net">Login</a>
                 </li>
             </ul>
         </div>
@@ -652,7 +652,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <iframe src="http://nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe>
+            <iframe src="https://nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe>
           </div>
         </div>
       </div>
