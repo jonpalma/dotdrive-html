@@ -652,7 +652,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <iframe src="https://www.nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe>
+            <!-- <iframe src="https://www.nearmx.com/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe> -->
           </div>
         </div>
       </div>
