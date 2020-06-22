@@ -23,6 +23,16 @@
 
       gtag('config', 'UA-157256286-1');
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170171541-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-170171541-1');
+    </script>
 </head>
 <body>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
