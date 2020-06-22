@@ -33,6 +33,21 @@
 
       gtag('config', 'UA-170171541-1');
     </script>
+    <!-- Global site tag (gtag.js) - Google Ads: 659622784 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-659622784"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-659622784');
+    </script>
+    <!-- Event snippet for Website lead conversion page -->
+    <script>
+      gtag('event', 'conversion', {'send_to': 'AW-659622784/430VCJT-xNQBEICXxLoC'});
+    </script>
+
+
 </head>
 <body>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -76,7 +91,7 @@
                 <div class="col-7">
                     <h1>Improve your<br> CSA Score today.</h1>
                     <p>Do not expose yourself for a CSA intervention or DOT audit. Take control over your fleet and keep record of all required documents.</p>
-                    <button class="btn btn-primary btn-sqr-primary">Contact us</button>
+                    <button class="btn btn-primary btn-sqr-primary" onclick="window.location.href='#features'">Take a look at our features</button>
                 </div>
                 <img src="img/laptop.png" alt="Laptop">
             </div>
