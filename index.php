@@ -65,9 +65,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#features">Features</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#video">Video</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#pricing">Pricing</a>
                 </li>
