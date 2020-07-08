@@ -75,7 +75,7 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-primary btn-sqr-primary text-white btn-sm" href="#contact">Request a Demo</a>
+                    <a class="nav-link btn btn-primary btn-sqr-primary text-white btn-sm" href="#contact">Request Demo</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://app.dotdrive.net">Login</a>
@@ -701,7 +701,7 @@
 
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 text-center">
-                <h2 class="no-divider">Contact Us!</h2>
+                <h2 class="no-divider">Request a 30 day free trial!</h2>
                 <iframe src="https://www.nearmx.com/projects/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe>
             </div>
         </div>
