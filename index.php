@@ -1,4 +1,89 @@
-<?php include('header.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOTDRIVE - Software for a CSA intervention or DOT audit</title>
+    <meta name="description" content="DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print reports per specific unit showing everything you need for business operations planning, strategy.">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157256286-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-157256286-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170171541-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-170171541-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Ads: 659622784 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-659622784"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-659622784');
+    </script>
+    <!-- Event snippet for Website lead conversion page -->
+    <script>
+      gtag('event', 'conversion', {'send_to': 'AW-659622784/430VCJT-xNQBEICXxLoC'});
+    </script>
+
+
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container pt-2 pb-2">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="DOTDRIVE"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#video">Video</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary btn-sqr-primary text-white btn-sm" href="#contact">Request Demo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://app.dotdrive.net">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <div id="banner">
         <div class="pseudo-container h-100 w-100 position-absolute"></div>
         <div class="container h-100">
@@ -6,7 +91,7 @@
                 <div class="col-7">
                     <h1>Improve your<br> CSA Score today.</h1>
                     <p>Do not expose yourself for a CSA intervention or DOT audit. Take control over your fleet and keep record of all required documents.</p>
-                    <button class="btn btn-primary btn-sqr-primary">Contact us</button>
+                    <button class="btn btn-primary btn-sqr-primary" onclick="window.location.href='#features'">Take a look at our features</button>
                 </div>
                 <img src="img/laptop.png" alt="Laptop">
             </div>
@@ -23,84 +108,96 @@
                 <img class="img-fluid d-none d-lg-block" src="img/ipad.png" alt="iPad">
                 <div class="col-md-12 col-lg-8 col-md-8 offset-sm-0 offset-lg-4" id="features-desc">
                     <div class="row">
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/1.png" alt="DQ Files">
                                 </div>
                                 <div class="col">
                                     <h3>DQ Files</h3>
-                                    <p>Easily manage your DQ files and remain DOT compliant by processing drivers on-line and keeping track of the completeness of their files</p>
-                                    <!-- Button trigger modal -->
+                                    <p>Easily manage your DQ files and remain DOT compliant by processing drivers on-line and keeping track of the completeness of their files. <br>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dqFiles">
                                       Features
-                                    </button>
+                                    </button></p>
+                                    <!-- Button trigger modal -->
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/4.png" alt="DQ Files">
                                 </div>
                                 <div class="col">
                                     <h3>DOT Violations</h3>
-                                    <p>Maintain record of all roadside inspections, violations and repairs performed to your motor vehicles</p>
-                                    <a href="">Features</a>
+                                    <p>Maintain record of all roadside inspections, violations and repairs performed to your motor vehicles. <br><br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dotViolation">
+                                      Features
+                                    </button></p>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/2.png" alt="DQ Files">
                                 </div>
                                 <div class="col">
                                     <h3>Vehicle Maintenance</h3>
-                                    <p>Schedule, log and organize your vehicle maintenance records by creating work orders for preventive maintenance and service repairs</p>
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vehicleMaintenance">
+                                    <p>Schedule, log and organize your vehicle maintenance records by creating work orders for preventive maintenance and service repairs. <br> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vehicleMaintenance">
                                       Features
-                                    </button>
+                                    </button></p>
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/5.png" alt="DQ Files">
                                 </div>
                                 <div class="col">
                                     <h3>Hiring Resources</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                    <a href="">Features</a>
+                                    <p>Fill, track and process new employees online. Complete DQ files in minutes and following a self explanatory process with a set workflow.<br> <br>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hiringResources">
+                                      Features
+                                    </button></p> 
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/3.png" alt="DQ Files">
                                 </div>
                                 <div class="col">
                                     <h3>Accident Reporting</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                    <a href="">Features</a>
+                                    <p>Keep record of your reportable and non-reportable accidents as required by FMCSA. <br><br>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#accidentReporting">
+                                      Features
+                                    </button> </p> 
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 mb-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="row">
                                 <div class="float-left">
                                     <img class="img-fluid" src="img/6.png" alt="DQ Files">
                                 </div>
                                 <div class="col">
                                     <h3>Services</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                    <a href="">Features</a>
+                                    <p>Use our “Services” workflow to maintain record of all repairs and preventive maintenance performed to your equipment in house or at external shops. <br> 
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#services">
+                                      Features
+                                    </button> </p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -115,7 +212,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-white mt-3 mb-3">
                     <h2>One platform for all of your DOT Files</h2>
-                    <p>DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print reports per specific unit showing evertyhing you need for business operations planning, strategy, review or even if in case you get audited by the Department of Transportation.</p>
+                    <p>DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print reports per specific unit showing everything you need for business operations planning, strategy, review or even if in case you get audited by the Department of Transportation.</p>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <a href="javascript:void(0);" class="d-block" id="play"><img class="img-fluid" src="img/video.png" alt="Video"></a>
@@ -145,12 +242,23 @@
                 <h2>Show real-time data</h2>
                 <h5>DOT Drive will keep your data synchronized on real-time</h5>
             </div>
+
             <div class="text-center" data-tgt-slick="4">
-                <h4>Access whenever and wherever you are</h4>
-                <h2>Show real-time data</h2>
-                <h5>DOT Drive will keep your data synchronized on real-time</h5>
+                <h4>Digital Processes</h4>
+                <h2>Reduce Paperwork</h2>
+                <h5>No more misplaced documents</h5>
             </div>
             <div class="text-center" data-tgt-slick="5">
+                <h4>Preventive Maintenance and Repairs </h4>
+                <h2>Track activity, work orders and expenses</h2>
+                <h5>Track activity, work orders and expenses</h5>
+            </div>
+            <div class="text-center" data-tgt-slick="6">
+                <h4>Hiring Resources </h4>
+                <h2>Save time and efforts</h2>
+                <h5>Process your new employees on-line and stop wasting everyone's time. Completeness of your DQ files is a must; DOT Drive will send you alerts in case your driver is not ready to drive yet </h5>
+            </div>
+            <div class="text-center" data-tgt-slick="7">
                 <h4>Access whenever and wherever you are</h4>
                 <h2>Show real-time data</h2>
                 <h5>DOT Drive will keep your data synchronized on real-time</h5>
@@ -161,8 +269,9 @@
                     <div><img src="img/phone1.png" class="mx-auto" alt="phone"></div>
                     <div><img src="img/phone2.png" class="mx-auto" alt="phone"></div>
                     <div><img src="img/phone3.png" class="mx-auto" alt="phone"></div>
-                    <div><img src="img/phone4.png" class="mx-auto" alt="phone"></div>
-                    <div><img src="img/phone4.png" class="mx-auto" alt="phone"></div>
+                    <div><img src="img/phone1.png" class="mx-auto" alt="phone"></div>
+                    <div><img src="img/phone2.png" class="mx-auto" alt="phone"></div>
+                    <div><img src="img/phone3.png" class="mx-auto" alt="phone"></div>
                     <div><img src="img/phone4.png" class="mx-auto" alt="phone"></div>
                 </div>
                 <img src="img/case.png" alt="Phone case" class="position-absolute" id="phone-case">
@@ -179,7 +288,7 @@
                 <div class="card col-lg-3 col-md-6 col-sm-6">
                     <div class="card-body">
                         <h3>Individual</h3>
-                        <h3>$10 dlls / Unit / Month</h3>
+                        <h3>$20 dlls / Unit / Month</h3>
                         <img src="img/card1.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-3 mt-2">
                             Hiring process<br>
@@ -189,13 +298,13 @@
                             DOT Violation Repair Record<br>
                             Interactive Dashboard<br>
                         </p>
-                        <button class="btn btn-primary btn-sqr-primary mb-2">Up to 3 Units</button>
+                        <button class="btn btn-primary btn-sqr-primary mb-2" data-toggle="modal" data-target="#contactForm">Up to 3 Units</button>
                     </div>
                 </div>
                 <div class="card active col-lg-3 col-md-6 col-sm-6">
                     <div class="card-body">
                         <h3>Business</h3>
-                        <h3>$20 dlls / Unit / Month</h3>
+                        <h3>$15 dlls / Unit / Month</h3>
                         <img src="img/card2.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-2 text-white">
                             Hiring process<br>
@@ -206,14 +315,14 @@
                             Interactive Dashboard<br>
                             Professional Reports<br>
                         </p>
-                        <button class="btn btn-primary btn-sqr-primary mb-2">Up to 10 Units</button>
+                        <button class="btn btn-primary btn-sqr-primary mb-2" data-toggle="modal" data-target="#contactForm">Up to 10 Units</button>
                         <p class="notes mb-0">$50 Monthly License Fee</p>
                     </div>
                 </div>
                 <div class="card col-lg-3 col-md-6 col-sm-6">
                     <div class="card-body">
                         <h3>Professional</h3>
-                        <h3>$15 dlls / Unit / Month</h3>
+                        <h3>$10 dlls / Unit / Month</h3>
                         <img src="img/card3.png" alt="truck" class="img-fluid mb-2 mt-2">
                         <p class="card-text mb-2">
                             Hiring process<br>
@@ -224,7 +333,7 @@
                             Interactive Dashboard<br>
                             Professional Reports<br>
                         </p>
-                        <button class="btn btn-primary btn-sqr-primary mb-2">Up to 30 Units</button>
+                        <button class="btn btn-primary btn-sqr-primary mb-2" data-toggle="modal" data-target="#contactForm">Up to 30 Units</button>
                         <p class="notes mb-0">$50 Monthly License Fee</p>
                     </div>
                 </div>
@@ -242,7 +351,7 @@
                             Interactive Dashboard<br>
                             Professional Reports<br>
                         </p>
-                        <button class="btn btn-primary btn-sqr-primary mb-2">Contact us</button>
+                        <button class="btn btn-primary btn-sqr-primary mb-2" data-toggle="modal" data-target="#contactForm">Contact us</button>
                         <p class="notes mb-0">No Monthly License Fee</p>
                     </div>
                 </div>
@@ -260,8 +369,8 @@
                                     <img src="img/testimonial-1.png" alt="" class="card-img-top">
                                 </div>
                                 <div class="card-footer">
-                                    <h3 class="font-weight-bold">SR Express Inc.</h3>
-                                    <p>Software is very user friendly. Access all of you DOT files on line and immediately when you need them. DOT Drive has helped our office adopt paperless that keep us DOT compliant.</p>
+                                    <h3 class="font-weight-bold">Owner Operator</h3>
+                                    <p>Software is very user friendly. Access all of your DOT files on line and immediately when you need them.</p>
                                 </div>
                             </div>
                             <div class="card">
@@ -428,24 +537,24 @@
     </div>
 
     <!-- Modal -->
-
-
     <div class="modal fade" id="dqFiles" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content ">
           <div class="modal-header">
-            <h3 class="modal-title" id="exampleModalLongTitle">DQ Files</h3>
+            <h3 class="modal-title" id="exampleModalLongTitle">DQ FILES</h3>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <li>License expiration reminders</li>
-            <li>Medical card expiration reminders</li>
-            <li>Completeness check for FMCSA required documents</li>
-            <li>line employment application</li>
-            <li>Safety performance records</li>
-            <li>List of violations per driver</li>
+            <ul>
+                <li>License expiration reminders</li>
+                <li>Medical card expiration reminders</li>
+                <li>Completeness check for FMCSA required documents</li>
+                <li>line employment application</li>
+                <li>Safety performance records</li>
+                <li>List of violations per driver</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -455,22 +564,255 @@
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content modal-lg">
           <div class="modal-header">
-            <h3 class="modal-title" id="exampleModalLongTitle">DQ Files</h3>
+            <h3 class="modal-title" id="exampleModalLongTitle">VEHICLE MAINTENANCE</h3>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <li>Manage your assets, time and labor utilization which will ultimately contribute towards reduced overall costs and increased profits</li>
-            <li>Vehicle log (unit #, make, model, VIN and tire size)</li>
-            <li>Streamline workflow</li>
-            <li>Create, manage and track work orders from any location and in real-time</li>
-            <li>Upload post-trip inspection reports</li>
-            <li>Print work order reports per desired term to review labor and part expenses per unit (truck or trailer)</li>
-            <li>Dashboard with charts and graphs for month-to-month comparison</li>
-            <li>Record of post-trip inspections</li>
+            <ul>
+                <li>Manage your assets, time and labor utilization which will ultimately contribute towards reduced overall costs and increased profits</li>
+                <li>Vehicle log (unit #, make, model, VIN and tire size)</li>
+                <li>Streamline workflow</li>
+                <li>Create, manage and track work orders from any location and in real-time</li>
+                <li>Upload post-trip inspection reports</li>
+                <li>Print work order reports per desired term to review labor and part expenses per unit (truck or trailer)</li>
+                <li>Dashboard with charts and graphs for month-to-month comparison</li>
+                <li>Record of post-trip inspections</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-<?php include('footer.php'); ?>
+    <!-- Modal  -->
+    <div class="modal fade" id="accidentReporting" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">ACCIDENT REPORTING</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Link accidents with drivers involved</li>
+                <li>Maintain all required information from your accidents and export detailed reports </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal  -->
+    <div class="modal fade" id="dotViolation" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">DOT VIOLATIONS</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Protect your company against incorrect violations and help yourself to back up your DataQs</li>
+                <li>Link violations with drivers and print reports showing drivers company record so you can share when you get called in for a safety performance check</li>
+                <li>Record detail information regarding DOT inspections</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal  -->
+    <div class="modal fade" id="hiringResources" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">HIRING RESOURCES</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Share link for only employment application</li>
+                <li>Prospective employee will be able to review minimum requirements and sign their application on line</li>
+                <li>Hiring process to include safety performance check, years of experience check (counter), etc.</li>
+                <li>Follow work flow and complete DQ files in minutes and before sending your drivers to the road</li>
+                <li>Receive alerts in case a document is about to expire - avoid getting pulled over and receiving a fine for such a small issue that could have been prevented ahead of time</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal  -->
+    <div class="modal fade" id="services" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">SERVICES</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Assign scheduled start/finish dates for repairs and PM services</li>
+                <li>Track actual start/finish dates and actual work performed to your assets</li>
+                <li>Keep record of all expenses and copies of your invoices</li>
+                <li>Visit your monthly expenses and compare month to month so you can strategize your next move</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal contact form  -->
+    <div class="modal fade" id="contactForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">Contact us</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://www.nearmx.com/projects/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe> 
+          </div>
+        </div>
+      </div>
+    </div>
+<footer>
+    <div class="container pt-5 pb-5 text-white" id="contact">
+        <div class="row align-items-center pt-5 pb-5">
+            <div class="col-lg-5 col-md-5 col-sm-12 mt-4 mb-4">
+                <img src="img/logo-white.png" alt="logo" class="img-fluid mb-5">
+                <p>
+                    Address. 13029 Pellicano Dr.<br>
+                    El Paso Texas<br>
+                    79928
+                </p>
+                <p>
+                    Phone (915)241-7909
+                </p>
+                <!-- <a href="" target="_blank" class="btn btn-link"><img src="img/f-fb.png" alt="facebook" class="img-fluid"></a>
+                <a href="" target="_blank" class="btn btn-link"><img src="img/f-tw.png" alt="twitter" class="img-fluid"></a>  
+                -->  
+
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 text-center">
+                <h2 class="no-divider">Request a 30 day free trial!</h2>
+                <iframe src="https://www.nearmx.com/projects/safety/contact/contact.php" allowtransparency="true" style="border: none; width: 100%; height: 420px;"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="text-center text-white footer-bottom pt-2 pb-2">
+        <span class="text-center">All rights reserved <?php echo date("Y")?>. <a href="#" data-toggle="modal" data-target="#privacy">Privacy Notice.</a></span>
+    </div>
+</footer>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="slick/slick.min.js" type="text/javascript"></script>
+<script>
+    (() => {
+        let slick = $('.slick-init'),
+            initSlick = () => {
+                slick.on('init', function (event, slick) {
+                    let center = $('.slick-center');
+                    $('.slck-adj').removeClass('slck-adj');
+                    $('.slck-lat').removeClass('slck-lat');
+                    center.prev().addClass('slck-adj').prev().addClass('slck-lat');
+                    center.next().addClass('slck-adj').next().addClass('slck-lat');
+                    $(`[data-tgt-slick]`).removeClass('transition').removeClass('active');
+                    $(`[data-tgt-slick=${center.data('slick-index')}]`).addClass('active');
+                    console.log(event, slick, center.data('slick-index'));
+                }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                    let slckC = $('.slick-center'),
+                        center = null,
+                        direction = '';
+                    if (Math.abs(nextSlide - currentSlide) === 1) {
+                        direction = (nextSlide - currentSlide > 0) ? "right" : "left";
+                    }
+                    else {
+                        direction = (nextSlide - currentSlide > 0) ? "left" : "right";
+                    }
+                    switch (direction) {
+                        case 'right':
+                            center = slckC.next();
+                            break;
+                        case 'left':
+                            center = slckC.prev();
+                            break;
+                    }
+                    $('.slck-adj').removeClass('slck-adj');
+                    $('.slck-lat').removeClass('slck-lat');
+                    center.prev().addClass('slck-adj').prev().addClass('slck-lat');
+                    center.next().addClass('slck-adj').next().addClass('slck-lat');
+                    $(`[data-tgt-slick=${currentSlide}]`).removeClass('active').addClass('transition');
+                }).on('afterChange', function (event, slick, currentSlide, data) {
+                    let current = $(`[data-tgt-slick=${currentSlide}]`);
+                    $(`.transition[data-tgt-slick]`).removeClass('transition');
+                    current.addClass('active');
+                });
+
+                slick.slick({
+                    centerMode: true,
+                    centerPadding: '0',
+                    slidesToShow: 5,
+                    arrows: true,
+                    prevArrow: `<button class="slck-prev"><i class="fas fa-chevron-left"></i></button`,
+                    nextArrow: `<button class="slck-next"><i class="fas fa-chevron-right"></i></button`,
+                    swipe: false,
+                    responsive: [
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                arrows: true,
+                                centerMode: true,
+                                centerPadding: '0',
+                                slidesToShow: 3,
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '0',
+                                slidesToShow: 1,
+                                autoplay: true,
+                            }
+                        }
+                    ]
+                });
+            };
+        initSlick();
+
+        let rtime,
+            timeout = false,
+            delta = 200;
+
+        $(window).resize(function() {
+            rtime = new Date();
+            if (timeout === false) {
+                timeout = true;
+                setTimeout(resizeend, delta);
+            }
+        });
+
+        function resizeend() {
+            if (new Date() - rtime < delta) {
+                setTimeout(resizeend, delta);
+            } else {
+                timeout = false;
+                console.log('here');
+                slick.slick('unslick');
+                initSlick();
+            }
+        }
+    })();
+</script>
+</body>
+</html>
