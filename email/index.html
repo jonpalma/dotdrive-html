@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOTDRIVE</title>
+    <style>
+        body {
+            font-size: 18px;
+            font-family: sans-serif;
+            color: #575757;
+            background-color: #f5f5f5;
+            margin: 80px 0 50px 0;
+        }
+
+        body:before {
+            content: '';
+            background-color: #3c78be;
+            height: 30px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            display: block;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a, .text-white {
+            color: white;
+        }
+
+        .text-warning {
+            color: #ff9000;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        section {
+            position: relative;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .row {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(var(--bs-gutter-y) * -1);
+            margin-right: calc(var(--bs-gutter-x) * -.5);
+            margin-left: calc(var(--bs-gutter-x) * -.5);
+        }
+
+        .row > * {
+            flex-shrink: 0;
+            width: 100%;
+            max-width: 100%;
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+        }
+
+        .no-margin {
+            margin: 0;
+        }
+
+        .align-items-center {
+            align-items: center !important;
+        }
+
+        [class*=col] {
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+        }
+
+        .col {
+            flex: 1 0 0;
+        }
+
+        .col-auto {
+            flex: 0 0 auto;
+            width: auto;
+        }
+
+        .col-4 {
+            flex: 0 0 auto;
+            width: 33.33333333%;
+        }
+
+        .col-6 {
+            flex: 0 0 auto;
+            width: 50%;
+        }
+
+        .col-12 {
+            flex: 0 0 auto;
+            width: 100%;
+        }
+
+        .background-black {
+            background-color: black;
+        }
+
+        .background-white {
+            background-color: white;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .d-inline-block {
+            display: inline-block;
+        }
+
+        .btn {
+            display: inline-block;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            background-color: transparent;
+            border: 1px solid transparent;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            border-radius: 0;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+
+        .btn-warning {
+            color: #fff;
+            background-color: #ff9000;
+            border-color: #e58100;
+        }
+
+        .vertical-align {
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .content-margin {
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .position-absolute {
+            position: absolute;
+        }
+
+        #top a {
+            position: relative;
+            margin-left: 25px;
+        }
+
+        #top a:before {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            background-color: white;
+            height: 20px;
+            width: 20px;
+            top: 50%;
+            left: -25px;
+            transform: translateY(-50%);
+        }
+
+        #logo {
+            margin: 15px 0;
+        }
+
+        #banner {
+            height: 530px;
+            background: url("https://dotdrive.net/email/images/banner.jpg") no-repeat center center;
+            background-size: cover;
+        }
+
+        #banner h1 {
+            font-size: 60px;
+        }
+
+        #banner h1, #banner p {
+            margin-bottom: 15px;
+        }
+
+        #banner p {
+            margin-top: 0;
+        }
+
+        #emailBody {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        #aboutUs .col:nth-of-type(1) {
+            background: url("https://dotdrive.net/email/images/about.jpg") no-repeat center center;
+            background-size: cover;
+            height: 400px;
+        }
+
+        #features {
+            margin: 80px 0 50px 0;
+        }
+
+        #features h4 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        #features p {
+            margin: 10px 0 0 0;
+        }
+
+    </style>
+</head>
+<body>
+<main>
+    <section class="background-black" id="top">
+        <div class="row content-margin">
+            <div class="col-4">
+                <a class="d-inline-block" href="tel:+19152417909">+1 (915) 241-7909</a>
+            </div>
+            <div class="col-4">
+                <a class="d-inline-block" href="mailto:info@dotdrive.net">info@dotdrive.net</a>
+            </div>
+        </div>
+    </section>
+    <section id="logo">
+        <div class="row text-center">
+            <div class="col">
+                <img src="https://dotdrive.net/email/images/logo.png" alt="logo" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <section id="banner">
+        <div class="row align-items-center text-center text-white position-absolute vertical-align">
+            <div class="col-12">
+                <h1 class="">Improve your<br> CSA Score today.</h1>
+            </div>
+            <div class="col-12">
+                <p>
+                    Do not expose yourself for a CSA intervention or<br>
+                    DOT audit. Take control over your fleet and keep<br>
+                    record of all required documents.
+                </p>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-warning">READ MORE</button>
+            </div>
+        </div>
+    </section>
+    <section id="emailBody">
+        <section id="aboutUs">
+            <div class="row content-margin">
+                <div class="col"></div>
+                <div class="col">
+                    <h4 class="text-warning">ABOUT US</h4>
+                    <h2>
+                        One platform for all of your DOT Files
+                    </h2>
+                    <p>
+                        DOT Drive links all of your employees, assets, accidents, violations and repairs so you can print
+                        reports per specific unit showing everything you need for business operations planning, strategy,
+                        review or even if in case you get audited by the Department of Transportation.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <h4 class="text-center text-warning">FEATURES</h4>
+            <div class="row no-margin">
+                <div class="col">
+                    <div class="row no-margin">
+                        <div class="col-auto">
+                            <div class="d-inline-block">
+                                <img src="https://dotdrive.net/email/images/features_1.jpg" alt="DQ Files">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h4>DQ Files</h4>
+                            <p>
+                                Easily manage your DQ files and remain DOT compliant by processing drivers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row no-margin">
+                        <div class="col-auto">
+                            <div class="d-inline-block">
+                                <img src="https://dotdrive.net/email/images/features_2.jpg" alt="DOT Violations">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h4>DOT Violations</h4>
+                            <p>
+                                Maintain record of all roadside inspections, violations and repairs processing drivers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-margin">
+                <div class="col">
+                    <div class="row no-margin">
+                        <div class="col-auto">
+                            <div class="d-inline-block">
+                                <img src="https://dotdrive.net/email/images/features_1.jpg" alt="Vehicle Maintenance">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h4>Vehicle Maintenance</h4>
+                            <p>
+                                Schedule, log and organize your vehicle maintenance records by creating work orders.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row no-margin">
+                        <div class="col-auto">
+                            <div class="d-inline-block">
+                                <img src="https://dotdrive.net/email/images/features_1.jpg" alt="Hiring Resources">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h4>Hiring Resources</h4>
+                            <p>
+                                Complete DQ files in minutes and following a self explanatory process.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-margin">
+                <div class="col">
+                    <div class="row no-margin">
+                        <div class="col-auto">
+                            <div class="d-inline-block">
+                                <img src="https://dotdrive.net/email/images/features_1.jpg" alt="Accident Reporting">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h4>Accident Reporting</h4>
+                            <p>
+                                Keep record of your reportable and non-reportable accidents as required by FMCSA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row no-margin">
+                        <div class="col-auto">
+                            <div class="d-inline-block">
+                                <img src="https://dotdrive.net/email/images/features_1.jpg" alt="Services">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h4>Services</h4>
+                            <p>
+                                Use our “Services” workflow to maintain record of all repairs and preventive maintenance performed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center">
+            <button class="btn btn-warning">CONTACT TODAY</button>
+        </div>
+    </section>
+</main>
+</body>
+</html>
